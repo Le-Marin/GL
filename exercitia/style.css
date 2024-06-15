@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  font-size: 0.625rem;
+  color-scheme: light;
+  --area-font: "Ysabeau Infant", "Times New Roman", Times, serif;
+  --pad: 2rem;
+  --fg: #222;
+  --bg: #fff;
+  --bg2: #f5f5f5;
+  --bg3: #eee;
+  --bdc: #ccc;
+  --area-focused-bg: rgba(220, 220, 220, .75);
+  --area-bdc: gray;
+  --tip-bg: #eee;
+  --tip-bdc: #888;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Alegreya", "Times New Roman", Times, serif;
+  font-size: 2rem;
+  min-width: 32rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: var(--fg);
+}
+#root {
+  counter-reset: trueArea allArea;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 3%;
+  background-color: var(--bg);
+  -webkit-user-select: none;
+  user-select: none;
+}
+#root:not(.__unavailable)::before {
+  --size: 30rem;
+  content: "";
+  width: var(--size);
+  height: calc(var(--size) / 1.5);
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background: url("../spqr.png") no-repeat right / contain;
+  pointer-events: none;
+  opacity: 0.125;
+  z-index: 2;
+}
+#root.__unavailable ~ #footer {
+  display: none;
+}
+body:has(#root.__unavailable) > #footer {
+  display: none;
+}
+
+.error {
+  font-family: initial;
+  font-size: 1.6rem;
+  padding: 1em 0;
+}
+.error > h1 {
+  margin-bottom: 0.5em;
+}
+.error span {
+  font-family: Consolas, monospace;
+  font-size: .9375em;
+  font-weight: bold;
+}
+
+.rows-container {
+  --pad-x3: calc(var(--pad) * 3);
+  flex: 1;
+  position: relative;
+  padding: var(--pad-x3) 0 var(--pad);
+}
+.row {
+  padding: 0.5em 0;
+}
+.area {
+  counter-increment: allArea;
+  font-family: var(--area-font);
+  font-size: inherit;
+  max-width: 40em;
+  display: inline-block;
+  margin: .1em 0;
+  padding: 0 .2em;
+  color: #3f5780;
+  border-bottom: 1px solid var(--area-bdc);
+  outline: none;
+  caret-color: black;
+  -webkit-user-select: text;
+  user-select: text;
+}
+.area:focus {
+  border-bottom-color: black;
+  background-color: var(--area-focused-bg);
+}
+.area:empty {
+  counter-increment: allArea !important;
+  min-width: 2.5em;
+}
+.area[data-valid="0"] {
+  position: relative;
+  color: #c82c2c;
+}
+.area[data-valid="1"] {
+  counter-increment: trueArea allArea;
+  color: #28992d;
+}
+.fill-ins {
+  font-size: .9em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: var(--pad-x3);
+  top: calc(var(--pad-x3) - 1px);
+  background-color: #fff;
+  padding: 3px 0;
+  z-index: 1;
+}
+.fill-ins.__h {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  white-space: nowrap;
+}
+.fill-ins .area {
+  padding: 0.1em 0.3em;
+  color: var(--fg);
+  background-color: #eee;
+  border: 1px solid gray;
+  border-radius: .2em;
+}
+.cb {
+  color: brown;
+}
+.ff {
+  font-family: var(--area-font);
+}
+
+/* TIP */
+
+#tip {
+  --x: 0;
+  --y: 0;
+  font-family: var(--area-font);
+  line-height: 1.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(var(--x), var(--y));
+  padding: 0.2em 0.5em;
+  color: #eee;
+  background-color: #353535;
+  border: 2px solid black;
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 3;
+}
+#tip:empty {
+  display: none;
+}
+.sc {overflow-x: auto; white-space: nowrap; scrollbar-width: thin;}
+
+/* KEYBOARD */
+
+.keyboard {
+  font-family: var(--area-font);
+  font-size: var(--pad);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 2px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 3%;
+  padding: 0.6em 0;
+  background-color: var(--bg);
+  border-bottom: 1px solid #aaa;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 2;
+}
+@supports (position: sticky) or (position: -webkit-sticky) {
+  .keyboard {
+    order: -1;
+    position: -webkit-sticky;
+    position: sticky;
+    margin: 0;
+  }
+  .rows-container {
+    padding-top: var(--pad);
+  }
+}
+.keyboard__case,
+.check-form__button {
+  font-family: inherit;
+  font-size: inherit;
+  width: 1.8em;
+  height: 1.5em;
+  background-color: #eee;
+  border: 1px solid black;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+.keyboard__case.__disabled {
+  color: #777;
+  background-color: #ccc;
+  border-color: currentColor;
+}
+.keyboard__switcher {
+  width: 2.5em;
+  height: 1.75em;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADsQAAA7EB9YPtSQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAALzSURBVHic7d07axRRGIfxJxu1MJW3XkybWNgYRUz0A9j5TQQ7L5WVAQsLC+1sxEYTb5VotBAsRLFKIYKFoIUWBhOMsZhgMZndM8PO7M7u+/zgbbI5Z89w/ntmdmfggCRJkiRJkiRJkiRJkiRJkiRJkiRJGiUTFf93ATgHHAemgX3A7vqHpQrWgO/AB2AFuAd8qvtNTm2/wZbV+toEloCZwpmsaBK4sd3psA/MqlbrwCWgs2NWS5oAbrXgQKz+6i7ZB7myKy0YvFVPLdJFt4vAWeAtsKdbQ42Uv8A88Cr/QrfzwzWc/HHSAW5S8IEvWgGOAKv0cfGg1poHXqb+6SLpc8oSMAfsbWqkKu0AcAZ4Snrerpfp8FGikye4OrRRB1im99ztuAYo8jnRyUK941aNTtJ77r6W6WQt0cn+uket2kzRe+5+5xsUXQRuJd6kyv0DDV6l+fNcHpwBCM4ABLergT77vYawfX/tK3EFCM4ABGcAgjMAwRmA4AxAcAYgOO8FjB/vBag8AxCcAQjOAARnAIIzAMEZgOB8HmD82lfiChCcAQjOAARnAIIzAMEZgOAMQHA+DzB+fB5A5RmA4AxAcAYgOAMQnAEIzgAEN4rPA4w6nwdQexiA4AxAcAYgOAMQnAEIzgAE18TvAP1+T43+vMFAj98VIDgDEJwBCK4oABuJNlNNDES1OJh4/Vf+D0UB+Jno5Gjp4WjQUnPzrUwnr+m97cgynjraaBJ4Ru+5e1imo8VEJ1tkW5SdJduyTMM1RbZZ1GPS83Yh37joO+cC8LyZsWqINoFpsl3h/itayl8A7wcxIg3UMrnJh+6/Os2RXQt4rh8PG8Ax4GP+hW77yn8h2x9wrsFBaXCuAverNuoAt6l3H3tr8HWHPlbyDnAZWG/BgVjVapNss+haTuMzwAPgTwsOzErXO+BE4UzmVL31eBg4D5wGZoFDuIX8sK0DP4BV4A3ZB3VlqCOSJEmSJEmSJEmSJEmSJEmSJEmSJEmN+QfmHqfbBL8aRgAAAABJRU5ErkJggg==") no-repeat center / cover;
+  cursor: pointer;
+}
+.keyboard__body {
+  max-width: 0;
+  display: flex;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: max-width .2s, opacity .2s, visibility .2s;
+}
+.keyboard__body.__shown {
+  max-width: 13em;
+  opacity: 1;
+  visibility: visible;
+}
+.keyboard__line {
+  display: flex;
+  column-gap: 2px;
+}
+.keyboard__key {
+  width: 2em;
+  line-height: 1.75em;
+  text-align: center;
+  text-transform: lowercase;
+  color: #ddd;
+  background-color: #333;
+  border-radius: 0.1em;
+  cursor: pointer;
+}
+.keyboard__key:hover {
+  background-color: #444;
+}
+.keyboard__key:active {
+  background-color: #505b7c;
+}
+
+.check-form {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.check-form__text::before {
+  content: counter(trueArea) " / " counter(allArea);
+  font-size: 0.85em;
+  margin-right: 0.5em;
+}
+
+@media screen and (max-width: 31.75rem) {
+  :root {
+    --pad: 1.8rem;
+  }
+}
+@media screen and (max-width: 28.75rem) {
+  :root {
+    --pad: 1.6rem;
+  }
+}
+
+/* PENSUM TABS */
+
+#tabs {
+  max-width: 45em;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid;
+}
+.tab:not(.__active) {
+  display: none;
+}
+.tabs__header {
+  order: -1;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid;
+  overflow: hidden;
+  z-index: 2;
+}
+.tab__heading {
+  padding: 0.2em 1.5em;
+  background-color: #eee;
+  outline: 1px solid;
+  cursor: pointer;
+}
+.tab__heading.__active {
+  background-color: inherit;
+}
+.tab__content {
+  padding: 0.5em 0.75em;
+}
+
+.tab-area {
+  min-height: 1.4em;
+  vertical-align: bottom;
+  margin: 0.1em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.tab-area.__active {
+  background-color: var(--area-focused-bg);
+}
+
+.tab__words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  position: sticky;
+  bottom: 0;
+  padding: 0.5em 0.75em;
+  background-color: #f4f4f4;
+  border-top: 1px solid;
+}
+.word {
+  min-width: 4ch;
+  padding: 0 0.3em;
+  background-color: #fff;
+  border-radius: 0.15em;
+  outline: 1px solid;
+  text-align: center;
+  cursor: pointer;
+}
+.word.__active {
+  background-color: #fffbd4;
+}
+.word.__disabled {
+  opacity: 0.65;
+  color: gray;
+  background-color: #ddd;
+}
+.word:hover {
+  color: #2647a8;
+}
+.word.__mult {
+  position: relative;
+  padding-right: 2ch;
+}
+.word.__mult::after {
+  content: attr(data-count);
+  font-family: Consolas, monospace;
+  font-size: 0.5em;
+  line-height: 1;
+  position: absolute;
+  right: 0.4em;
+  top: 0.2em;
+}
+
+#tabs .check-form {
+  margin-right: 0.3em;
+}
+
+@media screen and (max-width: 28rem) {
+  #tabs {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 24rem) {
+  .tab__heading {
+    font-size: 1em
+  }
+}

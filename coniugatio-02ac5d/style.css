@@ -1,0 +1,48 @@
+optgroup {
+  text-align: center;
+}
+option {
+  text-align: left;
+}
+
+.x-vowel {
+  color: #c41414;
+  display: inline-block;
+}
+.x-suffix {
+  color: royalblue;
+  display: inline-block;
+}
+.x-joint {
+  color: #dc7900;
+  display: inline-block;
+}
+.x-ending {
+  font-weight: bold;
+  display: inline-block;
+}
+.x-compound,
+.t-9 > span,
+.t-11 > span,
+.t-21 > span {
+  font-weight: normal;
+  color: #398467;
+}
+
+@media screen and (max-width: 29rem) {
+  .get {
+    min-width: auto;
+  }
+  .get::before {
+    content: "↻";
+  }
+  .get > span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 27rem) {
+  #root {
+    padding: 1rem 0;
+  }
+}

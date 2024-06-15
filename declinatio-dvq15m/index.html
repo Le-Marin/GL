@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Declinatio</title>
+  <link rel="icon" href="#">
+  <link rel="stylesheet" href="style.css?v=1c">
+  <script src="vocabulary.js?v=1c"></script>
+</head>
+<body>
+  <main id="root">
+    <div class="keyboard">
+      <button class="case" title="Vócálés longae">Ā</button>
+      <div class="keyboard__switcher"></div>
+      <div class="keyboard__body">
+        <div class="keyboard__line">
+          <div class="keyboard__key">Ā</div>
+          <div class="keyboard__key">Ē</div>
+          <div class="keyboard__key">Ī</div>
+          <div class="keyboard__key">Ō</div>
+          <div class="keyboard__key">Ū</div>
+          <div class="keyboard__key">Ȳ</div>
+        </div>
+      </div>
+    </div>
+    <div class="block select">
+      Déclínátió:
+      <select>
+        <option value="0">forte</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">iúnctúrae</option>
+        <option value="7">prónómina</option>
+        <option value="8">numerália</option>
+      </select>
+      <button class="get">Generáre</button>
+    </div>
+    <div class="block words">
+      <div class="word">vocábulum</div>
+      <div class="word">tránslátió</div>
+    </div>
+    <div class="block table">
+      <div class="col">
+        <div class="row">CÁSVS</div>
+        <div class="row">Nóminátívus:</div>
+        <div class="row">Genetívus:</div>
+        <div class="row">Datívus:</div>
+        <div class="row">Accúsátívus:</div>
+        <div class="row">Ablátívus:</div>
+        <div class="row">Vocátívus:</div>
+      </div>
+      <div class="col">
+        <div class="row">SINGVLÁRIS</div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+      </div>
+      <div class="col">
+        <div class="row">PLV́RÁLIS</div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+      </div>
+    </div>
+    <div class="block buttons">
+      <button class="check">Probáre</button>
+      <button class="answers">Respónsa</button>
+    </div>
+  </main>
+  <script src="script.js?v=1c"></script>
+</body>
+</html>

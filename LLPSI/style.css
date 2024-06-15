@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("../abc/print.css?v=1") print;
+
+:root {
+  font-size: 0.625rem;
+  color-scheme: light;
+  -webkit-tap-highlight-color: transparent;
+  --fg: #222;
+  --bg: #fff;
+  --word-fg: royalblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ysabeau Infant", Arial, Helvetica, sans-serif;
+  font-size: 1.9rem;
+  min-width: 32rem;
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+  color: var(--fg);
+  background-color: var(--bg);
+  -webkit-user-select: none;
+  user-select: none;
+}
+body::before {
+  --size: 30rem;
+  content: "";
+  width: var(--size);
+  height: calc(var(--size) / 1.5);
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background: url("../spqr.png") no-repeat right / contain;
+  pointer-events: none;
+  opacity: 0.125;
+}
+#root {
+  max-width: 50em;
+  padding: 0 3% 1.5em;
+  margin: 0 auto;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: .2em 3rem .2em 0;
+  letter-spacing: -0.05em;
+  color: #444;
+  background-color: var(--bg);
+  border-bottom: 1px solid #bbb;
+  z-index: 2;
+}
+.text {
+  line-height: 1.5;
+  padding-top: 1em;
+  text-align: justify;
+}
+.image {
+  height: 60vw;
+  max-height: 300px;
+  background: var(--img) no-repeat center / cover;
+  box-shadow: inset 0 0 0 2px var(--bg), inset 0 0 8px 6px var(--bg);
+  filter: saturate(0.5);
+}
+.img {
+  max-width: 75%;
+  display: block;
+  margin: 0 auto;
+  filter: saturate(0.5);
+}
+.sc {
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  white-space: nowrap;
+}
+pre {
+  font-family: "Source Code Pro", Consolas, monospace;
+  font-size: 0.85em;
+  max-width: 100%;
+  margin: 1.25em 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.word {
+  color: var(--word-fg) !important;
+  pointer-events: auto !important;
+  cursor: pointer;
+}
+.word:hover {
+  color: mediumblue !important;
+}
+.word * {
+  color: inherit !important;
+  pointer-events: none;
+}
+
+/* TIP */
+
+#tip {
+  --x: 0;
+  --y: 0;
+  font-family: "Times New Roman", Times, serif;
+  max-width: 16.5em;
+  max-width: min(20em, 92vw);
+  line-height: 1.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0.2em 0.5em;
+  background-color: #eee;
+  border: 2px solid #888;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.35);
+  transform: translate(var(--x), var(--y));
+  white-space: pre-line;
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 25;
+}
+#tip:empty {
+  display: none;
+}
+.tip-word {
+  color: var(--word-fg);
+}
+.notes {
+  color: brown;
+}
+.notes > i {
+  font-style: normal;
+  color: var(--fg);
+}
+.translation {
+  font-size: .8em;
+}
+
+/* PDF */
+
+.pdf-view {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0.5em 2px;
+  background-color: rgba(200, 200, 200, 0.75);
+  z-index: 50;
+}
+.pdf-view.__shown {
+  display: block;
+}
+.pdf-shell {
+  max-width: 46em;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  outline: 2px solid black;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.pdf-close {
+  font-size: 1em;
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.pdf {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+}
+
+/* REFS */
+
+#refs {
+  display: table;
+  position: relative;
+  margin: 1.5em auto 1em;
+}
+.refs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .6rem;
+}
+.refs-2 {
+  display: none;
+  position: absolute;
+  left: calc(100% + .6rem);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.refs-2.__shown {
+  display: flex;
+}
+.refs__item {
+  --size: 1.8em;
+  width: var(--size);
+  height: var(--size);
+  line-height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 1px solid #292929;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.refs__item[data-abbr]::after {
+  content: attr(data-abbr);
+  font-size: 0.8em;
+}
+.refs__item[data-abbr="q"] {
+  background-color: #a0afd1;
+}
+.refs__item[data-abbr="g"],
+.refs__item[data-abbr="m"] {
+  background-color: #b6c9a0;
+}
+.refs__item[data-abbr="t+"] {
+  letter-spacing: -0.1em;
+  background-color: #d3b3b3;
+}
+.refs__item[data-abbr="p"] {
+  background-color: #fff59c;
+}
+.refs__item[data-abbr="e"] {
+  background-color: #cfedf1;
+}
+.refs__item[data-abbr="v"] {
+  background-color: #d0bef0;
+}
+
+#refs-switcher {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: #555;
+}
+#refs-switcher::after {
+  content: "+";
+  line-height: 1.5em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* QUIZLET */
+
+.quiz-view {
+  width: 100%;
+  max-width: 18em;
+  position: absolute;
+  padding: 0.5em;
+  margin-top: -0.5em;
+  background-color: #eee;
+  border: 2px solid #aaa;
+  border-radius: 0.3em;
+}
+.quiz-heading {
+  font-size: 1em;
+  padding: .5em 1em;
+  margin: 0;
+  background-color: #ddd;
+}
+.quiz-pass-shell {
+  width: calc(100% - 2em);
+  height: 2em;
+  display: flex;
+  margin: 1em auto 0.6em;
+}
+.quiz-pass {
+  font-family: "Source Code Pro", Consolas, monospace;
+  font-size: 1em;
+  width: calc(100% - 3em);
+  position: relative;
+  padding: 0.4em;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0.2em 0 0 0.2em;
+  outline: none;
+}
+.quiz-pass:focus {
+  border-color: black;
+}
+.quiz-copy {
+  font-size: 1em;
+  width: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: #ccc;
+  border: 1px solid transparent;
+  border-radius: 0 0.2em 0.2em 0;
+  outline: none;
+  cursor: pointer;
+}
+.quiz-copy:focus {
+  border-color: black;
+}
+.quiz-copy::before {
+  content: "";
+  font-size: 0.5em;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  border: 2px solid #000;
+  box-shadow: 2px -2px #9e9e9e, 3px -3px black;
+}
+.quiz-copy.__done::before {
+  display: none;
+}
+.quiz-copy.__done::after {
+  content: "✔";
+}
+.quiz-link {
+  color: royalblue;
+  text-decoration: none;
+}
+
+/* AUDIO */
+
+.audio {
+  font-size: 0.5em;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  display: flex;
+  align-items: center;
+  column-gap: 0.3em;
+  margin-left: 0.5em;
+  padding: 0.1em 0.2em;
+  color: black;
+  background-color: #f4f4f4;
+  border: 1px solid #999;
+  border-radius: 0.2em;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.audio:empty {
+  display: none;
+}
+.audio-btn {
+  font-size: 1.4em;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  color: inherit;
+  background: no-repeat center / 0.75em;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.audio-btn:hover {
+  background-color: #ddd;
+}
+.audio-play {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik04IDV2MTRsMTEtN3oiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+");
+}
+.audio-play.__paused {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik02IDE5aDRWNUg2djE0em04LTE0djE0aDRWNWgtNHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+");
+}
+.audio-time {
+  font-family: Consolas, monospace;
+  font-size: 0.75em;
+  word-spacing: -0.3em;
+  white-space: nowrap;
+}
+.audio-track {
+  --fill: 0%;
+  width: 4em;
+  height: 0.16em;
+  position: relative;
+  margin: 0 0.5em;
+  background-color: #ccc;
+  border-radius: 0.1em;
+  outline: none;
+  cursor: pointer;
+}
+.audio-track::before {
+  content: "";
+  width: var(--fill);
+  height: 100%;
+  display: block;
+  background-color: currentColor;
+  border-radius: inherit;
+}
+.audio-track::after {
+  content: "";
+  font-size: 0.5em;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: calc(var(--fill) - 0.5em);
+  top: calc(50% - 0.5em);
+  background-color: currentColor;
+  border-radius: 50%;
+}
+.audio-track:focus::after {
+  box-shadow: 0 0 0 0.2em #4449;
+}
+.audio-vol {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0zIDl2Nmg0bDUgNVY0TDcgOUgzem0xMy41IDNjMC0xLjc3LTEuMDItMy4yOS0yLjUtNC4wM3Y4LjA1YzEuNDgtLjczIDIuNS0yLjI1IDIuNS00LjAyek0xNCAzLjIzdjIuMDZjMi44OS44NiA1IDMuNTQgNSA2Ljcxcy0yLjExIDUuODUtNSA2LjcxdjIuMDZjNC4wMS0uOTEgNy00LjQ5IDctOC43N3MtMi45OS03Ljg2LTctOC43N3oiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+");
+}
+.audio-vol.__muted {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xNi41IDEyYzAtMS43Ny0xLjAyLTMuMjktMi41LTQuMDN2Mi4yMWwyLjQ1IDIuNDVjLjAzLS4yLjA1LS40MS4wNS0uNjN6bTIuNSAwYzAgLjk0LS4yIDEuODItLjU0IDIuNjRsMS41MSAxLjUxQzIwLjYzIDE0LjkxIDIxIDEzLjUgMjEgMTJjMC00LjI4LTIuOTktNy44Ni03LTguNzd2Mi4wNmMyLjg5Ljg2IDUgMy41NCA1IDYuNzF6TTQuMjcgM0wzIDQuMjcgNy43MyA5SDN2Nmg0bDUgNXYtNi43M2w0LjI1IDQuMjVjLS42Ny41Mi0xLjQyLjkzLTIuMjUgMS4xOHYyLjA2YzEuMzgtLjMxIDIuNjMtLjk1IDMuNjktMS44MUwxOS43MyAyMSAyMSAxOS43M2wtOS05TDQuMjcgM3pNMTIgNEw5LjkxIDYuMDkgMTIgOC4xOFY0eiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=");
+}
+
+@media screen and (max-width: 28.75rem) {
+  .audio-time {
+    font-size: 0.7em;
+    word-spacing: -0.35em;
+  }
+  .audio-track {
+    width: 2.5em;
+    margin: 0 0.35em;
+  }
+}
+
+
+@media screen and (min-width: 61.25rem) {
+  .pdf-close {
+    right: -2.2em;
+  }
+}
+
+@media screen and (max-width: 27rem) {
+  #refs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .6rem;
+  }
+  .refs-2 {
+    position: static;
+    transform: none;
+  }
+}
