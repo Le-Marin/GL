@@ -208,3 +208,11 @@ body::before {
     font-size: .8em;
   }
 }
+
+@supports (display: grid) and (grid-template-columns: repeat(auto-fill, minmax(1em, 1fr))) {
+  .table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(7.8em, 1fr));
+    justify-items: center;
+  }
+}

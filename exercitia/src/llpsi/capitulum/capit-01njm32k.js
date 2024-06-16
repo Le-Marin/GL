@@ -1,5 +1,5 @@
 $_GET({
-  title: 'Capitulum 1',
+  title: 'Exercitia Latina 1',
   html: /*html*/`
     <div class="row">
       <div><span style="white-space: pre;">	</span>I</div>
@@ -47,15 +47,15 @@ $_GET({
       <div><span class="ff">oppid<b>um</b> magn<b>um</b> → oppid<b>a</b> magn<b>a</b></span></div>
       <div><br></div>
       <div>1. Corsica īnsul<div class="area" data-key="a"></div> est. Corsica et Sardinia īnsul<div class="area" data-key="ae"></div> sunt.</div>
-      <div>2. Rhēnus ﬂuvi<div class="area" data-key="us"></div> est. Rhēnus et Dānuvius ﬂuvi<div class="area" data-key="ī"></div> sunt.</div>
+      <div>2. Rhēnus fluvi<div class="area" data-key="us"></div> est. Rhēnus et Dānuvius fluvi<div class="area" data-key="ī"></div> sunt.</div>
       <div>3. Brundisium oppid<div class="area" data-key="um"></div> est. Brundisium et Tūsculum oppid<div class="area" data-key="a"></div> sunt.</div>
       <div>4. Sicilia īnsula magn<div class="area" data-key="a"></div> est.</div>
-      <div>5. Nīlus est ﬂuvius magn<div class="area" data-key="us"></div>.</div>
+      <div>5. Nīlus est fluvius magn<div class="area" data-key="us"></div>.</div>
       <div>6. Brundisium oppidum magn<div class="area" data-key="um"></div> est.</div>
       <div>7. Tūsculum nōn oppid<div class="area" data-key="um"></div> magn<div class="area" data-key="um"></div>, sed oppid<div class="area" data-key="um"></div> parv<div class="area" data-key="um"></div> est.</div>
       <div>8. Melita nōn est īnsul<div class="area" data-key="a"></div> magn<div class="area" data-key="a"></div>, sed īnsul<div class="area" data-key="a"></div> parv<div class="area" data-key="a"></div>.</div>
-      <div>9. Tiberis nōn ﬂuvi<div class="area" data-key="us"></div> magn<div class="area" data-key="us"></div>, sed ﬂuvi<div class="area" data-key="us"></div> parv<div class="area" data-key="us"></div> est.</div>
-      <div>10. Rhēnus et Nīlus ﬂuviī magn<div class="area" data-key="ī"></div> sunt.</div>
+      <div>9. Tiberis nōn fluvi<div class="area" data-key="us"></div> magn<div class="area" data-key="us"></div>, sed fluvi<div class="area" data-key="us"></div> parv<div class="area" data-key="us"></div> est.</div>
+      <div>10. Rhēnus et Nīlus fluviī magn<div class="area" data-key="ī"></div> sunt.</div>
       <div>11. Sicilia et Sardinia īnsulae magn<div class="area" data-key="ae"></div> sunt.</div>
       <div>12. Brundisium et Sparta oppida magn<div class="area" data-key="a"></div> sunt.</div>
       <div><br></div>
@@ -69,10 +69,10 @@ $_GET({
       </div>
       <div><br></div>
       <div>1. Sicilia īnsula est. Sicilia et Sardinia <div class="area" data-key="īnsulae sunt"></div>.</div>
-      <div>2. Rhēnus ﬂuvius est. Rhēnus et Dānuvius <div class="area" data-key="fluviī sunt"></div>.</div>
+      <div>2. Rhēnus fluvius est. Rhēnus et Dānuvius <div class="area" data-key="fluviī sunt"></div>.</div>
       <div>3. Tūsculum oppidum est. Tūsculum et Brundisium <div class="area" data-key="oppida sunt"></div>.</div>
       <div>4. Corsica et Sardinia īnsulae sunt. Sicilia quoque <div class="area" data-key="īnsula est"></div>.</div>
-      <div>5. Nīlus et Tiberis ﬂuviī sunt. Dānuvius quoque <div class="area" data-key="fluvius est"></div>.</div>
+      <div>5. Nīlus et Tiberis fluviī sunt. Dānuvius quoque <div class="area" data-key="fluvius est"></div>.</div>
       <div>6. Sparta et Delphī oppida sunt. Brundisium quoque <div class="area" data-key="oppidum est"></div>.</div>
       <div><br></div>
     </div>
@@ -85,8 +85,8 @@ $_GET({
       <div>1. Tūsculum nōn oppidum Graecum, sed oppidum <div class="area" data-key="Rōmānum"></div> est.</div>
       <div>2. Sparta est oppidum <div class="area" data-key="Graecum"></div>.</div>
       <div>3. <div class="area" data-key="num"></div> Nīlus oppidum est? Nīlus nōn est oppidum.</div>
-      <div>4. <div class="area" data-key="quid"></div> est Nīlus? Nīlus ﬂuvius est.</div>
-      <div>5. In Arabiā nōn multī, sed <div class="area" data-key="paucī"></div> ﬂuviī sunt.</div>
+      <div>4. <div class="area" data-key="quid"></div> est Nīlus? Nīlus fluvius est.</div>
+      <div>5. In Arabiā nōn multī, sed <div class="area" data-key="paucī"></div> fluviī sunt.</div>
       <div>6. Quid est Gallia? Gallia est <div class="area" data-key="prōvincia"></div> Rōmāna.</div>
       <div>7. In imperiō Rōmānō nōn paucae, sed <div class="area" data-key="multae"></div> prōvinciae sunt.</div>
       <div>8. Magnum est <div class="area" data-key="imperium"></div> Rōmānum.</div>
@@ -127,7 +127,7 @@ $_GET({
       <div>8. In prōvinci<div class="area" data-key="ā"></div> Galliā sunt multī fluviī.</div>
       <div>9. <i>Ubi</i> est vocābul<div class="area" data-key="um"></div> Latīnum.</div>
       <div>10. In vocābul<div class="area" data-key="ō"></div> <i>ubi</i> sunt trēs litterae.</div>
-      <div>11. Capitul<div class="area" data-key="um"></div> prīmum: IMPERIVM RÓMÁNVM.</div>
+      <div>11. Capitul<div class="area" data-key="um"></div> prīmum: IMPERIVM ROMANVM.</div>
       <div>12. In capitul<div class="area" data-key="ō"></div> prīm<div class="area" data-key="ō"></div> multa vocābula sunt.</div>
     </div>
   `
