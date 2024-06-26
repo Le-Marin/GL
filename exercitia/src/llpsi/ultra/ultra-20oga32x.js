@@ -6,7 +6,7 @@ $_GET({
       <div><br></div>
       <div><span class="ff"><i>praeteritum : praesēns : futūrum</i></span></div>
       <div><br></div>
-      <div><div class="area" data-key="vindicābar"></div> : <div class="area">vindicat</div> : <div class="area" data-key="vindicābit"></div></div>
+      <div><div class="area" data-key="vindicābat"></div> : <div class="area">vindicat</div> : <div class="area" data-key="vindicābit"></div></div>
       <div><div class="area">movēbam</div> : <div class="area" data-key="moveō"></div> : <div class="area" data-key="movēbō"></div></div>
       <div><div class="area" data-key="effluēbant"></div> : <div class="area" data-key="effluunt"></div> : <div class="area">effluent</div></div>
       <div><div class="area">lābēbāris</div> : <div class="area" data-key="lāberis"></div> : <div class="area" data-key="lābēris"></div></div>
@@ -20,7 +20,7 @@ $_GET({
     <div class="row">
       <div><b>2. Изменить глаголы, данные в настоящем времени, на глаголы в будущем.</b></div>
       <div><br></div>
-      <div>1. Deus Nōēmō: “<div class="area" data-key="pōam">Pōnō</div> arcum meum in nūbibus, et <div class="area" data-key="erit">est</div> signum quod faciō vōbīscum.”</div>
+      <div>1. Deus Nōēmō: “<div class="area" data-key="pōnam">Pōnō</div> arcum meum in nūbibus, et <div class="area" data-key="erit">est</div> signum quod faciō vōbīscum.”</div>
       <div>2. Milerēs Sabīnae: “Melius <div class="area" data-key="perībimus">perīmus</div> quam sine alterīs vestrum <div class="area" data-key="vīvēmus">vīvimus</div>!”</div>
       <div>3. Tālis arx ab hostibus nunquam <div class="area" data-key="expugnābitur">expugnātur</div>.</div>
       <div>4. Serva: “Iuvāte mē, et viam vōbīs <div class="area" data-key="mōnstrābō">mōnstrō</div> quā in urbem clam penetrāre <div class="area" data-key="poteritis">potestis</div>.”</div>
