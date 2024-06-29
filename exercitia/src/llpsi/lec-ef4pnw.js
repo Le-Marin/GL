@@ -4,7 +4,7 @@ $_GET({
     <div class="row">
       <div><b>1. Выписать ударный слог.</b></div>
       <div><br></div>
-      <div class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>vorāgō <i>(водоворот)</i> : <div class="area">rā</div></div>
+      <div class="ff sc"><i>Exemplum</i>:<span style="white-space: pre;">	</span>vorāgō <i>(водоворот)</i> : <div class="area">rā</div></div>
       <div><br></div>
       <div>Аthēnае <i>(Афины)</i> : <div class="area" data-key="thē"></div></div>
       <div>māchinа <i>(механизм, машина)</i> : <div class="area" data-key="mā"></div></div>
@@ -24,16 +24,18 @@ $_GET({
       <div><br></div>
     </div>
     <div class="row">
-      <style>.fft {font-family: "Times New Roman", Times, serif;}</style>
+      <style>.fft {font-family: "Times New Roman", Times, serif; font-size: .9em;}</style>
       <div><b>2. Верно ли дано ударение и деление на слоги? Да</b> (V) <b>или нет</b> (X).</div>
       <div><br></div>
-      <div class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span><b>vorāgō</b> <i>(водоворот)</i> : <span class="fft">vo-rā́-gō</span> : <div class="area">V</div></div>
-      <div class="ff"><span style="white-space: pre;">			</span><b>vorāgō</b> <i>(водоворот)</i> : <span class="fft">vó-rā-gō</span> : <div class="area">X</div></div>
+      <div class="sc">
+        <div class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span><b>vorāgō</b> <i>(водоворот)</i> : <span class="fft">vo-rā́-gō</span> : <div class="area">V</div></div>
+        <div class="ff"><span style="white-space: pre;">			</span><b>vorāgō</b> <i>(водоворот)</i> : <span class="fft">vó-rā-gō</span> : <div class="area">X</div></div>
+      </div>
       <div><br></div>
       <div><b>Patroclus</b> <i>(Патрокл)</i> : <span class="fft">Pat-róc-lus</span> : <div class="area" data-key="X"></div></div>
       <div><b>Achillēs</b> <i>(Ахилл)</i> : <span class="fft">A-chíl-lēs</span> : <div class="area" data-key="V"></div></div>
       <div><b>ligneus</b> <i>(деревянный)</i> : <span class="fft">lig-neus</span> : <div class="area" data-key="X"></div></div>
-      <div><b>lagoena</b> <i>(бутыль)</i> : <span class="fft">la-gó-e-na</span> : <div class="area" data-key="V"></div></div>
+      <div><b>lagoena</b> <i>(бутыль)</i> : <span class="fft">la-gó-e-na</span> : <div class="area" data-key="X"></div></div>
       <div><b>pōculum</b> <i>(чаша)</i> : <span class="fft">pṓ-cu-lum</span> : <div class="area" data-key="V"></div></div>
       <div><b>hirundō</b> <i>(ласточка)</i> : <span class="fft">hi-run-dṓ</span> : <div class="area" data-key="X"></div></div>
       <div><b>Eumenidēs</b> <i>(эвмениды, фурии)</i> : <span class="fft">Eu-me-ní-dēs</span> : <div class="area" data-key="X"></div></div>
@@ -50,7 +52,7 @@ $_GET({
     <div class="row">
       <div><b>3. Разделить на слоги, выписать удареный слог.</b></div>
       <div><br></div>
-      <div class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>vorāgō <i>(водоворот)</i> : <div class="area">vo-rā-gō</div> <div class="area">rā</div></div>
+      <div class="ff sc"><i>Exemplum</i>:<span style="white-space: pre;">	</span>vorāgō <i>(водоворот)</i> : <div class="area">vo-rā-gō</div> <div class="area">rā</div></div>
       <div><br></div>
       <div>Phrygia <i>(Фригия)</i> : <div class="area" data-key="Phry-gi-a"></div> <div class="area" data-key="Phry"></div></div>
       <div>proelium <i>(битва)</i> : <div class="area" data-key="proe-li-um"></div> <div class="area" data-key="proe"></div></div>
