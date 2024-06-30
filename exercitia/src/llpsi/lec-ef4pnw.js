@@ -50,7 +50,7 @@ $_GET({
       <div><br></div>
     </div>
     <div class="row">
-      <div><b>3. Разделить на слоги, выписать удареный слог.</b></div>
+      <div><b>3. Разделить на слоги, выписать ударный слог.</b></div>
       <div><br></div>
       <div class="ff sc"><i>Exemplum</i>:<span style="white-space: pre;">	</span>vorāgō <i>(водоворот)</i> : <div class="area">vo-rā-gō</div> <div class="area">rā</div></div>
       <div><br></div>
