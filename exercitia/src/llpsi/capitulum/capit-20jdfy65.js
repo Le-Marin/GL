@@ -1,5 +1,5 @@
 $_GET({
-  title: 'Exercitia Latina XX',
+  title: 'Exercitia Latina 20',
   html: /*html*/`
     <div class="row">
       <div><span style="white-space: pre;">	</span>I</div>
