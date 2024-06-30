@@ -27,9 +27,11 @@ $_GET({
     <div class="row">
       <div><b>Exercitium 2</b></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Pater fīlium vocāvit = Fīlius ā patre vocātus est.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Pater fīliam vocāvit = Fīlia ā patre vocāta est.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Ventī maria turbāvērunt = Maria ventīs turbāta sunt.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Pater fīlium vocāvit = Fīlius ā patre vocātus est.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Pater fīliam vocāvit = Fīlia ā patre vocāta est.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Ventī maria turbāvērunt = Maria ventīs turbāta sunt.</span></div>
+      </div>
       <div><br></div>
       <div>Servus puerum excitāvit = Puer <div class="area" data-key="ā"></div> <div class="area" data-key="servō"></div> <div class="area" data-key="excitātus"></div> <div class="area" data-key="est"></div>.</div>
       <div>Mārcus Iūliam pulsāvit = <div class="area" data-key="Iūlia ā Mārcō pulsāta est"></div>.</div>
@@ -131,11 +133,13 @@ $_GET({
       <div><br></div>
       <div><b>Exercitium 9</b></div>
       <div><br></div>
-      <div><span class="ff">Dāvus:<span style="white-space: pre;">				</span><span style="white-space: pre;">	</span>Dāvus dīcit</span></div>
-      <div><span class="ff">“Fīlius/a dormīvit”<span style="white-space: pre;">		</span>‘fīlium/am dormīvisse’</span></div>
-      <div><span class="ff">“Fīliī/ae vocātī/ae sunt”<span style="white-space: pre;">	</span>‘fīliōs/ās vocātōs/ās esse’</span></div>
-      <div><span class="ff">“Is/ea dormīvit”<span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>‘eum/am dormīvisse’</span></div>
-      <div><span class="ff">“Ego vocātus sum”<span style="white-space: pre;">		</span>‘sē vocātum esse’</span></div>
+      <div class="sc">
+        <div><span class="ff">Dāvus:<span style="white-space: pre;">				</span><span style="white-space: pre;">	</span>Dāvus dīcit</span></div>
+        <div><span class="ff">“Fīlius/a dormīvit”<span style="white-space: pre;">		</span>‘fīlium/am dormīvisse’</span></div>
+        <div><span class="ff">“Fīliī/ae vocātī/ae sunt”<span style="white-space: pre;">	</span>‘fīliōs/ās vocātōs/ās esse’</span></div>
+        <div><span class="ff">“Is/ea dormīvit”<span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>‘eum/am dormīvisse’</span></div>
+        <div><span class="ff">“Ego vocātus sum”<span style="white-space: pre;">		</span>‘sē vocātum esse’</span></div>
+        </div>
       <div><br></div>
       <div>1. Iūlius: “Mārcus intrāvit.” Iūlius ‘Mārc<div class="area" data-key="um"></div> intr<div class="area" data-key="āvisse"></div>’ dīcit.</div>
       <div>2. Iūlius: “Puerī in viā pugnāvērunt et humī iacuērunt.” Iūlius dīcit ‘puer<div class="area" data-key="ōs"></div> in viā pugn<div class="area" data-key="āvisse"></div> et humī iac<div class="area" data-key="uisse"></div>’.</div>
