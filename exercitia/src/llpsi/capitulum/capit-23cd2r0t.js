@@ -50,9 +50,11 @@ $_GET({
     <div class="row">
       <div><b>Exercitium 4</b></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Puer rubet / ...nōn respondet = Puer rubet neque respondet.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Puer rubet / ...nūllum verbum respondet = Puer rubet neque ūllum verbum respondet.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Puer rīdet / ...numquam plōrat = Puer rīdet neque umquam plōrat.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Puer rubet / ...nōn respondet = Puer rubet neque respondet.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Puer rubet / ...nūllum verbum respondet = Puer rubet neque ūllum verbum respondet.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Puer rīdet / ...numquam plōrat = Puer rīdet neque umquam plōrat.</span></div>
+      </div>
       <div><br></div>
       <div>1. Puella plōrat / ...nōn rīdet = Puella plōrat <div class="area" data-key="neque"></div> rīdet.</div>
       <div>2. Aemilia Iūlium / ...nūllum alium virum amat = Aemilia Iūlium <div class="area" data-key="neque"></div> <div class="area" data-key="ūllum"></div> alium virum amat.</div>
@@ -106,8 +108,10 @@ $_GET({
       <div><br></div>
       <div><span class="ff"><i>ablātīvus absolūtus cum participiō perfectī</i></span></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Cane vīnctō tabellārius intrat (= Postquam canis vīnctus est...)</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Mārcus veste mūtātā in ātrium redit (= postquam vestis mūtāta est / postquam vestem mūtāvit).</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Cane vīnctō tabellārius intrat (= Postquam canis vīnctus est...)</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Mārcus veste mūtātā in ātrium redit (= postquam vestis mūtāta est / postquam vestem mūtāvit).</span></div>
+      </div>
       <div><br></div>
       <div>1. Epistul<div class="area" data-key="ā"></div> trādit<div class="area" data-key="ā"></div> discēdit tabellārius.</div>
       <div>2. Iānitōr<div class="area" data-key="e"></div> dīmiss<div class="area" data-key="ō"></div> Iūlius signum rumpit.</div>
