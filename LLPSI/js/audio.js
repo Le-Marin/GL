@@ -19,6 +19,7 @@
 
   const [btnPlay, times, track] = audioNode.children;
   const curTimeNode = times.firstElementChild.firstChild;
+  const endTimeNode = times.lastElementChild.firstChild;
 
   let isTouched = false;
   const format = (n) => n > 9 ? n : `0${n}`;
@@ -26,18 +27,45 @@
 
   audio.onplay = onPlayStateChange;
   audio.onpause = onPlayStateChange;
-  audio.ontimeupdate = onTrackTimeUpdate;
-  audio.oncanplay = function() {
-    this.oncanplay = null;
-    const min = (this.duration / 60 >> 0) % 60;
-    const sec = ~~this.duration % 60;
-    times.lastElementChild.textContent = `${format(min)}:${format(sec)}`;
-  };
+  audio.ontimeupdate = onTimeUpdate;
+  audio.oncanplay = onCanPlay;
 
   audioNode.addEventListener('click', onAudioClick);
   track.addEventListener('mousedown', onTrackTouch);
   track.addEventListener('touchstart', onTrackTouch);
   track.addEventListener('keydown', onTrackInput);
+
+  function onTimeUpdate() {
+    if (isTouched) return;
+
+    const time = this.currentTime;
+    const perc = +(time / this.duration * 100).toFixed(3) || 0;
+    setTrackCSS('--fill', `${perc}%`);
+    curTimeNode.data = getMinSec(time);
+  }
+
+  function onPlayStateChange() {
+    return btnPlay.classList.toggle('__paused', !this.paused);
+  }
+
+  function onCanPlay() {
+    this.oncanplay = null;
+    endTimeNode.data = getMinSec(this.duration);
+  }
+
+  function onAudioClick(e) {
+    const trg = e.target;
+    const {action} = trg.dataset;
+
+    if (action === 'playpause') {
+      return audio.paused ? audio.play() : audio.pause();
+    }
+
+    if (action === 'mute') {
+      audio.muted ^= 1;
+      trg.classList.toggle('__muted', audio.muted);
+    }
+  }
 
   function onTrackInput(e) {
     if (isTouched) return;
@@ -77,36 +105,6 @@
     }
   }
 
-  function onTrackTimeUpdate() {
-    if (isTouched) return;
-
-    const val = this.currentTime;
-    const perc = val / this.duration * 100 >> 0;
-    setTrackCSS('--fill', `${perc}%`);
-
-    const min = (val / 60 >> 0) % 60;
-    const sec = ~~val % 60;
-    curTimeNode.data = `${format(min)}:${format(sec)}`;
-  }
-
-  function onPlayStateChange() {
-    return btnPlay.classList.toggle('__paused', !this.paused);
-  }
-
-  function onAudioClick(e) {
-    const trg = e.target;
-    const {action} = trg.dataset;
-
-    if (action === 'playpause') {
-      return audio.paused ? audio.play() : audio.pause();
-    }
-
-    if (action === 'mute') {
-      audio.muted ^= 1;
-      trg.classList.toggle('__muted', audio.muted);
-    }
-  }
-
   function onTrackTouch(e) {
     const isMouseEvent = e.type === 'mousedown';
 
@@ -118,43 +116,48 @@
 
     const left = track.getBoundingClientRect().x >> 0;
     const max = track.offsetWidth;
-    fill(e.x);
+    fill(e);
 
     const evTypeMove = isMouseEvent ? 'mousemove' : 'touchmove';
     const evTypeEnd = isMouseEvent ? 'mouseup' : 'touchend';
     const evMoveOptions = isMouseEvent ? false : { passive: false };
 
-    document.addEventListener(evTypeMove, onTrackTouchMove, evMoveOptions);
-    document.addEventListener(evTypeEnd, onTrackTouchEnd);
+    document.addEventListener(evTypeMove, onTouchMove, evMoveOptions);
+    document.addEventListener(evTypeEnd, onTouchEnd);
 
-    function onTrackTouchMove(e) {
-      if (isMouseEvent) return fill(e.x);
-      extendEvent(e);
+    function onTouchMove(e) {
+      if (isMouseEvent) return fill(e);
       e.preventDefault();
-      fill(e.x);
+      extendEvent(e);
+      fill(e);
     }
 
-    function onTrackTouchEnd(e) {
-      this.removeEventListener(evTypeMove, onTrackTouchMove, evMoveOptions);
-      this.removeEventListener(evTypeEnd, onTrackTouchEnd);
+    function onTouchEnd(e) {
+      this.removeEventListener(evTypeMove, onTouchMove, evMoveOptions);
+      this.removeEventListener(evTypeEnd, onTouchEnd);
       audio.currentTime = curTime;
       isTouched = false;
     }
 
-    function fill(x) {
-      const val = Math.min(Math.max(0, x - left), max);
+    function fill(e) {
+      const val = Math.min(Math.max(0, e.x - left), max);
       const perc = +(val / max * 100).toFixed(3);
       setTrackCSS('--fill', `${perc}%`);
 
-      const now = curTime = audio.duration * perc / 100;
-      const min = (now / 60 >> 0) % 60;
-      const sec = ~~now % 60;
-      curTimeNode.data = `${format(min)}:${format(sec)}`;
+      curTime = audio.duration * perc / 100;
+      curTimeNode.data = getMinSec(curTime);
     }
   }
 
   function extendEvent(e) {
+    if (typeof e.x === 'number') return;
     const touches = e.changedTouches || e.targetTouches || e.touches || [];
-    e.x = e.x || (touches[0] || {}).clientX || 0;
+    e.x = (touches[0] || {}).clientX || 0;
+  }
+
+  function getMinSec(val) {
+    const min = (val / 60 >> 0) % 60;
+    const sec = ~~val % 60;
+    return `${format(min)}:${format(sec)}`;
   }
 })();

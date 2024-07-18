@@ -1,10 +1,6 @@
-.text {
-  hyphens: auto;
-}
 details {
   display: block;
   margin-top: 0.2em;
-  text-align: left;
 }
 summary {
   display: inline-block;
