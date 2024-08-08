@@ -31,17 +31,7 @@
 
   CONSONANTES.push(...SINGLETONS_KEYS.slice(0, 5));
 
-  if (window.innerWidth < 950) {
-    return container.childNodes.forEach(hyphenateText);
-  }
-
-  window.addEventListener('resize', function onResize(e) {
-    if (this.innerWidth >= 950) return;
-    this.removeEventListener(e.type, onResize);
-    container.childNodes.forEach(hyphenateText);
-  });
-
-  function hyphenateText(node) {
+  container.childNodes.forEach(function hyphenateText(node) {
     if (node.nodeType === 1) {
       if (node.tagName === 'PRE') return;
       return node.childNodes.forEach(hyphenateText);
@@ -57,7 +47,7 @@
     words.forEach(word => { data = data.replace(word, hyphenate(word)); });
 
     node.data = data;
-  }
+  });
 
   function hyphenate(word) {
     if (cache.hasOwnProperty(word)) return cache[word];

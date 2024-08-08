@@ -15,7 +15,6 @@
     loadScript('_edit.js');
   } else {
     loadScript(basePath + 'hyphenate.js');
-    loadScript(basePath.slice(0, 30) + 'abc/prevent.js');
   }
 
   function loadScript(src) {

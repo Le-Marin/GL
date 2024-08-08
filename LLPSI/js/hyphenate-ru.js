@@ -11,19 +11,10 @@
   const CONSONANTES = [...'бвгджзйклмнпрстфхцчшщъь'];
   const CONS2 = [...'йъь'];
   const REG_WORD = /[а-яё]{4,}/gi;
+  const REG_VOWELS = /[аеёиоуыэюя]/i;
   const REG_NON_BREAK = /^[бгдкпт][лр]$/;
 
-  if (window.innerWidth < 950) {
-    return container.childNodes.forEach(hyphenateText);
-  }
-
-  window.addEventListener('resize', function onResize(e) {
-    if (this.innerWidth >= 950) return;
-    this.removeEventListener(e.type, onResize);
-    container.childNodes.forEach(hyphenateText);
-  });
-
-  function hyphenateText(node) {
+  container.childNodes.forEach(function hyphenateText(node) {
     if (node.nodeType === 1) {
       if (node.tagName === 'PRE') return;
       return node.childNodes.forEach(hyphenateText);
@@ -39,7 +30,7 @@
     words.forEach(word => { data = data.replace(word, hyphenate(word)); });
 
     node.data = data;
-  }
+  });
 
   function hyphenate(word) {
     if (cache.hasOwnProperty(word)) return cache[word];
@@ -48,7 +39,7 @@
     let count = len + 1;
     let k = 0;
 
-    return cache[word] = (function loop(value, skip = 0) {
+    const data = (function loop(value, skip = 0) {
       if (!--count) return value;
 
       ++k;
@@ -81,5 +72,13 @@
 
       return loop(value);
     })('');
+
+    if (!data.includes(HYPHEN)) return cache[word] = data;
+
+    return cache[word] = data.split(HYPHEN).map((s, i, a) => {
+      if (i === a.length - 1) return s;
+      if (REG_VOWELS.test(s)) return s + HYPHEN;
+      return s;
+    }).join('');
   }
 })();
