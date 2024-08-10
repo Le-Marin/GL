@@ -189,7 +189,7 @@ const VOCABULARY = [
       pl: { 1: 'māl^ī~mus', 2: 'māl^ī~tis', 3: 'māl^i~nt' }
     }
   }],
-  [5, 'ed~ō ēd~ī ēs~um edere/ēsse(3.1)', 'carry / носить, нести', {
+  [5, 'ed~ō ēd~ī ēs~um edere/ēsse(3.1)', 'eat / есть, кушать', {
     1: {
       sg: { 2: 'ed:i~s/ēs', 3: 'ed:i~t/ēs~t' },
       pl: { 2: 'ed:i~tis/ēs~tis' }
