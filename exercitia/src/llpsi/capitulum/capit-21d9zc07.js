@@ -145,7 +145,7 @@ $_GET({
       <div>2. Iūlius: “Puerī in viā pugnāvērunt et humī iacuērunt.” Iūlius dīcit ‘puer<div class="area" data-key="ōs"></div> in viā pugn<div class="area" data-key="āvisse"></div> et humī iac<div class="area" data-key="uisse"></div>’.</div>
       <div>3. Syra: “Iūlia ā Mārcō pulsāta est.” Syra dīcit ‘Iūli<div class="area" data-key="am"></div> ā Mārcō puls<div class="area" data-key="ātam"></div> <div class="area" data-key="esse"></div>’.</div>
       <div>4. Sextus: “Magistrō pāruī.” Sextus dīcit ‘<div class="area" data-key="sē"></div> magistrō pār<div class="area" data-key="uisse"></div>’.</div>
-      <div>5. Sextus: “Ā magistrō laudātus sum.” Sextus ‘<div class="area" data-key="sē"></div> ā magistrō laud<div class="area" data-key="ātum"></div> <div class="area" data-key="esse"></div>’.</div>
+      <div>5. Sextus: “Ā magistrō laudātus sum.” Sextus ‘<div class="area" data-key="sē"></div> ā magistrō laud<div class="area" data-key="ātum"></div> <div class="area" data-key="esse"></div>’ dīcit.</div>
       <div>6. Dāvus: “Quīntus tōtam noctem vigilāvit nec hōram dormīvit.” Dāvus dīcit ‘Quīnt<div class="area" data-key="um"></div> tōtam noctem vigil<div class="area" data-key="āvisse"></div> nec hōram dorm<div class="area" data-key="īvisse"></div>’.</div>
       <div>7. Mārcus: “Ego bene dormīvī, sed ā Dāvō excitātus sum.” Mārcus dīcit ‘<div class="area" data-key="sē"></div> bene dorm<div class="area" data-key="īvisse"></div>, sed ā Dāvō excit<div class="area" data-key="ātum"></div> <div class="area" data-key="esse"></div>’.</div>
       <div>8. Iūlia: “Ā Syrā excitāta sum.” Iūlia dīcit ‘<div class="area" data-key="sē"></div> ā Syrā excit<div class="area" data-key="am"></div> <div class="area" data-key="esse"></div>’.</div>
