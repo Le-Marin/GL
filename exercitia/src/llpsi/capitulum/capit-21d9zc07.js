@@ -181,7 +181,7 @@ $_GET({
     </div>
     <div class="row">
       <div><b>Exercitium 11</b></div>
-      <div><br></div><div class="fill-ins"><div><div class="area">aliquid</div> <div class="area">crēdere</div> <div class="area">dubitāre</div> <div class="area">fallere</div> <div class="area">falsum</div> <div class="area">inter</div> <div class="area">mentīrī</div> <div class="area">multa</div> <div class="area">nībīs</div> <div class="area">omnia</div> <div class="area">postquam</div> <div class="area">tabella</div> <div class="area">vōbīs</div></div></div>
+      <div><br></div><div class="fill-ins"><div><div class="area">aliquid</div> <div class="area">crēdere</div> <div class="area">dubitāre</div> <div class="area">fallere</div> <div class="area">falsum</div> <div class="area">inter</div> <div class="area">mentīrī</div> <div class="area">multa</div> <div class="area">nōbīs</div> <div class="area">omnia</div> <div class="area">postquam</div> <div class="area">tabella</div> <div class="area">vōbīs</div></div></div>
       <div><br></div>
       <div>1. Mārcus in ātrium redit, <div class="area" data-key="postquam"></div> vestem mūtāvit.</div>
       <div>2. Mārcus: “Magister <div class="area" data-key="multa"></div> nōs docuit; prīmum <div class="area" data-key="aliquid"></div> recitāvit, nesciō quid.”</div>
