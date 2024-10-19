@@ -28,7 +28,7 @@ $_GET({
       <div><br></div>
       <div><i><span class="ff">Passivum:</span></i></div>
       <div>1. Желаю, чтобы животных не держали в клетках.</div>
-      <div>V<div class="area" data-key="olō"></div> a<div class="area" data-key="nimālia"></div> nōn t<div class="area" data-key="enērī"></div> <div class="area" data-key="in"></div> c<div class="area" data-key="ellīs"></div>.</div>
+      <div>V<div class="area" data-key="olō"></div> b<div class="area" data-key="ēstiās"></div> nōn t<div class="area" data-key="enērī"></div> <div class="area" data-key="in"></div> c<div class="area" data-key="ellīs"></div>.</div>
       <div>2. Хочешь, чтобы я следовал за тобой?</div>
       <div>V<div class="area" data-key="īs"></div> m<div class="area" data-key="ē"></div> <div class="area" data-key="tē"></div> s<div class="area" data-key="equī"></div>?</div>
       <div>3. Юлий услышал, как его назвали глупцом. </div>
