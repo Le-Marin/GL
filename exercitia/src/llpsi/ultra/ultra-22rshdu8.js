@@ -46,7 +46,21 @@ $_GET({
       <div>9. Следует, чтобы плохих слуг хорошо наказывали.</div>
       <div>O<div class="area" data-key="portet"></div> m<div class="area" data-key="alōs"></div> s<div class="area" data-key="ervōs"></div> b<div class="area" data-key="ene"></div> p<div class="area" data-key="ūnīrī"></div>.</div>
       <div>10. Тит Ливий писал, что третий римский царь был поражен молнией.</div>
-      <div>T<div class="area" data-key="itus"></div> L<div class="area" data-key="ivius"></div> s<div class="area" data-key="crībēbat"></div> t<div class="area" data-key="ertium"></div> r<div class="area" data-key="ēgem"></div> R<div class="area" data-key="ōmānum | ōmānōrum"></div> f<div class="area" data-key="ulgure | ulmine"></div> <div class="area" data-key="ictum esse">icere</div>.</div>
+      <div>T<div class="area" data-key="itus"></div> L<div class="area" data-key="ivius"></div> s<div class="area" data-key="crībēbat"></div> t<div class="area" data-key="ertium"></div> r<div class="area" data-key="ēgem"></div> R<div class="area" data-key="ōmānum | ōmānōrum"></div> f<div class="area" data-key="ulgure | ulmine"></div> <div class="area" data-key="ictum esse">icere</div>.<br><br></div>
+    </div>
+    <div class="row">
+      <div><b>2. Напишите вместо инфинитивов — супины, выбирая между формой аккузатива и аблатива.</b></div>
+      <div><br></div>
+      <div>1. Dēsinite loquī, puerī! Īte <div class="area" data-key="dormītum">dormīre</div>.</div>
+      <div>2. Lēgātī ad Caesarem <div class="area" data-key="grātulātum">grātulārī</div> convēnērunt.</div>
+      <div>3. Mīrābilis <div class="area" data-key="vīsū">vidēre</div> erat hospita, nec ūllus intellēxit dominam esse.</div>
+      <div>4. Autumnō hae avēs ad merīdiem āvolant <div class="area" data-key="hībernātum">hībernāre</div>.</div>
+      <div>5. Hoc haud facile <div class="area" data-key="factū">facere</div> fuit, et tamen bene prōvēnī.</div>
+      <div>6. Quid est tam molle <div class="area" data-key="tāctū">tangere</div>?</div>
+      <div>7. Delphōs, Pȳthiam <div class="area" data-key="cōnsultum">cōnsulere</div>, nāvigābāmus, et ecce subitō...</div>
+      <div>8. Omnēs illīus poēta carmina iūcundissima sunt <div class="area" data-key="lēctū">legere</div>.</div>
+      <div>9. Incrēdibile erat <div class="area" data-key="audītū">audīre</div> nāvem mersam esse.</div>
+      <div>10. Venīs ad mē <div class="area" data-key="petītum">petere</div> auxilium, at num ipse, mēnse Augustō, mihi opem tulistī?</div>
     </div>
   `
 });
