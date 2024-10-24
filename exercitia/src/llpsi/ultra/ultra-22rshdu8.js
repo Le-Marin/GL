@@ -14,7 +14,7 @@ $_GET({
       <div>4. Ясно, что Публий — непорядочный человек.</div>
       <div>Patet P<div class="area" data-key="ūblium"></div> h<div class="area" data-key="ominem"></div> im<div class="area" data-key="probum"></div> <div class="area" data-key="esse"></div>.</div>
       <div>5. Еврипид пишет, что Медея была дочерью бога Солнца.</div>
-      <div>Eu<div class="area" data-key="ripidēs"></div> s<div class="area" data-key="crībit"></div> M<div class="area" data-key="ēdēam"></div> <div class="area" data-key="fuisse"></div> f<div class="area" data-key="īliam"></div> d<div class="area" data-key="deī"></div> S<div class="area" data-key="ōlis"></div>.</div>
+      <div>Eu<div class="area" data-key="ripidēs"></div> s<div class="area" data-key="crībit"></div> M<div class="area" data-key="ēdēam"></div> <div class="area" data-key="fuisse"></div> f<div class="area" data-key="īliam"></div> d<div class="area" data-key="eī"></div> S<div class="area" data-key="ōlis"></div>.</div>
       <div>6. Нешто ты думал, я ничего не знаю?</div>
       <div>N<div class="area" data-key="um"></div> p<div class="area" data-key="utābās"></div> <div class="area" data-key="mē"></div> n<div class="area" data-key="ihil"></div> s<div class="area" data-key="cīre"></div>?</div>
       <div>7. Клянусь, что ничего не знал.</div>
