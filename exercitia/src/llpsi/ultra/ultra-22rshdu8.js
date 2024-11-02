@@ -34,7 +34,7 @@ $_GET({
       <div>3. Юлий услышал, как его назвали глупцом. </div>
       <div>I<div class="area" data-key="ūlius"></div> au<div class="area" data-key="dīvit"></div> <div class="area" data-key="sē"></div> st<div class="area" data-key="ultum"></div> a<div class="area" data-key="ppellātum esse"></div>.</div>
       <div>4. Мы видели, как поднялся шторм, что-то предвещая.</div>
-      <div>V<div class="area" data-key="īdimus"></div> t<div class="area" data-key="empestātem"></div> o<div class="area" data-key="orsam esse"></div> a<div class="area" data-key="liquid"></div> <div class="area" data-key="portendentem">portendere</div>.</div>
+      <div>V<div class="area" data-key="īdimus"></div> t<div class="area" data-key="empestātem"></div> o<div class="area" data-key="rsam esse"></div> a<div class="area" data-key="liquid"></div> <div class="area" data-key="portendentem">portendere</div>.</div>
       <div>5. Мать пишет, что корабли вышли из Остии в апрельские календы.</div>
       <div>M<div class="area" data-key="āter"></div> s<div class="area" data-key="crībit"></div> n<div class="area" data-key="āvēs"></div> Ō<div class="area" data-key="stiā"></div> ē<div class="area" data-key="gressās esse"></div> k<div class="area" data-key="alendīs"></div> A<div class="area" data-key="prīlibus"></div>.</div>
       <div>6. Каждый (из двоих) подумал, что другой солгал.</div>
