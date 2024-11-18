@@ -34,7 +34,7 @@ $_GET({
       <div><br></div>
       <div><b>Patroclus</b> <i>(Патрокл)</i> : <span class="fft">Pat-róc-lus</span> : <div class="area" data-key="X"></div></div>
       <div><b>Achillēs</b> <i>(Ахилл)</i> : <span class="fft">A-chíl-lēs</span> : <div class="area" data-key="V"></div></div>
-      <div><b>ligneus</b> <i>(деревянный)</i> : <span class="fft">lig-neus</span> : <div class="area" data-key="X"></div></div>
+      <div><b>ligneus</b> <i>(деревянный)</i> : <span class="fft">líg-neus</span> : <div class="area" data-key="X"></div></div>
       <div><b>lagoena</b> <i>(бутыль)</i> : <span class="fft">la-gó-e-na</span> : <div class="area" data-key="X"></div></div>
       <div><b>pōculum</b> <i>(чаша)</i> : <span class="fft">pṓ-cu-lum</span> : <div class="area" data-key="V"></div></div>
       <div><b>hirundō</b> <i>(ласточка)</i> : <span class="fft">hi-run-dṓ</span> : <div class="area" data-key="X"></div></div>
@@ -46,7 +46,7 @@ $_GET({
       <div><b>equus</b> <i>(конь)</i> : <span class="fft">é-qu-us</span> : <div class="area" data-key="X"></div></div>
       <div><b>Actaeōn</b> <i>(Актеон)</i> : <span class="fft">Ac-tǽ-ōn</span> : <div class="area" data-key="V"></div></div>
       <div><b>Aenēās</b> <i>(Эней)</i> : <span class="fft">Ae-nḗ-ās</span> : <div class="area" data-key="V"></div></div>
-      <div><b>Pyrrhus</b> <i>(Пирр)</i> : <span class="fft">Pyrr-hus</span> : <div class="area" data-key="X"></div></div>
+      <div><b>Pyrrhus</b> <i>(Пирр)</i> : <span class="fft">Pýrr-hus</span> : <div class="area" data-key="X"></div></div>
       <div><br></div>
     </div>
     <div class="row">
