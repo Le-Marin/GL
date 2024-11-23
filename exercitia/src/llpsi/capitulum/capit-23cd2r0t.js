@@ -11,7 +11,7 @@ $_GET({
       <div><br></div><div class="fill-ins"><div><span class="ff">dīc|ere</span> <div class="area">dīx|isse</div> <div class="area">dict|um</div></div>
       <div><span class="ff">fer|re</span> <div class="area">tul|isse</div> <div class="area">lāt|um</div></div>
       <div><span class="ff">leg|ere</span> <div class="area">lēg|isse</div> <div class="area">lēct|um</div></div>
-      <div><span class="ff">mittlere</span> <div class="area">mīs|isse</div> <div class="area">miss|um</div></div>
+      <div><span class="ff">mitt|ere</span> <div class="area">mīs|isse</div> <div class="area">miss|um</div></div>
       <div><span class="ff">rump|ere</span> <div class="area">rūp|isse</div> <div class="area">rupt|um</div></div>
       <div><span class="ff">scrīb|ere</span> <div class="area">scrīps|isse</div> <div class="area">scrīpt|um</div></div>
       <div><span class="ff">scind|ere</span> <div class="area">scid|isse</div> <div class="area">sciss|um</div></div>
@@ -56,12 +56,12 @@ $_GET({
         <div><span class="ff"><span style="white-space: pre;">		</span>Puer rīdet / ...numquam plōrat = Puer rīdet neque umquam plōrat.</span></div>
       </div>
       <div><br></div>
-      <div>1. Puella plōrat / ...nōn rīdet = Puella plōrat <div class="area" data-key="neque"></div> rīdet.</div>
-      <div>2. Aemilia Iūlium / ...nūllum alium virum amat = Aemilia Iūlium <div class="area" data-key="neque"></div> <div class="area" data-key="ūllum"></div> alium virum amat.</div>
-      <div>3. Mēdus ex Italiā proficīscitur / ...numquam revertētur = Mēdus ex Italiā proficīscitur <div class="area" data-key="neque"></div> <div class="area" data-key="umquam"></div> revertētur.</div>
-      <div>4. Syra nūllam pecūniam / ...nūlla ōrnāmenta habet = Syra nūllam pecūniam <div class="area" data-key="neque"></div> <div class="area" data-key="ūlla"></div> ōrnāmenta habet.</div>
-      <div>5. Puer vigilat / ...dormīre nōn potest = Puer vigilat <div class="area" data-key="neque"></div> dormīre potest.</div>
-      <div>6. Māter īnfantem suum bene cūrat / ...numquam eum relinquit = Māter īnfantem suum bene cūrat <div class="area" data-key="neque"></div> <div class="area" data-key="umquam"></div> eum relinquit.</div>
+      <div>1. Puella plōrat / ...nōn rīdet = Puella plōrat <div class="area" data-key="neque | nec"></div> rīdet.</div>
+      <div>2. Aemilia Iūlium / ...nūllum alium virum amat = Aemilia Iūlium <div class="area" data-key="neque | nec"></div> <div class="area" data-key="ūllum"></div> alium virum amat.</div>
+      <div>3. Mēdus ex Italiā proficīscitur / ...numquam revertētur = Mēdus ex Italiā proficīscitur <div class="area" data-key="neque | nec"></div> <div class="area" data-key="umquam"></div> revertētur.</div>
+      <div>4. Syra nūllam pecūniam / ...nūlla ōrnāmenta habet = Syra nūllam pecūniam <div class="area" data-key="neque | nec"></div> <div class="area" data-key="ūlla"></div> ōrnāmenta habet.</div>
+      <div>5. Puer vigilat / ...dormīre nōn potest = Puer vigilat <div class="area" data-key="neque | nec"></div> dormīre potest.</div>
+      <div>6. Māter īnfantem suum bene cūrat / ...numquam eum relinquit = Māter īnfantem suum bene cūrat <div class="area" data-key="neque | nec"></div> <div class="area" data-key="umquam"></div> eum relinquit.</div>
       <div><br></div>
     </div>
     <div class="row">
