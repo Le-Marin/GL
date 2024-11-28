@@ -26,7 +26,27 @@ $_GET({
       <div>7. Vīdit gubernātor tempestātem orientem et nāvem <div class="area" data-key="mersum īrī">mergī</div> certō iam scīvit.</div>
       <div>8. Cassandra prōvīdit Trōiam <div class="area" data-key="dēlētum īrī">dēlērī</div>, nec ūllus eī crēdēbat.</div>
       <div>9. Etiam Lāocoōn monēbat cīvēs, dīcēns Trōiānōs <div class="area" data-key="pūnītum īrī">pūnīrī</div> prō crēdulitāte.</div>
-      <div>10. Orestēs, patris mortem ultus, scīvit et ipsī, prō parricidiō, ultiōnem <div class="area" data-key="lātum īrī">ferre</div>.</div>
+      <div>10. Orestēs, patris mortem ultus, scīvit et ipsī, prō parricidiō, ultiōnem <div class="area" data-key="lātum īrī">ferre</div>.<br><br></div>
+    </div>
+    <div class="row">
+      <div><b>2. Образовать от инфинитивов <i>ppp</i> — перфектные страдательные причастия. В последних пяти предложениях даются отложительные глаголы: те же причастия, образованные от них, имеют не страдательное, но действительное значение совершенного вида (<i>сказав</i>, <i>став</i> и т. п.).</b></div>
+      <div><br></div>
+      <div>1.<span style="white-space: pre;">	</span>Rēx Tullus, fulmine <div class="area" data-key="ictus">icere</div>, cum domō suā cōnflagrāvit (сгорать).</div>
+      <div>2.<span style="white-space: pre;">	</span>Nōn ex latere, sed ex marmore <div class="area" data-key="facta">facere</div> splendēbant tēcta.</div>
+      <div>3.<span style="white-space: pre;">	</span>In bracchiō togā nōn <div class="area" data-key="opertō">operīre</div> armillam gerere solēbat.</div>
+      <div>4.<span style="white-space: pre;">	</span>Prōditor, multīs scūtīs <div class="area" data-key="oppressus">opprimere</div>, terribilī morte mortuus est.</div>
+      <div>5.<span style="white-space: pre;">	</span>Tandem, metū <div class="area" data-key="victus">vincere</div>, rēx deō pāruit.</div>
+      <div>6.<span style="white-space: pre;">	</span>Timōre <div class="area" data-key="perturbāta">perturbāre</div>, nōn poterat respondēre īnfēlīx mulier.</div>
+      <div>7.<span style="white-space: pre;">	</span><div class="area" data-key="adductī">adducere</div> ad rēgem, lēgātī prōcubuērunt ad pedēs illīus.</div>
+      <div>8.<span style="white-space: pre;">	</span>Ā Iove <div class="area" data-key="rapta">rapere</div>, Eurōpa deō nūpsit.</div>
+      <div>9.<span style="white-space: pre;">	</span>Ariadna, ā Tēseō <div class="area" data-key="relicta">relinquere</div>, uxor Dionȳsī facta est.</div>
+      <div>10.<span style="white-space: pre;">	</span>Legimus apud Ovidium Eurydicēn ā serpente <div class="area" data-key="morsam">mordēre</div> morī Orpheumque...</div>
+      <div>11.<span style="white-space: pre;">	</span>Rōmā sub noctem <div class="area" data-key="profectī">proficīscī</div>, īnsequentī diē iam pervēnērunt Tūsculum.</div>
+      <div>12.<span style="white-space: pre;">	</span>Haec <div class="area" data-key="locūta">loquī</div>, Dīdō rogum ascendit.</div>
+      <div>13.<span style="white-space: pre;">	</span><div class="area" data-key="dēgressus">dēgredī</div> Appennīnō, Hannibal ad Placentiam castra mōvit.</div>
+      <div>14.<span style="white-space: pre;">	</span>Iuppiter Ganymēdī: “Quid dīcēs mihi amōrem suum <div class="area" data-key="fassō">fatērī</div>?”</div>
+      <div>15.<span style="white-space: pre;">	</span>Canis timidus, audācior <div class="area" data-key="factus">fierī</div>, tandem accessit.</div>
+      <div><br></div>
     </div>
   `
 });
