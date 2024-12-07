@@ -48,5 +48,40 @@ $_GET({
       <div>15.<span style="white-space: pre;">	</span>Canis timidus, audācior <div class="area" data-key="factus">fierī</div>, tandem accessit.</div>
       <div><br></div>
     </div>
+    <div class="row">
+      <div><b>3. Перефразировать предложение (или объединить два в одно), используя <i>ablativus absolutus</i> с перфектными причастиями (идея предшествования).</b></div>
+      <div><br></div>
+      <div>1. Simul atque Numa rēx mortuus est, Rōma ad interrēgnum redit.</div>
+      <div>N<div class="area" data-key="umā"></div> r<div class="area" data-key="ēge"></div> m<div class="area" data-key="ortuō"></div>, R<div class="area" data-key="ōma"></div> ad interrēgnum r<div class="area" data-key="edit"></div>.</div>
+      <div>2. Postquam domum patriam relinquit, Athēnās proficīscitur.</div>
+      <div>D<div class="area" data-key="omū | omō"></div> p<div class="area" data-key="atriā"></div> r<div class="area" data-key="elictā"></div>, A<div class="area" data-key="thēnās"></div> p<div class="area" data-key="roficīscitur"></div>.</div>
+      <div>3. Gladium stringit hostemque sine metū petit.</div>
+      <div>G<div class="area" data-key="ladiō"></div> s<div class="area" data-key="trīnctō"></div> h<div class="area" data-key="ostem"></div> sine metū p<div class="area" data-key="etit"></div>.</div>
+      <div>4. Vix hoc nūntiātum est, rēs ad bellum it.</div>
+      <div>H<div class="area" data-key="ōc"></div> n<div class="area" data-key="ūntiātō"></div>, r<div class="area" data-key="ēs"></div> ad bellum <div class="area" data-key="it"></div>.</div>
+      <div>5. Postquam superba verba audīvit, īrāscitur erus et “Aufer tē!” inquit.</div>
+      <div>S<div class="area" data-key="uperbīs"></div> v<div class="area" data-key="erbīs"></div> au<div class="area" data-key="dītīs"></div>, ī<div class="area" data-key="rāscitur"></div> e<div class="area" data-key="rus"></div> et...</div>
+      <div>6. Hannibal, ubi impetum in Rōmānōs fēcit, gravī proeliō eōs vincit.</div>
+      <div>H<div class="area" data-key="annibal"></div>, i<div class="area" data-key="mpetū"></div> in R<div class="area" data-key="ōmānōs"></div> f<div class="area" data-key="actō"></div>, gravī proeliō e<div class="area" data-key="ōs"></div> v<div class="area" data-key="incit"></div>.</div>
+      <div>7. Ubi imāginem suam in aquā vīdit, nōn potuit Narcissus oculōs āvertere.</div>
+      <div>I<div class="area" data-key="māgine"></div> s<div class="area" data-key="uā"></div> in aquā v<div class="area" data-key="īsā"></div>, nōn p<div class="area" data-key="otuit"></div> N<div class="area" data-key="arcissus"></div> oculōs ā<div class="area" data-key="vertere"></div>.</div>
+      <div>8. Equitēs, ubi flūmem trānsiērunt, cum hostium equitātū proelium incipiunt.</div>
+      <div>E<div class="area" data-key="quitēs"></div>, f<div class="area" data-key="lūmine"></div> trāns<div class="area" data-key="ītō"></div>, cum hostium equitātū p<div class="area" data-key="roelium"></div> in<div class="area" data-key="cipiunt"></div>.</div>
+      <div><br></div>
+      <div>1. Arma ad portās dēpōnuntur. Virī perigrīnī urbem intrāvērunt.</div>
+      <div>A<div class="area" data-key="rmīs"></div> ad portās dē<div class="area" data-key="positīs"></div>, v<div class="area" data-key="irī"></div> p<div class="area" data-key="erigrīnī"></div> urbem i<div class="area" data-key="ntrāvērunt"></div>.</div>
+      <div>2. Rota frangitur. Raeda cōnsistit.</div>
+      <div>R<div class="area" data-key="otā"></div> f<div class="area" data-key="ractā"></div>, r<div class="area" data-key="aeda"></div> cōn<div class="area" data-key="sistit"></div>.</div>
+      <div>3. Claudius priōrem uxōrem sepelīvit. Claudius novam mulierem dūcit.</div>
+      <div>C<div class="area" data-key="laudius"></div>, p<div class="area" data-key="riōre"></div> u<div class="area" data-key="xōre"></div> s<div class="area" data-key="epultā"></div>, novam mulierem d<div class="area" data-key="ūcit"></div>.</div>
+      <div>4. Caput in pulvīnō pōnitur. Valeria continuō obdormit.</div>
+      <div>C<div class="area" data-key="apite"></div> in pulvīnō p<div class="area" data-key="ositō"></div>, V<div class="area" data-key="aleria"></div> continuō ob<div class="area" data-key="dormit"></div>.</div>
+      <div>5. Mulier passūs audīvit. Mulier conversa inexspectātum hospitem videt.</div>
+      <div>P<div class="area" data-key="assibus"></div> au<div class="area" data-key="dītīs"></div>, m<div class="area" data-key="ulier"></div> c<div class="area" data-key="onversa"></div> inexspectātum hospitem v<div class="area" data-key="idet"></div>.</div>
+      <div>6. Flamma extinguitur. Pars vīllae servāta est.</div>
+      <div>F<div class="area" data-key="lammā"></div> ex<div class="area" data-key="tīncta"></div>, p<div class="area" data-key="ars"></div> vīllae s<div class="area" data-key="ervāta est"></div>.</div>
+      <div>7. Poena superbiae datur. Arachnē — arānea — tēlās texere pergit.<br>P<div class="area" data-key="oenā"></div> superbiae d<div class="area" data-key="atā"></div>, A<div class="area" data-key="rachnē"></div> — a<div class="area" data-key="rānea"></div> — tēlās texere p<div class="area" data-key="ergit"></div>.</div>
+      <div>8.  Iuppiter Tītānes fulmine icit. Ex eōrum pulvere nāscuntur hominēs.<br>T<div class="area" data-key="ītānibus"></div> fulmine Iovis i<div class="area" data-key="ctīs"></div>, ex eōrum pulvere n<div class="area" data-key="āscuntur"></div> h<div class="area" data-key="ominēs"></div>.</div>
+    </div>
   `
 });
