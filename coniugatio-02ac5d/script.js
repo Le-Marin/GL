@@ -26,9 +26,10 @@
   const table = $('.table');
 
   const table2 = table.cloneNode();
+  table.classList.add('table1');
   table2.classList.add('result');
   table2.innerHTML = table.innerHTML
-    .replace(/<input.+?>/g, '<div class="input"></div>');
+    .replace(/<input.+?>/g, '<div class="input input-2"></div>');
 
   const inputs = $$('.input', table);
   const inputs2 = $$('.input', table2);

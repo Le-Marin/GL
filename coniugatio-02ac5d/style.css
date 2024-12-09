@@ -29,7 +29,7 @@ option {
   color: #398467;
 }
 
-@media screen and (max-width: 29rem) {
+@media screen and (max-width: 30.75rem) {
   .get {
     min-width: auto;
   }
@@ -41,8 +41,8 @@ option {
   }
 }
 
-@media screen and (max-width: 27rem) {
-  #root {
-    padding: 1rem 0;
+@media screen and (max-width: 26.25rem) {
+  .select-tense {
+    max-width: 7.5em;
   }
 }

@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coniugátió</title>
   <link rel="icon" href="#">
-  <link rel="stylesheet" href="../declinatio-dvq15m/style.css?v=1c">
-  <link rel="stylesheet" href="../coniugatio-02ac5d/style.css?v=1c">
-  <script src="vocabulary.js?v=1c"></script>
-  <script src="create.js?v=1c"></script>
+  <link rel="stylesheet" href="../declinatio-dvq15m/style.css?v=2a">
+  <link rel="stylesheet" href="../coniugatio-02ac5d/style.css?v=2a">
+  <script src="vocabulary.js?v=2a"></script>
+  <script src="create.js?v=2a"></script>
 </head>
 <body>
   <main id="root">
     <div class="keyboard">
-      <button class="case" title="Vócálés longae">Ā</button>
+      <button class="case">Ā</button>
       <div class="keyboard__switcher"></div>
       <div class="keyboard__body">
         <div class="keyboard__line">
@@ -47,29 +47,29 @@
           <option value="5">fut act</option>
           <option value="6">fut pass</option>
           <option disabled>———————</option>
-          <option disabled value="7">prf act</option>
-          <option disabled value="8">prf pass</option>
-          <option disabled value="9">pprf act</option>
-          <option disabled value="10">pprf pass</option>
-          <option disabled value="11">fut prf act</option>
-          <option disabled value="12">fut prf pass</option>
+          <option value="7" disabled>prf act</option>
+          <option value="8" disabled>prf pass</option>
+          <option value="9" disabled>pprf act</option>
+          <option value="10" disabled>pprf pass</option>
+          <option value="11" disabled>fut prf act</option>
+          <option value="12" disabled>fut prf pass</option>
         </optgroup>
-        <optgroup label="imperátívus">
-          <option disabled value="13">praes act</option>
-          <option disabled value="14">praes pass</option>
-          <option disabled value="15">fut act</option>
-          <option disabled value="16">fut pass</option>
+        <optgroup label="imperátívus" disabled>
+          <option value="13" disabled>praes act</option>
+          <option value="14" disabled>praes pass</option>
+          <option value="15" disabled>fut act</option>
+          <option value="16" disabled>fut pass</option>
         </optgroup>
-        <optgroup label="coniúnctívus">
-          <option disabled value="17">praes act</option>
-          <option disabled value="18">praes pass</option>
-          <option disabled value="19">imprf act</option>
-          <option disabled value="20">imprf pass</option>
+        <optgroup label="coniúnctívus" disabled>
+          <option value="17" disabled>praes act</option>
+          <option value="18" disabled>praes pass</option>
+          <option value="19" disabled>imprf act</option>
+          <option value="20" disabled>imprf pass</option>
           <option disabled>———————</option>
-          <option disabled value="21">prf act</option>
-          <option disabled value="22">prf pass</option>
-          <option disabled value="23">pprf act</option>
-          <option disabled value="24">pprf pass</option>
+          <option value="21" disabled>prf act</option>
+          <option value="22" disabled>prf pass</option>
+          <option value="23" disabled>pprf act</option>
+          <option value="24" disabled>pprf pass</option>
         </optgroup>
       </select>
       <button class="get"><span>Generáre</span></button>
@@ -79,20 +79,20 @@
       <div class="word">tránslátió</div>
     </div>
     <div class="block table">
-      <div class="col">
-        <div class="row">PERSÓNA</div>
+      <div class="col col-1">
+        <div class="row row-1">PERSONA</div>
         <div class="row">1-a</div>
         <div class="row">2-a</div>
         <div class="row">3-a</div>
       </div>
       <div class="col">
-        <div class="row">SINGVLÁRIS</div>
+        <div class="row row-1">SINGVLARIS</div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
       </div>
       <div class="col">
-        <div class="row">PLV́RÁLIS</div>
+        <div class="row row-1">PLVRALIS</div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
@@ -103,6 +103,6 @@
       <button class="answers">Respónsa</button>
     </div>
   </main>
-  <script src="script.js?v=1c"></script>
+  <script src="script.js?v=2a"></script>
 </body>
 </html>

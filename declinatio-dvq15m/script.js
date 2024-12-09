@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  [...document.scripts].forEach((el) => el.remove());
+  [...document.scripts].forEach(el => el.remove());
 
   const declensions = {
     1: function() {
@@ -321,25 +321,31 @@
   const getWordRoot = (value) => value.match(/[^~ ]+/)[0].replace('-', '');
   const getInflection = (i) => currentForms[+(i >= qnt)][i % qnt] || '';
 
-  const vocabulary = VOCABULARY.splice(0).sort(() => Math.random() - 0.5);
+  const vocabulary = [];
+  const vocabulary1 = VOCABULARY.splice(0).sort(() => Math.random() - 0.5);
+  const vocabulary2 = VOCABULARY_MED.splice(0).sort(() => Math.random() - 0.5);
 
+  const rootElem = $('#root');
   const select = $('select');
-  const selectLen = select.options.length - 1;
-  const btnGet = $('.get');
-  const btnCheck = $('.check');
-  const btnAnswers = btnCheck.nextElementSibling;
-  const words = $('.words').children;
-  const table = $('.table');
+  let selectLen = select.options.length - 1;
+
+  const btnGet = select.nextElementSibling;
+  const words = rootElem.children[2].children;
+  const table = rootElem.children[3];
 
   const table2 = table.cloneNode();
+  table.classList.add('table1');
   table2.classList.add('result');
   table2.innerHTML = table.innerHTML
-    .replace(/<input.+?>/g, '<div class="input"></div>');
+    .replace(/<input.+?>/g, '<div class="input input-2"></div>');
 
-  const inputs = $$('.input', table);
+  const inputs = $$('input', table);
   const inputs2 = $$('.input', table2);
   const qnt = inputs.length / 2;
   const fields = [inputs.slice(0, qnt), inputs.slice(qnt)];
+  const fields2 = [inputs2.slice(0, qnt), inputs2.slice(qnt)];
+
+  inputs.forEach(el => { el._off = el._none = false; });
 
   select.addEventListener('change', () => btnGet.click());
   select.addEventListener('wheel', onSelectWheel);
@@ -362,6 +368,32 @@
     if (Array.isArray(data[3])) return getFormsFromArray(data[3]);
     return declensions[data[0]].call(data, ...args);
   }
+
+  // =========================
+
+  const getElIndex = el => [...el.parentNode.children].indexOf(el);
+
+  table.addEventListener('click', function(e) {
+    const trg = e.target;
+    if (!trg.matches('.r-switch')) return;
+
+    const force = trg.classList.toggle('_off');
+    const i = getElIndex(trg.parentNode) - 1;
+    const i1 = fields[0][i];
+    const i2 = fields[1][i];
+    const d1 = fields2[0][i];
+    const d2 = fields2[1][i];
+
+    i1._off = force;
+    i2._off = force;
+    i1.disabled = force || i1._none;
+    i2.disabled = force || i2._none;
+
+    i1.parentNode.classList.toggle('_off', force);
+    i2.parentNode.classList.toggle('_off', force);
+    d1.parentNode.classList.toggle('_off', force);
+    d2.parentNode.classList.toggle('_off', force);
+  });
 
   // =========================
 
@@ -413,14 +445,14 @@
   }
 
   function setNoValue(el) {
-    el.value = '\u2716';
-    el.disabled = true;
-    el.parentNode.dataset.none = 1;
+    el.value = '';
+    el.disabled = el._none = true;
+    el.parentNode.setAttribute('data-none', 1);
   }
 
   function clearValue(el) {
-    el.value = '';
-    el.disabled = false;
+    el._none = false;
+    el.disabled = el._off;
     el.parentNode.removeAttribute('data-none');
   }
 
@@ -431,23 +463,17 @@
 
   // =========================
 
-  const btnCase = $('.case');
-  const cases = {'ā': 'a', 'ē': 'e', 'ī': 'i', 'ō': 'o', 'ū': 'u', 'ȳ': 'y'};
-
-  btnCase.addEventListener('click', function() {
-    this.classList.toggle('__disabled');
-  });
+  const [btnCheck, btnAnswers] = table.nextElementSibling.children;
 
   btnCheck.addEventListener('click', function() {
     if (!currentWord) return;
 
-    const isCaseSensitive = !btnCase.classList.contains('__disabled');
+    const {sensitivity, cases} = keyboard;
 
     inputs.forEach((el, i) => {
+      if (el._none || el._off) return;
+
       const {dataset} = el.parentNode;
-
-      if (+dataset.none) return;
-
       const userValue = el.value.trim().toLowerCase();
 
       if (!userValue) return dataset.valid = 0;
@@ -469,25 +495,9 @@
 
       const isValid = chunks.some(x => x === userValue);
 
-      if (isValid || isCaseSensitive) return dataset.valid = +isValid;
+      if (isValid || sensitivity) return dataset.valid = +isValid;
 
-      dataset.valid = +chunks.some(value => {
-        if (value.length !== userValue.length) return;
-
-        for (let i = 0; i < value.length; i++) {
-          let a = value[i];
-          let b = userValue[i];
-
-          if (a in cases) {
-            a = cases[a];
-            b = cases[b] || b;
-          }
-
-          if (a !== b) return;
-        }
-
-        return true;
-      });
+      dataset.valid = +chunks.some(x => matchValues(x, userValue, cases));
     });
   });
 
@@ -508,17 +518,35 @@
       el.innerHTML = getInflection(i).replace(search, replacer);
     });
 
-    if (!table2.parentNode) table.parentNode.appendChild(table2);
+    if (!table2.parentNode) rootElem.appendChild(table2);
 
     this.textContent = 'Céláre';
     isAnswersShown = true;
   });
 
+  function matchValues(v1, v2, cases) {
+    if (v1.length !== v2.length) return false;
+
+    for (let i = 0; i < v1.length; i++) {
+      let a = v1[i];
+      let b = v2[i];
+
+      if (a in cases) {
+        a = cases[a];
+        b = cases[b] || b;
+      }
+
+      if (a !== b) return false;
+    }
+
+    return true;
+  }
+
   // =========================
 
-  const keyboard = (function() {
-    const target = $('.keyboard');
+  const keyboard = (function(target) {
     const [caseSwitcher, trigger, body] = target.children;
+    const cases = {'ā': 'a', 'ē': 'e', 'ī': 'i', 'ō': 'o', 'ū': 'u', 'ȳ': 'y'};
 
     return {
       __init__() {
@@ -528,11 +556,12 @@
       onHandleClick(e) {
         const trg = e.target;
 
-        if (trg === trigger)
-          return this.toggle();
+        if (trg === trigger) return this.toggle();
 
-        if (trg === caseSwitcher)
+        if (trg === caseSwitcher) {
+          trg.classList.toggle('__disabled');
           return btnCheck.click();
+        }
 
         if (trg.matches('.keyboard__key'))
           return this.printKey(trg.textContent, e.shiftKey);
@@ -543,9 +572,33 @@
       printKey(key, isUpper) {
         if (!isUpper) key = key.toLowerCase();
         return document.execCommand('insertText', false, key);
+      },
+      get cases() {
+        return cases;
+      },
+      get sensitivity() {
+        return !caseSwitcher.matches('.__disabled');
       }
     };
-  })();
+  })(rootElem.firstElementChild);
 
   keyboard.__init__();
+
+  // =========================
+
+  rootElem.children[5].addEventListener('click', function(e) {
+    const trg = e.target;
+
+    if (trg.tagName !== 'BUTTON') return;
+
+    this.remove();
+
+    if (trg.textContent === 'CLASS.') return vocabulary.push(...vocabulary1);
+
+    selectLen -= 2;
+    [...select.options].slice(-2).forEach(el => el.remove());
+    vocabulary.push(...vocabulary2);
+    table.classList.add('med-mode');
+    table2.classList.add('med-mode');
+  });
 })();

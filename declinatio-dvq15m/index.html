@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Declinatio</title>
+  <title>Declinator</title>
   <link rel="icon" href="#">
-  <link rel="stylesheet" href="style.css?v=1c">
-  <script src="vocabulary.js?v=1c"></script>
+  <link rel="stylesheet" href="style.css?v=2a">
+  <script src="vocabulary.js?v=2a"></script>
+  <script src="vocabulary-med.js?v=2a"></script>
 </head>
 <body>
   <main id="root">
     <div class="keyboard">
-      <button class="case" title="Vócálés longae">Ā</button>
+      <button class="case">Ā</button>
       <div class="keyboard__switcher"></div>
       <div class="keyboard__body">
         <div class="keyboard__line">
@@ -37,24 +38,24 @@
         <option value="7">prónómina</option>
         <option value="8">numerália</option>
       </select>
-      <button class="get">Generáre</button>
+      <button class="get"><span>Generáre</span></button>
     </div>
     <div class="block words">
       <div class="word">vocábulum</div>
       <div class="word">tránslátió</div>
     </div>
     <div class="block table">
-      <div class="col">
-        <div class="row">CÁSVS</div>
-        <div class="row">Nóminátívus:</div>
-        <div class="row">Genetívus:</div>
-        <div class="row">Datívus:</div>
-        <div class="row">Accúsátívus:</div>
-        <div class="row">Ablátívus:</div>
-        <div class="row">Vocátívus:</div>
+      <div class="col col-1">
+        <div class="row row-1">CASVS</div>
+        <div class="row" data-case="Nom"><b class="r-switch"></b><b class="r-case">Nóminátívus:</b></div>
+        <div class="row" data-case="Gen"><b class="r-switch"></b><b class="r-case">Genetívus:</b></div>
+        <div class="row" data-case="Dat"><b class="r-switch"></b><b class="r-case">Datívus:</b></div>
+        <div class="row" data-case="Acc"><b class="r-switch"></b><b class="r-case">Accúsátívus:</b></div>
+        <div class="row" data-case="Abl"><b class="r-switch"></b><b class="r-case">Ablátívus:</b></div>
+        <div class="row" data-case="Voc"><b class="r-switch"></b><b class="r-case">Vocátívus:</b></div>
       </div>
       <div class="col">
-        <div class="row">SINGVLÁRIS</div>
+        <div class="row row-1">SINGVLARIS</div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
@@ -63,7 +64,7 @@
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
       </div>
       <div class="col">
-        <div class="row">PLV́RÁLIS</div>
+        <div class="row row-1">PLVRALIS</div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
         <div class="row"><input class="input" type="text" autocapitalize="off"></div>
@@ -76,7 +77,12 @@
       <button class="check">Probáre</button>
       <button class="answers">Respónsa</button>
     </div>
+    <div id="d-set">
+      <h3>ELIGE GENVS VOCABVLORVM</h3>
+      <button style="margin-right: 0.5em">CLASS.</button>
+      <button>MED.</button>
+    </div>
   </main>
-  <script src="script.js?v=1c"></script>
+  <script src="script.js?v=2a"></script>
 </body>
 </html>
