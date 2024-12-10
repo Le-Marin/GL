@@ -326,8 +326,7 @@
   const vocabulary2 = VOCABULARY_MED.splice(0).sort(() => Math.random() - 0.5);
 
   const rootElem = $('#root');
-  const select = $('select');
-  let selectLen = select.options.length - 1;
+  const select = $('#select-declention');
 
   const btnGet = select.nextElementSibling;
   const words = rootElem.children[2].children;
@@ -347,22 +346,7 @@
 
   inputs.forEach(el => { el._off = el._none = false; });
 
-  select.addEventListener('change', () => btnGet.click());
-  select.addEventListener('wheel', onSelectWheel);
-
-  function onSelectWheel(e) {
-    e.preventDefault();
-
-    const s = e.deltaY > 0 ? 1 : -1;
-    const options = [...this.options];
-    const getNext = (i) => options[s + i] || options.at(-1 + (s === 1));
-    let next = getNext(this.selectedIndex);
-
-    while (next.disabled) next = getNext(next.index);
-
-    next.selected = true;
-    btnGet.click();
-  }
+  defineSelect(select, () => btnGet.click());
 
   function getDictWord(data, ...args) {
     if (Array.isArray(data[3])) return getFormsFromArray(data[3]);
@@ -403,7 +387,7 @@
       vocabulary.push(vocabulary.splice(index, 1)[0]);
     }
 
-    const declension = +select.value || 1 + Math.random() * selectLen >> 0;
+    const declension = +select.value || 1 + Math.random() * select.length >> 0;
     currentWord = vocabulary.find(([d]) => d === declension);
 
     if (!currentWord) return;
@@ -595,7 +579,6 @@
 
     if (trg.textContent === 'CLASS.') return vocabulary.push(...vocabulary1);
 
-    selectLen -= 2;
     [...select.options].slice(-2).forEach(el => el.remove());
     vocabulary.push(...vocabulary2);
     table.classList.add('med-mode');

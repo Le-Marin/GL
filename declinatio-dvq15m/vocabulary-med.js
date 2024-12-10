@@ -28,7 +28,7 @@ const VOCABULARY_MED = [
   [2, 'medicāment~um -ī n', 'medicine / лекарство'],
   [2, 'gangli~on -ī n', 'ganglion / ганглий, нервный узел'],
   [2, 'encephal~on -ī n', 'encephalon / головной мозг'],
-  [2, 'vīr~us -ī n [!pl]', 'venom; virus / яд; вирус'],
+  [2, 'vīr~us -ī n', 'venom; virus / яд; вирус'],
   [2, 'digit~us -ī m', 'finger / палец'],
   [2, 'ocul~us -ī m', 'eye / глаз'],
   [2, 'ventricul~us -ī m', 'ventricle / желудочек'],
@@ -40,7 +40,6 @@ const VOCABULARY_MED = [
   [2, 'Ricin~us -ī f', 'castor oil plant / клещевина'],
   [2, 'can-cer -cr~ī m [!pl]', 'cancer / рак, раковая опухоль'],
   [2, 'morbill~ī -ōrum m [!sg]', 'measles / корь'],
-
 
   [3, 'cavit-ās -āt~is f', 'cavity / полость, впадина'],
   [3, 'rād-īx -īc~is f', 'root / корень'],
@@ -91,17 +90,17 @@ const VOCABULARY_MED = [
   [5, 'faci~ēs -ēī f', 'face; surface / лицо; поверхность'],
   [5, 'superfici~ēs -ēī f', 'surface / поверхность'],
   [5, 'di~ēs -ēī mf', 'day / день'],
-  [5, 'seri~ēs -ēī f', 'row, series / ряд, вереница'],
+  [5, 'seri~ēs -ēī f', 'row, series / ряд, серия'],
   [5, 'aci~ēs -ēī f', 'sharp edge / остриё'],
   [5, 'glaci~ēs -ēī f', 'ice / лёд'],
   [5, 'speci~ēs -ēī f', 'species / вид, разновидность'],
   [5, 'māteri~ēs -ēī f [!pl]', 'matter, substance / вещество, материя'],
   [5, 'rabi~ēs -ēī f [!pl]', 'rabies / бешенство'],
   [5, 'scabi~ēs -ēī f [!pl]', 'scabies, itch / чесотка'],
-  [5, 'cari~ēs -ēī f [!pl]', 'decay / гниение'],
+  [5, 'cari~ēs -ēī f [!pl]', 'caries, decay / кариес, гниение'],
   [5, 'r~ēs reī f', 'thing; matter / вещь; дело'],
 
-  [6, 'tunic~a [1 f] mucōs~a [1 f]', 'mucous membrane / слизистая оболочка'],
+  [6, 'tunic~a [1 f] mūcōs~a [1 f]', 'mucous membrane / слизистая оболочка'],
   [6, 'dūr~a [1 f] mā-ter [3 -tr~is f]', 'dura mater / твёрдая мозговая оболочка', {
     pl: { 2: 'dūr~ārum mātr~um' }
   }],

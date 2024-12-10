@@ -1,10 +1,3 @@
-optgroup {
-  text-align: center;
-}
-option {
-  text-align: left;
-}
-
 .x-vowel {
   color: #c41414;
   display: inline-block;
@@ -42,7 +35,7 @@ option {
 }
 
 @media screen and (max-width: 26.25rem) {
-  .select-tense {
+  #select-tense {
     max-width: 7.5em;
   }
 }

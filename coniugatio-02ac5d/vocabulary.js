@@ -5,6 +5,7 @@ const VOCABULARY = [
   [1, 'clām~āre', 'cry, shout / кричать'],
   [1, 'iter~āre', 'repeat / повторять'],
   [1, 'lev~āre', 'elevate / поднимать, повышать'],
+  [1, 'mūt~āre', 'change / менять, изменять'],
   [1, 'nōmin~āre', 'name / называть'],
   [1, 'numer~āre', 'count / считать'],
   [1, 'rog~āre', 'ask / спрашивать'],
@@ -114,9 +115,18 @@ const VOCABULARY = [
     17: [
       ['si~m', 'sī~s', 'si~t'],
       ['sī~mus', 'sī~tis', 'si~nt'],
-    ]
+    ],
+    27: [
+      ['fut^ūr~us', 'fut^ūr~ī', 'fut^ūr~ō', 'fut^ūr~um', 'fut^ūr~ō', 'fut^ūr~e'],
+      ['fut^ūr~ī', 'fut^ūr~ōrum', 'fut^ūr~īs', 'fut^ūr~ōs', 'fut^ūr~īs', 'fut^ūr~ī'],
+    ],
   }],
-  [5, 'possum potu~ī posse(3.1)', 'can, may / мочь'],
+  [5, 'possum potu~ī posse(3.1)', 'can, may / мочь', {
+    25: [
+      ['pot^ēns', 'pot^ent~is', 'pot^ent~ī', 'pot^ent~em', 'pot^ent~e', 'pot^ēns'],
+      ['pot^ent~ēs', 'pot^ent~ium', 'pot^ent~ibus', 'pot^ent~ēs', 'pot^ent~ibus', 'pot^ent~ēs'],
+    ],
+  }],
   [5, 'e~ō i~ī it~um īre(4)', 'go / идти, ехать', {
     1: [
       ['e~ō', 'ī~s', 'i~t'],
@@ -149,7 +159,19 @@ const VOCABULARY = [
     23: [
       ['īsse~m', 'īssē~s', 'īsse~t'],
       ['īssē~mus', 'īssē~tis', 'īsse~nt'],
-    ]
+    ],
+    25: [
+      ['iē^ns', 'eu^nt~is', 'eu^nt~ī', 'eu^nt~em', 'eu^nt~e', 'iē^ns'],
+      ['eu^nt~ēs', 'eu^nt~ium', 'eu^nt~ibus', 'eu^nt~ēs', 'eu^nt~ibus', 'eu^nt~ēs'],
+    ],
+    28: [
+      ['eu^nd~us', 'eu^nd~ī', 'eu^nd~ō', 'eu^nd~um', 'eu^nd~ō', 'eu^nd~e'],
+      ['eu^nd~ī', 'eu^nd~ōrum', 'eu^nd~īs', 'eu^nd~ōs', 'eu^nd~īs', 'eu^nd~ī'],
+    ],
+    29: [
+      ['', 'eu^nd~ī', 'eu^nd~ō', 'eu^nd~um', 'eu^nd~ō', ''],
+      ['', '', '', '', '', ''],
+    ],
   }],
   [5, 'vol~ō -u~ī velle(3.1)', 'want / хотеть', {
     1: {
@@ -240,10 +262,15 @@ const VOCABULARY = [
   [6, 'quer~or quest~um -ī(3.1)', 'complain / жаловаться'],
   [6, 'ūt~or ūs~um -ī(3.1)', 'use / пользоваться'],
   [6, 'ē-gred~ior -gress~um -ī(3.2)', 'come out, step out / выходить, выступать'],
-  [6, 'mor~ior mortu~um -ī(3.2)', 'die / умирать'],
+  [6, 'mor~ior mortu~um -ī(3.2)', 'die / умирать', {
+    27: [
+      ['morit^ūr~us', 'morit^ūr~ī', 'morit^ūr~ō', 'morit^ūr~um', 'morit^ūr~ō', 'morit^ūr~e'],
+      ['morit^ūr~ī', 'morit^ūr~ōrum', 'morit^ūr~īs', 'morit^ūr~ōs', 'morit^ūr~īs', 'morit^ūr~ī']
+    ]
+  }],
   [6, 'pat~ior pass~um -ī(3.2)', 'endure, suffer / терпеть, претерпевать'],
   [6, 'ex-per~ior -pert~um -īrī(4)', 'try, experience / пробовать, испытывать'],
-  [6, 'opper~īrī(4)', 'wait for / ждать, дожидаться'],
+  [6, 'op-per~īrī -pert~um -īrī(4)', 'wait for / ждать, дожидаться'],
   [6, 'ment~īrī(4)', 'lie, tell lies about / лгать, выдумывать'],
   [6, 'f~īō fact~um fier~ī(3.2)', 'become / становиться', {
     1: {
@@ -251,6 +278,10 @@ const VOCABULARY = [
     },
     13: {
       sg: { 2: 'f|ī' }
-    }
+    },
+    29: [
+      ['', 'f|i^end~ī', 'f|i^end~ō', 'f|i^end~um', 'f|i^end~ō', ''],
+      ['', '', '', '', '', '']
+    ]
   }],
 ];

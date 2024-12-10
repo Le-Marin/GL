@@ -436,6 +436,125 @@
       const endings = getEndings(['us essem', 'us essēs', 'us esset'], ['ī essēmus', 'ī essētis', 'ī essent']);
       return createTense2.call(this, getCommon(endings), false);
     },
+
+    25: function() {
+      const endings = getEndings(
+        ['', 'is', 'ī', 'em', 'e', ''],
+        ['ēs', 'ium', 'ibus', 'ēs', 'ibus', 'ēs'],
+        6
+      );
+      const that = {
+        1: [
+          ['$|ā^ns', '$|a^nt', '$|a^nt', '$|a^nt', '$|a^nt', '$|ā^ns'],
+          ['$|a^nt', '$|a^nt', '$|a^nt', '$|a^nt', '$|a^nt', '$|a^nt'],
+        ],
+        2: [
+          ['$|ē^ns', '$|e^nt', '$|e^nt', '$|e^nt', '$|e^nt', '$|ē^ns'],
+          ['$|e^nt', '$|e^nt', '$|e^nt', '$|e^nt', '$|e^nt', '$|e^nt'],
+        ],
+        3.1: [
+          ['$^ēns', '$^ent', '$^ent', '$^ent', '$^ent', '$^ēns'],
+          ['$^ent', '$^ent', '$^ent', '$^ent', '$^ent', '$^ent'],
+        ],
+        3.2: [
+          ['$|i^ēns', '$|i^ent', '$|i^ent', '$|i^ent', '$|i^ent', '$|i^ēns'],
+          ['$|i^ent', '$|i^ent', '$|i^ent', '$|i^ent', '$|i^ent', '$|i^ent'],
+        ],
+        4: [
+          ['$|i^ēns', '$|i^ent', '$|i^ent', '$|i^ent', '$|i^ent', '$|i^ēns'],
+          ['$|i^ent', '$|i^ent', '$|i^ent', '$|i^ent', '$|i^ent', '$|i^ent'],
+        ],
+      };
+
+      return createTense.call(this, that, endings);
+    },
+
+    26: function() {
+      const endings = getEndings(
+        'us ī ō um ō e'.split(' '),
+        'ī ōrum īs ōs īs ī'.split(' '),
+        6
+      );
+      return createTense2.call(this, getCommon(endings), false);
+    },
+
+    27: function() {
+      const endings = getEndings(
+        'us ī ō um ō e'.split(' '),
+        'ī ōrum īs ōs īs ī'.split(' '),
+        6
+      );
+
+      return createTense2.call(this, getCommon(endings), false).map(a => {
+        return a.map(x => x.replace('~', '^ūr~'));
+      });
+    },
+
+    28: function() {
+      const endings = getEndings(
+        'us ī ō um ō e'.split(' '),
+        'ī ōrum īs ōs īs ī'.split(' '),
+        6
+      );
+
+      const that = {
+        1: [
+          ['$|a^nd', '$|a^nd', '$|a^nd', '$|a^nd', '$|a^nd', '$|a^nd'],
+          ['$|a^nd', '$|a^nd', '$|a^nd', '$|a^nd', '$|a^nd', '$|a^nd'],
+        ],
+        2: [
+          ['$|e^nd', '$|e^nd', '$|e^nd', '$|e^nd', '$|e^nd', '$|e^nd'],
+          ['$|e^nd', '$|e^nd', '$|e^nd', '$|e^nd', '$|e^nd', '$|e^nd'],
+        ],
+        3.1: [
+          ['$^end', '$^end', '$^end', '$^end', '$^end', '$^end'],
+          ['$^end', '$^end', '$^end', '$^end', '$^end', '$^end'],
+        ],
+        3.2: [
+          ['$|i^end', '$|i^end', '$|i^end', '$|i^end', '$|i^end', '$|i^end'],
+          ['$|i^end', '$|i^end', '$|i^end', '$|i^end', '$|i^end', '$|i^end'],
+        ],
+        4: [
+          ['$|i^end', '$|i^end', '$|i^end', '$|i^end', '$|i^end', '$|i^end'],
+          ['$|i^end', '$|i^end', '$|i^end', '$|i^end', '$|i^end', '$|i^end'],
+        ],
+      };
+
+      return createTense.call(this, that, endings);
+    },
+
+    29: function() {
+      const endings = getEndings(
+        ['ī', 'ō', 'um', 'ō'],
+        ['', '', '', ''],
+        4
+      );
+
+      const that = {
+        1: [
+          ['', '$|a^nd', '$|a^nd', '$|a^nd', '$|a^nd', ''],
+          ['', '', '', '', '', ''],
+        ],
+        2: [
+          ['', '$|e^nd', '$|e^nd', '$|e^nd', '$|e^nd', ''],
+          ['', '', '', '', '', ''],
+        ],
+        3.1: [
+          ['', '$^end', '$^end', '$^end', '$^end', ''],
+          ['', '', '', '', '', ''],
+        ],
+        3.2: [
+          ['', '$|i^end', '$|i^end', '$|i^end', '$|i^end', ''],
+          ['', '', '', '', '', ''],
+        ],
+        4: [
+          ['', '$|i^end', '$|i^end', '$|i^end', '$|i^end', ''],
+          ['', '', '', '', '', ''],
+        ],
+      };
+
+      return createTense.call(this, that, endings);
+    },
   };
 
   function createTense(that, endings) {
@@ -469,7 +588,7 @@
   }
 
   function getCommon(endings) {
-    const sg = [...Array(3)].map(() => `$~${endings.a}`);
+    const sg = [...Array(endings.len)].map(() => `$~${endings.a}`);
     const pl = sg.map(() => `$~${endings.b}`);
     return [sg, pl];
   }
@@ -489,6 +608,7 @@
     let p = 0;
 
     return {
+      len,
       get a() { return sg[s++ % len]; },
       get b() { return pl[p++ % len]; },
     };
@@ -567,7 +687,9 @@
 
     const isFio = this.value.startsWith('f~īō');
     const isFio2 = isFio && /19|20/.test(tense);
-    const key = isFio ? tense + /^(7|9|11|21|23)/.test(tense) : tense + 1;
+    const key = isFio
+      ? tense + /^(7|9|11|21|23)/.test(tense)
+      : tense + !/2[5-9]/.test(tense);
 
     const callback = (x) => {
       if (isFio) x = x.replace('|i', '|ī');
