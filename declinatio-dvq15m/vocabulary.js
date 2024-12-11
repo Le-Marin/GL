@@ -1,4 +1,4 @@
-const VOCABULARY = [
+export default [
   [1, 'oper~a -ae f', 'work; effort / работа; усилие'],
   [1, 'alaud~a -ae f', 'lark / жаворонок'],
   [1, 'luscini~a -ae f', 'nightingale / соловей'],

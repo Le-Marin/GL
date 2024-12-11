@@ -1,3 +1,5 @@
+@import "../declinatio-dvq15m/style.css?v=2b";
+
 .x-vowel {
   color: #c41414;
   display: inline-block;
@@ -31,11 +33,5 @@
   }
   .get > span {
     display: none;
-  }
-}
-
-@media screen and (max-width: 26.25rem) {
-  #select-tense {
-    max-width: 7.5em;
   }
 }

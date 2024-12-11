@@ -5,12 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coniugator</title>
   <link rel="icon" href="#">
-  <link rel="stylesheet" href="../declinatio-dvq15m/select.css?v=2a">
-  <link rel="stylesheet" href="../declinatio-dvq15m/style.css?v=2a">
-  <link rel="stylesheet" href="style.css?v=2a">
-  <script src="vocabulary.js?v=2a"></script>
-  <script src="create.js?v=2a"></script>
-  <script src="../declinatio-dvq15m/select.js?v=2a"></script>
+  <link rel="stylesheet" href="style.css?v=2b">
 </head>
 <body>
   <main id="root">
@@ -33,7 +28,7 @@
       <div id="select-conjugation" class="ui-select">
         <button class="ui-select__value" type="button">forte</button>
         <ul class="ui-select__options">
-          <li class="ui-select__option" value="0">forte</li>
+          <li class="ui-select__option" value="0" selected>forte</li>
           <li class="ui-select__option" value="1">I</li>
           <li class="ui-select__option" value="2">II</li>
           <li class="ui-select__option" value="3.1">III a</li>
@@ -44,10 +39,10 @@
         </ul>
       </div>
       <div id="select-tense" class="ui-select">
-        <button class="ui-select__value" type="button">indicátívus</button>
+        <button class="ui-select__value" type="button">praes act</button>
         <ul class="ui-select__options">
           <li class="ui-select__group" style="margin-top: 0">indicátívus</li>
-          <li class="ui-select__option" value="1">praes act</li>
+          <li class="ui-select__option" value="1" selected>praes act</li>
           <li class="ui-select__option" value="2">praes pass</li>
           <li class="ui-select__option" value="3">imprf act</li>
           <li class="ui-select__option" value="4">imprf pass</li>
@@ -112,6 +107,6 @@
       <button class="d-btn answers">Respónsa</button>
     </div>
   </main>
-  <script src="script.js?v=2a"></script>
+  <script type="module" src="script.js?v=2b"></script>
 </body>
 </html>

@@ -59,7 +59,7 @@
   padding: var(--option-padding);
   color: inherit;
   background-color: var(--select-bg);
-  border: 2px solid var(--select-bdc);
+  border: 1px solid var(--select-bdc);
   border-radius: 0.2em;
   text-align: inherit;
   text-overflow: ellipsis;

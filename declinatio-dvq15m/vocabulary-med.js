@@ -1,4 +1,4 @@
-const VOCABULARY_MED = [
+export default [
   [1, 'cost~a -ae f', 'rib / ребро'],
   [1, 'āl~a -ae f', 'wing / крыло'],
   [1, 'aort~a -ae f', 'aorta / аорта'],
@@ -16,7 +16,7 @@ const VOCABULARY_MED = [
   [1, 'allergi~a -ae f', 'allergy / аллергия'],
   [1, 'pneumoni~a -ae f [!pl]', 'pneumonia / пневмония'],
   [1, 'gutt~a -ae f', 'drop / капля'],
-  [1, 'gemma~a -ae f', 'bud, burgeon / почка (растения)'],
+  [1, 'gemm~a -ae f', 'bud, burgeon / почка (растения)'],
   [1, 'herb~a -ae f', 'herb / трава'],
   [1, 'Menth~a -ae f [!pl]', 'mint / мята'],
 

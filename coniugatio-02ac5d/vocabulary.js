@@ -1,4 +1,4 @@
-const VOCABULARY = [
+export default [
   [1, 'aedific~āre', 'build / строить'],
   [1, 'am~āre', 'love / любить'],
   [1, 'cant~āre', 'sing / петь'],

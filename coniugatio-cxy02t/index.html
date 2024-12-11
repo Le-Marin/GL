@@ -3,12 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coniugátió</title>
+  <title>Coniugator (demo)</title>
   <link rel="icon" href="#">
-  <link rel="stylesheet" href="../declinatio-dvq15m/style.css?v=2a">
-  <link rel="stylesheet" href="../coniugatio-02ac5d/style.css?v=2a">
-  <script src="vocabulary.js?v=2a"></script>
-  <script src="create.js?v=2a"></script>
+  <link rel="stylesheet" href="../coniugatio-02ac5d/style.css?v=2b">
 </head>
 <body>
   <main id="root">
@@ -28,50 +25,57 @@
     </div>
     <div class="block select">
       Coniugátió:
-      <select class="select-conjugation">
-        <option value="r">forte</option>
-        <option value="I">I</option>
-        <option value="II">II</option>
-        <option value="III a">III a</option>
-        <option value="III b">III b</option>
-        <option value="IV">IV</option>
-        <option value="5" disabled>irregulária</option>
-        <option value="6" disabled>dépónentia</option>
-      </select>
-      <select class="select-tense">
-        <optgroup label="indicátívus">
-          <option value="1">praes act</option>
-          <option value="2">praes pass</option>
-          <option value="3">imprf act</option>
-          <option value="4">imprf pass</option>
-          <option value="5">fut act</option>
-          <option value="6">fut pass</option>
-          <option disabled>———————</option>
-          <option value="7" disabled>prf act</option>
-          <option value="8" disabled>prf pass</option>
-          <option value="9" disabled>pprf act</option>
-          <option value="10" disabled>pprf pass</option>
-          <option value="11" disabled>fut prf act</option>
-          <option value="12" disabled>fut prf pass</option>
-        </optgroup>
-        <optgroup label="imperátívus" disabled>
-          <option value="13" disabled>praes act</option>
-          <option value="14" disabled>praes pass</option>
-          <option value="15" disabled>fut act</option>
-          <option value="16" disabled>fut pass</option>
-        </optgroup>
-        <optgroup label="coniúnctívus" disabled>
-          <option value="17" disabled>praes act</option>
-          <option value="18" disabled>praes pass</option>
-          <option value="19" disabled>imprf act</option>
-          <option value="20" disabled>imprf pass</option>
-          <option disabled>———————</option>
-          <option value="21" disabled>prf act</option>
-          <option value="22" disabled>prf pass</option>
-          <option value="23" disabled>pprf act</option>
-          <option value="24" disabled>pprf pass</option>
-        </optgroup>
-      </select>
+      <div id="select-conjugation" class="ui-select">
+        <button class="ui-select__value" type="button">forte</button>
+        <ul class="ui-select__options">
+          <li class="ui-select__option" value="0" selected>forte</li>
+          <li class="ui-select__option" value="1">I</li>
+          <li class="ui-select__option" value="2">II</li>
+          <li class="ui-select__option" value="3.1">III a</li>
+          <li class="ui-select__option" value="3.2">III b</li>
+          <li class="ui-select__option" value="4">IV</li>
+          <li class="ui-select__option" value="5" disabled>irregulária</li>
+          <li class="ui-select__option" value="6" disabled>dépónentia</li>
+        </ul>
+      </div>
+      <div id="select-tense" class="ui-select">
+        <button class="ui-select__value" type="button">praes act</button>
+        <ul class="ui-select__options">
+          <li class="ui-select__group" style="margin-top: 0">indicátívus</li>
+          <li class="ui-select__option" value="1" selected>praes act</li>
+          <li class="ui-select__option" value="2">praes pass</li>
+          <li class="ui-select__option" value="3">imprf act</li>
+          <li class="ui-select__option" value="4">imprf pass</li>
+          <li class="ui-select__option" value="5">fut act</li>
+          <li class="ui-select__option" value="6" style="margin-bottom: 1em">fut pass</li>
+          <li class="ui-select__option" value="7" disabled>prf act</li>
+          <li class="ui-select__option" value="8" disabled>prf pass</li>
+          <li class="ui-select__option" value="9" disabled>pprf act</li>
+          <li class="ui-select__option" value="10" disabled>pprf pass</li>
+          <li class="ui-select__option" value="11" disabled>fut prf act</li>
+          <li class="ui-select__option" value="12" disabled>fut prf pass</li>
+          <li class="ui-select__group" style="color: gray">imperátívus</li>
+          <li class="ui-select__option" value="13" disabled>praes act</li>
+          <li class="ui-select__option" value="14" disabled>praes pass</li>
+          <li class="ui-select__option" value="15" disabled>fut act</li>
+          <li class="ui-select__option" value="16" disabled>fut pass</li>
+          <li class="ui-select__group" style="color: gray">coniúnctívus</li>
+          <li class="ui-select__option" value="17" disabled>praes act</li>
+          <li class="ui-select__option" value="18" disabled>praes pass</li>
+          <li class="ui-select__option" value="19" disabled>imprf act</li>
+          <li class="ui-select__option" value="20" style="margin-bottom: 1em" disabled>imprf pass</li>
+          <li class="ui-select__option" value="21" disabled>prf act</li>
+          <li class="ui-select__option" value="22" disabled>prf pass</li>
+          <li class="ui-select__option" value="23" disabled>pprf act</li>
+          <li class="ui-select__option" value="24" disabled>pprf pass</li>
+          <li class="ui-select__group" style="color: gray">fórmae verbálés</li>
+          <li class="ui-select__option" value="25" disabled>ppa (m)</li>
+          <li class="ui-select__option" value="26" disabled>ppp (m)</li>
+          <li class="ui-select__option" value="27" disabled>pfa (m)</li>
+          <li class="ui-select__option" value="28" disabled>pfp/grndv (m)</li>
+          <li class="ui-select__option" value="29" disabled>grnd</li>
+        </ul>
+      </div>
       <button class="d-btn get"><span>Generáre</span></button>
     </div>
     <div class="block words">
@@ -103,6 +107,6 @@
       <button class="d-btn answers">Respónsa</button>
     </div>
   </main>
-  <script src="script.js?v=2a"></script>
+  <script type="module" src="script.js?v=2b"></script>
 </body>
 </html>
