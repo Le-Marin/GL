@@ -1,11 +1,11 @@
-import vocabulary1 from './vocabulary.js?v=2b';
-import vocabulary2 from './vocabulary-med.js?v=2b';
-import defineSelect from './select.js?v=2b';
-import getDictWord from './declensions.js?v=2b';
-import setSwitch from './switch.js?v=2b';
-import keyboard from './keyboard.js?v=2b';
+import vocabulary1 from './vocabulary.js?v=2c';
+import vocabulary2 from './vocabulary-med.js?v=2c';
+import getDictWord from './declensions.js?v=2c';
+import defineSelect from '../select.js?v=2c';
+import setSwitch from '../switch.js?v=2c';
+import keyboard from '../keyboard.js?v=2c';
 
-[...document.scripts].forEach(el => el.remove());
+document.currentScript && document.currentScript.remove();
 
 // =========================
 

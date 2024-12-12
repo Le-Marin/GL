@@ -1,9 +1,7 @@
-import VOCABULARY from './vocabulary.js?v=2b';
-import createWord from './create.js?v=2b';
-import defineSelect from '../declinatio-dvq15m/select.js?v=2b';
-import keyboard from '../declinatio-dvq15m/keyboard.js?v=2b';
-
-[...document.scripts].forEach((el) => el.remove());
+import VOCABULARY from './vocabulary.js?v=2c';
+import createWord from './create.js?v=2c';
+import defineSelect from '../../select.js?v=2c';
+import keyboard from '../../keyboard.js?v=2c';
 
 // =========================
 

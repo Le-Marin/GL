@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coniugator (demo)</title>
+  <title>Simulatores (Demo)</title>
   <link rel="icon" href="#">
-  <link rel="stylesheet" href="../coniugatio-02ac5d/style.css?v=2b">
+  <link rel="stylesheet" href="../style.css?v=2c">
 </head>
 <body>
   <main id="root">
@@ -23,7 +23,25 @@
         </div>
       </div>
     </div>
-    <div class="block select">
+    <div id="dec-select" class="block select">
+      Déclínátió:
+      <div id="select-declention" class="ui-select">
+        <button class="ui-select__value" type="button">forte</button>
+        <ul class="ui-select__options">
+          <li class="ui-select__option" value="0">forte</li>
+          <li class="ui-select__option" value="1">1</li>
+          <li class="ui-select__option" value="2">2</li>
+          <li class="ui-select__option" value="3" disabled>3</li>
+          <li class="ui-select__option" value="4">4</li>
+          <li class="ui-select__option" value="5">5</li>
+          <li class="ui-select__option" value="6" disabled>iúnctúrae</li>
+          <li class="ui-select__option" value="7" disabled>prónómina</li>
+          <li class="ui-select__option" value="8" disabled>numerália</li>
+        </ul>
+      </div>
+      <button class="d-btn get d-get">Generáre</button>
+    </div>
+    <div id="con-select" class="block select">
       Coniugátió:
       <div id="select-conjugation" class="ui-select">
         <button class="ui-select__value" type="button">forte</button>
@@ -82,8 +100,37 @@
       <div class="word">vocábulum</div>
       <div class="word">tránslátió</div>
     </div>
-    <div class="block table">
-      <div class="col col-1">
+    <div id="dec-table" class="block table">
+      <div class="col col-1" style="display: block">
+        <div class="row row-1">CASVS</div>
+        <div class="row" data-case="Nom"><b class="r-switch"></b><b class="r-case">Nóminátívus:</b></div>
+        <div class="row" data-case="Gen"><b class="r-switch"></b><b class="r-case">Genetívus:</b></div>
+        <div class="row" data-case="Dat"><b class="r-switch"></b><b class="r-case">Datívus:</b></div>
+        <div class="row" data-case="Acc"><b class="r-switch"></b><b class="r-case">Accúsátívus:</b></div>
+        <div class="row" data-case="Abl"><b class="r-switch"></b><b class="r-case">Ablátívus:</b></div>
+        <div class="row" data-case="Voc"><b class="r-switch"></b><b class="r-case">Vocátívus:</b></div>
+      </div>
+      <div class="col">
+        <div class="row row-1">SINGVLARIS</div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+      </div>
+      <div class="col">
+        <div class="row row-1">PLVRALIS</div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+        <div class="row"><input class="input" type="text" autocapitalize="off"></div>
+      </div>
+    </div>
+    <div id="con-table" class="block table">
+      <div class="col col-1" style="display: block">
         <div class="row row-1">PERSONA</div>
         <div class="row">1-a</div>
         <div class="row">2-a</div>
@@ -106,7 +153,41 @@
       <button class="d-btn check">Probáre</button>
       <button class="d-btn answers">Respónsa</button>
     </div>
+    <div id="d-set" class="d-set">
+      <h3>ELIGE GENVS VOCABVLORVM</h3>
+      <button class="set-btn">
+        CLASS.
+        <svg width="180px" height="60px" viewBox="0 0 180 60">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" />
+        </svg>
+      </button>
+      <button class="set-btn">
+        MED.
+        <svg width="180px" height="60px" viewBox="0 0 180 60">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" />
+        </svg>
+      </button>
+    </div>
+    <div id="x-select" class="d-set">
+      <h3>ELIGE SIMVLATOREM</h3>
+      <button class="set-btn">
+        Declinator
+        <svg width="180px" height="60px" viewBox="0 0 180 60">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" />
+        </svg>
+      </button>
+      <button class="set-btn">
+        Coniugator
+        <svg width="180px" height="60px" viewBox="0 0 180 60">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" />
+        </svg>
+      </button>
+    </div>
   </main>
-  <script type="module" src="script.js?v=2b"></script>
+  <script src="script.js?v=2c"></script>
 </body>
 </html>

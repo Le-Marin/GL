@@ -1,11 +1,11 @@
-import vocabulary from './vocabulary.js?v=2b';
-import create from './create.js?v=2b';
-import defineSelect from '../declinatio-dvq15m/select.js?v=2b';
-import setSwitch from '../declinatio-dvq15m/switch.js?v=2b';
-import keyboard from '../declinatio-dvq15m/keyboard.js?v=2b';
+import vocabulary from './vocabulary.js?v=2c';
+import create from './create.js?v=2c';
+import defineSelect from '../select.js?v=2c';
+import setSwitch from '../switch.js?v=2c';
+import keyboard from '../keyboard.js?v=2c';
 
 vocabulary.sort(() => Math.random() - 0.5);
-[...document.scripts].forEach((el) => el.remove());
+document.currentScript && document.currentScript.remove();
 
 // =========================
 

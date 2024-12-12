@@ -45,9 +45,6 @@ main button {
   -webkit-user-select: none;
   user-select: none;
 }
-select {
-  font: inherit;
-}
 .d-btn {
   line-height: 1.65;
   position: relative;
@@ -94,6 +91,10 @@ select {
   color: #ff6060;
   pointer-events: none;
 }
+
+@keyframes hideTip {
+  to { visibility: hidden; }
+}
 .case {
   width: 4rem;
   min-width: auto;
@@ -102,9 +103,6 @@ select {
   color: #666;
   background-color: #ccc;
   border-color: #888;
-}
-@keyframes hideTip {
-  to { visibility: hidden; }
 }
 .case::after {
   content: "Vócálés longae: \2713";
@@ -129,6 +127,7 @@ select {
   visibility: visible;
   animation: hideTip 0s 2s forwards;
 }
+
 .words {
   flex-wrap: wrap;
   column-gap: 2em;
@@ -345,9 +344,9 @@ b.b {
   background-color: #505b7c;
 }
 
-/* PREVIEW: SET */
+/* PREVIEW */
 
-#d-set {
+.d-set {
   font-size: 1.5em;
   position: fixed;
   left: 0;
@@ -359,11 +358,11 @@ b.b {
   background-color: #fff;
   z-index: 12;
 }
-#d-set > h3 {
+.d-set > h3 {
   width: 100%;
   padding-bottom: 1em;
 }
-body:has(#d-set) {
+body:has(.d-set) {
   overflow: hidden;
 }
 .set-btn {
@@ -394,6 +393,32 @@ body:has(#d-set) {
 }
 .set-btn:hover > svg {
   stroke-dashoffset: -480;
+}
+
+/* CONIUGATOR'S */
+
+.x-vowel {
+  color: #c41414;
+  display: inline-block;
+}
+.x-suffix {
+  color: royalblue;
+  display: inline-block;
+}
+.x-joint {
+  color: #dc7900;
+  display: inline-block;
+}
+.x-ending {
+  font-weight: bold;
+  display: inline-block;
+}
+.x-compound,
+.t-9 > span,
+.t-11 > span,
+.t-21 > span {
+  font-weight: normal;
+  color: #398467;
 }
 
 @media screen and (max-width: 43rem) {
@@ -438,6 +463,18 @@ body:has(#d-set) {
     padding: 1rem 0;
   }
   .result .col-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 30.75rem) {
+  .get:not(.d-get) {
+    min-width: auto;
+  }
+  .get:not(.d-get)::before {
+    content: "↻";
+  }
+  .get > span {
     display: none;
   }
 }
