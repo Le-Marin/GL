@@ -18,7 +18,7 @@ $_GET({
       <div><br></div>
       <div>1. coll<b>um</b> <div class="area">long<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="colla"></div> <div class="area" data-key="longa"></div></div>
       <div>2. terr<b>a</b> <div class="area">longinqu<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="terrae"></div> <div class="area" data-key="longinquae"></div></div>
-      <div>3. form<b>a</b> <div class="area">vag<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="formae"></div> <div class="area" data-key="vagae"></div></div>
+      <div>3. fōrm<b>a</b> <div class="area">vag<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="fōrmae"></div> <div class="area" data-key="vagae"></div></div>
       <div>4. de<b>us</b> <div class="area">ignōt<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="deī"></div> <div class="area" data-key="ignōtī"></div></div>
       <div>5. fāt<b>um</b> <div class="area">horrid<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="fāta"></div> <div class="area" data-key="horrida"></div></div>
       <div>6. aqu<b>a</b> <div class="area">frīgid<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="aquae"></div> <div class="area" data-key="frīgidae"></div></div>
