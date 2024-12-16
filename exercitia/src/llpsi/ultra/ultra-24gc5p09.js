@@ -31,8 +31,8 @@ $_GET({
       <div><b>— futūrum / futūrum periphrasticum</b>:</div>
       <div>1. Dionȳsus Lycūrgum rēgem <div class="area" data-key="dēmentābit">dēmentat</div> / <div class="area" data-key="dēmentātūrus"></div> <div class="area" data-key="est"></div>.</div>
       <div>• Lycūrg<div class="area" data-key="us"></div> r<div class="area" data-key="ēx"></div> <div class="area" data-key="ā"></div> Dionȳs<div class="area" data-key="ō"></div> dē<div class="area" data-key="mentābitur"></div>.</div>
-      <div>2. Ōrāculum Oedipō: “Patrem tuum <div class="area" data-key="occīdēs">occīdis</div> / <div class="area" data-key="occīsūrus"></div> <div class="area" data-key="est"></div>.”</div>
-      <div>• Ōrāculum Lāiō: “<div class="area" data-key="Ā"></div> fīli<div class="area" data-key="ō"></div> tu<div class="area" data-key="ō"></div> oc<div class="area" data-key="cīderis"></div>.”</div>
+      <div>2. Ōrāculum Oedipō: “Patrem tuum <div class="area" data-key="occīdēs">occīdis</div> / <div class="area" data-key="occīsūrus"></div> <div class="area" data-key="es"></div>.”</div>
+      <div>• Ōrāculum Lāiō: “<div class="area" data-key="Ā"></div> fīli<div class="area" data-key="ō"></div> tu<div class="area" data-key="ō"></div> oc<div class="area" data-key="cīdēris"></div>.”</div>
       <div>3. Eurystheus Herculī: “Equōs mihi <div class="area" data-key="addūcēs">addūcis</div> / <div class="area" data-key="adductūrus"></div> <div class="area" data-key="es"></div>.”</div>
       <div>• Eurystheus Herculī: “Equ<div class="area" data-key="ī"></div> mihi ad<div class="area" data-key="dūcentur"></div>.”</div>
       <div>4. Ēlectra Orestī: “Mātrem nostram Clytaemnēstram <div class="area" data-key="pūniēmus">pūnīmus</div> / <div class="area" data-key="pūnītūrī"></div> <div class="area" data-key="sumus"></div>.”</div>
@@ -49,7 +49,7 @@ $_GET({
       <div>• Eurystheus gaudet equ<div class="area" data-key="ōs"></div> <div class="area" data-key="ā"></div> Hercul<div class="area" data-key="e"></div> s<div class="area" data-key="ibi"></div> ad<div class="area" data-key="ductum"></div> <div class="area" data-key="īrī"></div>.</div>
       <div>4. Cōnstat Ēlectram Orestemque mātrem suam Clytaemnēstram <div class="area" data-key="pūnītūrōs esse">pūnīre</div>.”</div>
       <div>• Cōnstat Clytaemnēstr<div class="area" data-key="am"></div> <div class="area" data-key="ā"></div> līber<div class="area" data-key="īs"></div> su<div class="area" data-key="īs"></div>, Ēlectr<div class="area" data-key="ā"></div> Orest<div class="area" data-key="e"></div>que p<div class="area" data-key="ūnītum"></div> <div class="area" data-key="īrī"></div>.</div>
-      <div>5. Scīmus Argonautae, Iāsone duce, vellus aureum in Graeciam <div class="area" data-key="vectūrōs esse">vehere</div>.</div>
+      <div>5. Scīmus Argonautās, Iāsone duce, vellus aureum in Graeciam <div class="area" data-key="vectūrōs esse">vehere</div>.</div>
       <div>• Scīmus vell<div class="area" data-key="us"></div> aure<div class="area" data-key="um"></div>, Iāsone duce, in Graeciam v<div class="area" data-key="ectum"></div> <div class="area" data-key="īrī"></div>.</div>
     </div>
   `
