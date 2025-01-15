@@ -1,20 +1,17 @@
-(function() {
-  'use strict';
+import tip from './tip.js?v=2c';
 
-  const thisScript = document.currentScript || [...document.scripts].pop();
-  const src = (thisScript || {src: ''}).src;
-  const ver = (src.match(/[?&]v=([^&]+)/) || [Date.now()])[1];
-  const basePath = atob('aHR0cHM6Ly9sZS1tYXJpbi5naXRodWIuaW8vR0wvTExQU0kvanMv');
+const thisScript = document.currentScript || [...document.scripts].pop();
+const src = (thisScript || {src: ''}).src;
+const ver = (src.match(/[?&]v=([^&]+)/) || [Date.now()])[1];
 
-  loadScript(basePath + 'tip.js');
+if (location.protocol === 'file:') loadScript('_edit.js');
+if (!document.hasOwnProperty('_TIP_')) {
+  document._TIP_ = tip;
+  tip.__init__();
+}
 
-  if (location.protocol === 'file:') {
-    loadScript('_edit.js');
-  }
-
-  function loadScript(src) {
-    const script = document.createElement('script');
-    script.src = src + '?v=' + ver;
-    document.head.appendChild(script).remove();
-  }
-})();
+function loadScript(src) {
+  const script = document.createElement('script');
+  script.src = src + '?v=' + ver;
+  document.head.appendChild(script).remove();
+}
