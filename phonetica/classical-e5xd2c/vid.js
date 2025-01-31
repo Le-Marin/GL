@@ -27,7 +27,7 @@
     init(index) {
       nextArrow.style.visibility = index + 1 < stack.length ? 'visible' : '';
       prevArrow.style.visibility = index ? 'visible' : '';
-      target.src = `https://www.youtube.com/embed/${stack[index]}`;
+      target.src = stack[index];
     }
   };
 
