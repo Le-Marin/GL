@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  font-size: 0.625rem;
+  color-scheme: light;
+  -webkit-tap-highlight-color: transparent;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+#root {
+  font-family: "Ysabeau Infant", "Times New Roman", Times, serif;
+  font-size: 2rem;
+  max-width: 60em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  padding: 0.5em 2%;
+}
+h1 {
+  font-size: 1.8em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.search-box {
+  max-width: 14em;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.search-item {
+  border: 1px solid gray;
+  outline: 0 solid gray;
+  outline-offset: -2px;
+}
+.search-item:focus {
+  outline-width: 2px;
+  outline-color: black;
+}
+.search-input {
+  font-family: inherit;
+  font-size: 1em;
+  width: 100%;
+  padding: 0.2em;
+}
+.search-ok {
+  font-size: 1em;
+  padding: 0 0.25em;
+  background: #ddd;
+  cursor: pointer;
+  user-select: none;
+}
+#search-list {
+  max-height: calc(1.5em * 12);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% - 1px);
+  background-color: #fff;
+  outline: 1px solid gray;
+  outline-offset: -1px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  z-index: -1;
+}
+#search-list:empty {
+  display: none;
+}
+.search-list__item {
+  line-height: 1.5;
+  display: block;
+  padding: 0 0.4em;
+  cursor: pointer;
+}
+.search-list__item:hover {
+  background-color: #f4f4f4;
+}
+.search-list__item._active {
+  background-color: #eee;
+  outline: 1px solid #bbb;
+}
+
+#content {
+  flex: 1;
+  display: flex;
+  border-top: 1px solid gray;
+}
+.content-box:first-child {
+  flex: 1;
+  padding-right: 0.5em;
+  white-space: pre-line;
+}
+.content-box:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0.5em;
+  border-left: 1px solid gray;
+  user-select: none;
+}
+.content-box:last-child:empty {
+  display: none;
+}
+a {
+  color: royalblue;
+  text-decoration: none;
+}
+a:hover {
+  color: mediumblue;
+}
+a._active {
+  color: seagreen;
+}
+
+@media screen and (max-width: 38.75rem) {
+  .content-box:last-child {
+    display: none;
+  }
+}
