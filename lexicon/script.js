@@ -11,7 +11,7 @@
   const getDict = async (key) => vocabulary[key] || await loadDict(key);
 
   const vocabulary = {};
-  const regDictKey = /[a-df]/;
+  const regDictKey = /[a-f]/;
   const cases = {'ā': 'a', 'ē': 'e', 'ī': 'i', 'ō': 'o', 'ū': 'u', 'ȳ': 'y'};
 
   const cont = document.getElementById('content');
