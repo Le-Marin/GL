@@ -50,7 +50,7 @@ $_GET({
       <div><i>2. Город пуст: никого нет.</i></div>
       <div>O<div class="area" data-key="ppidum"></div> v<div class="area" data-key="acuum"></div> <div class="area" data-key="est"></div>: nēmō a<div class="area" data-key="dest"></div>.</div>
       <div><i>3. Хозяин обвиняет раба, но тот молчит.</i></div>
-      <div>D<div class="area" data-key="ominus"></div> s<div class="area" data-key="ervumm"></div> ac<div class="area" data-key="cūsat"></div>, s<div class="area" data-key="ed"></div> <div class="area" data-key="is"></div> t<div class="area" data-key="acet"></div>.</div>
+      <div>D<div class="area" data-key="ominus"></div> s<div class="area" data-key="ervum"></div> ac<div class="area" data-key="cūsat"></div>, s<div class="area" data-key="ed"></div> <div class="area" data-key="is"></div> t<div class="area" data-key="acet"></div>.</div>
       <div><i>4. Бог: «Подчинись, Авраам, положи сына твоего на алтарь».</i></div>
       <div>Deus: “P<div class="area" data-key="ārē"></div>, A<div class="area" data-key="brāhāme"></div>, p<div class="area" data-key="ōne"></div> f<div class="area" data-key="īlium"></div> <div class="area" data-key="tuum"></div> in <div class="area" data-key="ārā">āra</div>.”</div>
       <div>5. Адриан снова вопрошает пифию, но та ничего не молвит в ответ.</div>
