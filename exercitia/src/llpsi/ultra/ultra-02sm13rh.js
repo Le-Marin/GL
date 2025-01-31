@@ -15,7 +15,7 @@ $_GET({
       <div><br></div>
     </div>
     <div class="row">
-      <div><b>2. Dēfīnītor fōrma (cāsus numersque), dator nōminātīvus singulāris. </b>Определить форму (падеж и число), дать номинатив единственного числа.</div>
+      <div><b>2. Dēfīnī fōrmam (cāsum numerumque), dā nōminātīvum singulāris. </b>Определить форму (падеж и число), дать номинатив единственного числа.</div>
       <div><br></div>
       <div class="sc">
       <div><i><span class="ff">Exemplum</span></i><span style="white-space: pre;">:	</span><span class="ff">oppid<b>ō</b> magn<b>ō</b></span> <div class="area">abl sg</div> ← <div class="area">oppid<b>um</b> magn<b>um</b></div></div>
@@ -42,7 +42,7 @@ $_GET({
       <div>4. <i>Вот книга античного поэта.</i></div>
       <div><div class="area" data-key="ecce"></div> l<div class="area" data-key="iber"></div> p<div class="area" data-key="oētae"></div> a<div class="area" data-key="ntīquī"></div>.</div>
       <div>5. <i>Кто такие Кастор и Поллукс? Кто их мать?</i></div>
-      <div>Q<div class="area" data-key="uī"></div> <div class="area" data-key="sunt"></div> C<div class="area" data-key="astor"></div> <div class="area" data-key="et"></div> P<div class="area" data-key="ollux"></div>? Q<div class="area" data-key="uae"></div> <div class="area" data-key="est"></div> m<div class="area" data-key="āter"></div> e<div class="area" data-key="ōrum"></div>?<br><br></div>
+      <div>Q<div class="area" data-key="uī"></div> <div class="area" data-key="sunt"></div> C<div class="area" data-key="astor"></div> <div class="area" data-key="et"></div> P<div class="area" data-key="ollux"></div>? Q<div class="area" data-key="uae"></div> <div class="area" data-key="est"></div> m<div class="area" data-key="āter"></div> e<div class="area" data-key="ōrum"></div>?<br></div>
     </div>
   `
 });
