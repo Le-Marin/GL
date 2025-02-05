@@ -94,7 +94,7 @@ $_GET({
       <div><br></div>
       <div><span class="ff"><i>plūsquamperfectum</i></span></div>
       <div><br></div>
-      <div>1. Mārcus ā patre verberātus nōn est, quia iam verberāt<div class="area" data-key="ūs eart"></div> ā magistrō, sed in cubiculum inclūsus est.</div>
+      <div>1. Mārcus ā patre verberātus nōn est, quia iam verberāt<div class="area" data-key="us eart"></div> ā magistrō, sed in cubiculum inclūsus est.</div>
       <div>2. Puer enim nōn modo malus discipulus fu<div class="area" data-key="erat"></div> et in lūdō dormīv<div class="area" data-key="erat"></div>, sed etiam in viā pugnāv<div class="area" data-key="erat"></div> et falsum dīx<div class="area" data-key="erat"></div> (= mentīt<div class="area" data-key="us erat"></div>).</div>
       <div>3. Mārcus: “Tū mē in cubiculum inclūsistī, pater, etsī iam ā magistrō verberāt<div class="area" data-key="us eram"></div>! Nōnne satis pūnīt<div class="area" data-key="us eram"></div> ā magistrō?”</div>
       <div>4. Iūlius: “Ego tē inclūsī, etsī iam ā magistrō verberāt<div class="area" data-key="us erās"></div>, quia nōn modo malus discipulus fu<div class="area" data-key="erās"></div> et in lūdō dormīv<div class="area" data-key="erās"></div>, sed etiam in viā pugnāv<div class="area" data-key="erās"></div> ac falsum dīx<div class="area" data-key="erās"></div>. Certē nōn satis pūnīt<div class="area" data-key="us erās"></div> ā magistrō!”</div>
