@@ -50,7 +50,21 @@ $_GET({
       <div>4. Cōnstat Ēlectram Orestemque mātrem suam Clytaemnēstram <div class="area" data-key="pūnītūrōs esse">pūnīre</div>.”</div>
       <div>• Cōnstat Clytaemnēstr<div class="area" data-key="am"></div> <div class="area" data-key="ā"></div> līber<div class="area" data-key="īs"></div> su<div class="area" data-key="īs"></div>, Ēlectr<div class="area" data-key="ā"></div> Orest<div class="area" data-key="e"></div>que p<div class="area" data-key="ūnītum"></div> <div class="area" data-key="īrī"></div>.</div>
       <div>5. Scīmus Argonautās, Iāsone duce, vellus aureum in Graeciam <div class="area" data-key="vectūrōs esse">vehere</div>.</div>
-      <div>• Scīmus vell<div class="area" data-key="us"></div> aure<div class="area" data-key="um"></div>, Iāsone duce, in Graeciam v<div class="area" data-key="ectum"></div> <div class="area" data-key="īrī"></div>.</div>
+      <div>• Scīmus vell<div class="area" data-key="us"></div> aure<div class="area" data-key="um"></div>, Iāsone duce, in Graeciam v<div class="area" data-key="ectum"></div> <div class="area" data-key="īrī"></div>.<br><br></div>
+    </div>
+    <div class="row">
+      <div><b>2. Заменить настоящее время глаголов на перфект или плюсквамперфект.</b></div>
+      <div><br></div>
+      <div>1. Rōmulus et Remus cōnsilium <div class="area" data-key="cēpērunt">capiunt</div> in illīs locīs (ubi <div class="area" data-key="expositī erant">expōnuntur</div>) urbem condere.</div>
+      <div>2. Post mortem Numae populus Tullum Hostīlium, cuius pugna adversus Sabīnōs clāra <div class="area" data-key="fuerat">est</div>, rēgem <div class="area" data-key="creāvit">creat</div>.</div>
+      <div>3. Eurōpa, quae initiō Iovem <div class="area" data-key="metuerat">metuit</div>, mox timōrem <div class="area" data-key="dēposuit">dēpōnit</div>.</div>
+      <div>4. Legiōnāriī: “Postquam multōs iam annōs <div class="area" data-key="pugnāverāmus">pugnāmus</div>, bellō fessī domum revertī <div class="area" data-key="voluimus">volumus</div>.”</div>
+      <div>5. Ātrium ingressa, Terentia <div class="area" data-key="vīdit">videt</div> omnia sūrsum deorsum <div class="area" data-key="versāta esse">versārī</div>: aliquis domum eius <div class="area" data-key="irrūpit">irrumpit</div>.</div>
+      <div>6. Herculēs cervam <div class="area" data-key="cēpit">capit</div> et ex eō locō ubi <div class="area" data-key="invēnerat">invenit</div> Mycēnās <div class="area" data-key="trāxit">trahit</div>.</div>
+      <div>7. Reversus ā vēnātiōne, <div class="area" data-key="dedit">dat</div> patrī cibum quī ab ipsō <div class="area" data-key="parāta erat">parātur</div>.</div>
+      <div>8. Nestor: “Diē sequentī ad portās Corinthī <div class="area" data-key="pervēnī">perveniō</div>, ubi puer semel <div class="area" data-key="fueram">sum</div>.”</div>
+      <div>9. Ubi <div class="area" data-key="illūxit">illūcēscit</div>, mulier eum locum quō nocte īdōlōn <div class="area" data-key="vīderat">videt</div> cruōre <div class="area" data-key="cōnspersum esse">cōnspergī</div> <div class="area" data-key="animadvertit">animadvertit</div>.</div>
+      <div>10. Cūr, Iāsōn, Mēdēam tuam <div class="area" data-key="relīquistī">relinquis</div>, quae duōs tibi puerōs <div class="area" data-key="pepererat">parit</div>?</div>
     </div>
   `
 });
