@@ -11,8 +11,8 @@
   const getDict = async (key) => vocabulary[key] || await loadDict(key);
 
   const vocabulary = {};
-  // a b c d e f g h i j k l m n o p q r s t u v w x y z
-  const regDictKey = /[a-oq]/;
+  const regDictKey = /[a-z]/;
+  const badDictKeys = 'rstw';
   const cases = {'ā': 'a', 'ē': 'e', 'ī': 'i', 'ō': 'o', 'ū': 'u', 'ȳ': 'y'};
 
   const cont = document.getElementById('content');
@@ -104,7 +104,9 @@
     if (!val) return;
 
     val = ignoreCase(val);
+
     if (!regDictKey.test(val[0])) return;
+    if (badDictKeys.includes(val[0])) return;
 
     const dict = await getDict(val[0]);
     if (!dict) return;
@@ -138,7 +140,7 @@
       k1 = val[0];
     }
 
-    if (!val || !regDictKey.test(k1)) return;
+    if (!val || !regDictKey.test(k1) || badDictKeys.includes(k1)) return;
 
     const dict = await getDict(k1);
     if (!dict) return;

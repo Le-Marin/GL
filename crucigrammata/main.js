@@ -32,6 +32,20 @@ const wordInput = parseNode(/*html*/`
 
 // ====================
 
+const bulbEl = root.appendChild(parseNode('<div id="bulb"></div>'));
+
+bulbEl.addEventListener('click', function(e) {
+  const {activeElem} = Word;
+  const word = activeElem ? Word.find('target', activeElem) : null;
+
+  if (!word) return;
+
+  e.stopPropagation();
+  printLetter(word.value[Word.activeCellIndex]);
+});
+
+// ====================
+
 const history = {
   backwards: [],
   forwards: [],
