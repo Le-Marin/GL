@@ -10,7 +10,7 @@ $_GET({
       <div>1. Asinus nōn tam cel<div class="area" data-key="er"></div> est quam equus.</div>
       <div>2. Aquila est avis magna et cel<div class="area" data-key="eris"></div>.</div>
       <div>3. Nūllus deus tam cel<div class="area" data-key="er"></div> est quam Mercurius.</div>
-      <div>4. Fuga cel<div class="area" data-key="eris"></div> hostes perterritōs servavit.</div>
+      <div>4. Fuga cel<div class="area" data-key="eris"></div> hostēs perterritōs servāvit.</div>
       <div>5. Ventus cel<div class="area" data-key="er"></div> et subitus mare turbāvit.</div>
       <div>6. Nihil tam cel<div class="area" data-key="ere"></div> est quam fulgur.</div>
       <div><br></div>
@@ -22,7 +22,7 @@ $_GET({
       <div>1. Rēx Mīnōs Thēseum fugientem <div class="area" data-key="persecūtus"></div> est.</div>
       <div>2. Nāvis Mīnōis nōn tam <div class="area" data-key="celeris"></div> fuit quam Thēseī.</div>
       <div>3. Itaque rēx Thēseum <div class="area" data-key="cōnsequī"></div> nōn potuit.</div>
-      <div>4. Daedalus, quī fīlum <div class="area" data-key="cōnfēcit"></div> et Ariadnae dederat, ā rēge in labyrinthum inclūsus est sīcut in <div class="area" data-key="carcere"></div>.</div>
+      <div>4. Daedalus, quī fīlum <div class="area" data-key="cōnfēcerat"></div> et Ariadnae dederat, ā rēge in labyrinthum inclūsus est sīcut in <div class="area" data-key="carcere"></div>.</div>
       <div>5. Hīc Syra, quae <div class="area" data-key="haud"></div> paulum temporis iam <div class="area" data-key="cōnsūmpsit"></div> in nārrandō, fīnem facere vult.</div>
       <div>6. <div class="area" data-key="vērum"></div> Quīntus, quī magnam fābulae partem iam audīvit, partem <div class="area" data-key="reliquam"></div> quoque audīre cupit.</div>
       <div>7. Syra igitur dē <div class="area" data-key="fugā"></div> Daedalī et Īcarī nārrat.</div>
@@ -68,7 +68,7 @@ $_GET({
       <div>7. “Opus iam <div class="area" data-key="cōnfectum"></div> est,” inquit Daedalus. “Ecce exemplum <div class="area" data-key="artis"></div> meae novissimum. Iam avēs in volandō <div class="area" data-key="imitārī"></div> possumus.”</div>
       <div>8. Puer, etsī <div class="area" data-key="studiōsus"></div> erat volandī, sē suprā humum <div class="area" data-key="levāre"></div> nōn potuit.</div>
       <div>9. Pater fīlium ālās <div class="area" data-key="sūrsum"></div> <div class="area" data-key="deorsum"></div> movēre docuit <div class="area" data-key="tamquam"></div> avis.</div>
-      <div>10. Tum fīlium sīc monuit: “Nōlī volāre in <div class="area" data-key="īnfimō"></div> āere prope mare neque in <div class="area" data-key="summō"></div> aere prope sōlem, nam <div class="area" data-key="ignis"></div> sōlis cēram <div class="area" data-key="mollīre"></div> ac pennās <div class="area" data-key="ūrere"></div> poterit.</div>
+      <div>10. Tum fīlium sīc monuit: “Nōlī volāre in <div class="area" data-key="īnfimō"></div> āere prope mare neque in <div class="area" data-key="summō"></div> āere prope sōlem, nam <div class="area" data-key="ignis"></div> sōlis cēram <div class="area" data-key="mollīre"></div> ac pennās <div class="area" data-key="ūrere"></div> poterit.</div>
       <div>11. <div class="area" data-key="lacertus"></div> est pars bracchiī superior.</div>
       <div><br></div>
     </div>
