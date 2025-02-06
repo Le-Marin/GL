@@ -61,7 +61,7 @@ $_GET({
       <div>4. Legiōnāriī: “Postquam multōs iam annōs <div class="area" data-key="pugnāverāmus">pugnāmus</div>, bellō fessī domum revertī <div class="area" data-key="voluimus">volumus</div>.”</div>
       <div>5. Ātrium ingressa, Terentia <div class="area" data-key="vīdit">videt</div> omnia sūrsum deorsum <div class="area" data-key="versāta esse">versārī</div>: aliquis domum eius <div class="area" data-key="irrūpit">irrumpit</div>.</div>
       <div>6. Herculēs cervam <div class="area" data-key="cēpit">capit</div> et ex eō locō ubi <div class="area" data-key="invēnerat">invenit</div> Mycēnās <div class="area" data-key="trāxit">trahit</div>.</div>
-      <div>7. Reversus ā vēnātiōne, <div class="area" data-key="dedit">dat</div> patrī cibum quī ab ipsō <div class="area" data-key="parāta erat">parātur</div>.</div>
+      <div>7. Reversus ā vēnātiōne, ille <div class="area" data-key="dedit">dat</div> patrī cibum quī ab ipsō <div class="area" data-key="parāta erat">parātur</div>.</div>
       <div>8. Nestor: “Diē sequentī ad portās Corinthī <div class="area" data-key="pervēnī">perveniō</div>, ubi puer semel <div class="area" data-key="fueram">sum</div>.”</div>
       <div>9. Prīmā lūce mulier eum locum quō nocte īdōlōn <div class="area" data-key="vīderat">videt</div> cruōre <div class="area" data-key="cōnspersum esse">cōnspergī</div> <div class="area" data-key="animadvertit">animadvertit</div>.</div>
       <div>10. Cūr, Iāsōn, Mēdēam tuam <div class="area" data-key="relīquistī">relinquis</div>, quae duōs tibi puerōs <div class="area" data-key="pepererat">parit</div>?</div>
