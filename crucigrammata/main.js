@@ -41,6 +41,9 @@ bulbEl.addEventListener('click', function(e) {
   if (!word) return;
 
   e.stopPropagation();
+
+  if (isMobile) wordInput.focus();
+
   printLetter(word.value[Word.activeCellIndex]);
 });
 
@@ -69,6 +72,7 @@ const history = {
 
 // ====================
 
+let focusTimer = 0;
 let errorMode = false;
 const keyMatcher = /^[a-z]$/;
 const codeMatcher = /^Key[A-Z]$/;
@@ -82,6 +86,7 @@ if (!isMobile) {
   wordInput.addEventListener('beforeinput', onBeforeInput);
   wordInput.addEventListener('input', clearInput);
   wordInput.addEventListener('keyup', clearInput);
+  wordInput.addEventListener('focus', onFocus);
   wordInput.addEventListener('blur', onBlur);
 }
 
@@ -178,9 +183,23 @@ function clearInput() {
   this.textContent = '';
 }
 
+function onFocus() {
+  clearTimeout(focusTimer);
+}
+
 function onBlur() {
-  clearInput.call(this);
-  selectCell(fakeCell);
+  focusTimer = setTimeout(() => {
+    clearInput.call(this);
+    selectCell(fakeCell);
+  }, 100);
+}
+
+function debounce(callback, delay) {
+  let timerId = 0;
+  return function(e) {
+    clearTimeout(timerId);
+    timerId = setTimeout(callback, delay, e);
+  };
 }
 
 // ====================
