@@ -6,8 +6,10 @@ $_GET({
       <div><br></div>
       <div><b>Exercitium 1</b></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Quō īnstrūmentō agricola metit? Falce metit.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Quī metit, falce ūtitur.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Quō īnstrūmentō agricola metit? Falce metit.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Quī metit, falce ūtitur.</span></div>
+      </div>
       <div><br></div>
       <div>1. Discipulus stil<div class="area" data-key="ō"></div> in tabulā scrībit.</div>
       <div>2. Discipulus quī scrībit, stil<div class="area" data-key="ō"></div> et tabul<div class="area" data-key="ā"></div> ūtitur.</div>
@@ -49,8 +51,10 @@ $_GET({
       <div><br></div>
       <div><b>Exercitium 4</b></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Pater fīlium surgere et st<b>āre</b>, tac<b>ēre</b> et aud<b>īre</b> <i>iubet</i> =</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Pater fīliō <i>imperat</i> ut surg<b>at</b> et st<b>et</b>, tace<b>at</b> et audi<b>at</b>.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Pater fīlium surgere et st<b>āre</b>, tac<b>ēre</b> et aud<b>īre</b> <i>iubet</i> =</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Pater fīliō <i>imperat</i> ut surg<b>at</b> et st<b>et</b>, tace<b>at</b> et audi<b>at</b>.</span></div>
+      </div>
       <div><br></div>
       <div>1. Magister discipulōs cōnsīdere et tacēre iubet = Magister discipulīs imperat ut <div class="area" data-key="cōnsīdant et taceant"></div>.</div>
       <div>2. Magister Mārcum surgere et respondēre iubet = <div class="area" data-key="Magister Mārcō imperat"></div> ut <div class="area" data-key="surgat et respondeat"></div>.</div>
