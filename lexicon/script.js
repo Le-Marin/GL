@@ -12,7 +12,7 @@
 
   const vocabulary = {};
   const regDictKey = /[a-z]/;
-  const badDictKeys = 'rstw';
+  const badDictKeys = 'w';
   const cases = {'ā': 'a', 'ē': 'e', 'ī': 'i', 'ō': 'o', 'ū': 'u', 'ȳ': 'y'};
 
   const cont = document.getElementById('content');
@@ -21,7 +21,7 @@
   const button = search.nextElementSibling;
   const list = button.nextElementSibling;
 
-  let mv = 1;
+  let mv = 3;
   let selectedListElem = null;
 
   document.addEventListener('click', clearList);
