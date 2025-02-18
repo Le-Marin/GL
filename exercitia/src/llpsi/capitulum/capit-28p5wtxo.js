@@ -9,7 +9,9 @@ $_GET({
       <div><span class="ff">-gintā → -(g)ēsimus</span></div>
       <div><span class="ff">-centī / -gentī → -centēsimus / gentēsimus</span></div>
       <div><br></div>
-      <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>vīgintī annīs post = vīcēsimō annō post</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>vīgintī annīs post = vīcēsimō annō post</span></div>
+      </div>
       <div><br></div>
       <div>1. <div class="area" data-key="trīgintā"></div> [XXX] annīs post = <div class="area" data-key="trīcēsimō"></div> annō post</div>
       <div>2. <div class="area" data-key="quadrāgintā"></div> [XL] annīs post = <div class="area" data-key="quadrāgēsimō"></div> annō post</div>
@@ -105,11 +107,13 @@ $_GET({
       <div><br></div>
       <div><span class="ff"><i>coniūnctīvus praesentis vs praeteritī</i></span></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Quārē Mēdus Rōmam <b>venit</b>? Ut amīcam suam <u>videat</u>.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Quārē Mēdus <b>fugit</b>? Nē <u>serviat</u>.</span></div>
-      <div><br></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Quārē Mēdus Rōmam <b>vēnit</b>? Ut amīcam suam <u>vidēret</u>.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Quārē Mēdus <b>fūgit</b>? Nē <u>servīret</u>.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Quārē Mēdus Rōmam <b>venit</b>? Ut amīcam suam <u>videat</u>.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Quārē Mēdus <b>fugit</b>? Nē <u>serviat</u>.</span></div>
+        <div><br></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Quārē Mēdus Rōmam <b>vēnit</b>? Ut amīcam suam <u>vidēret</u>.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Quārē Mēdus <b>fūgit</b>? Nē <u>servīret</u>.</span></div>
+      </div>
       <div><br></div>
       <div>1. Magister calamum prōmit, <div class="area" data-key="ut"></div> scrīb<div class="area" data-key="eret"></div>.</div>
       <div>2. Mercātōrēs mercēs vēndunt, <div class="area" data-key="ut"></div> pecūniam faci<div class="area" data-key="ant"></div>.</div>
