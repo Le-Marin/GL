@@ -23,7 +23,7 @@ $_GET({
       <div>5. fāt<b>um</b> <div class="area">horrid<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="fāta"></div> <div class="area" data-key="horrida"></div></div>
       <div>6. aqu<b>a</b> <div class="area">frīgid<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="aquae"></div> <div class="area" data-key="frīgidae"></div></div>
       <div>7. vent<b>us</b> <div class="area">calid<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="ventī"></div> <div class="area" data-key="calidī"></div></div>
-      <div>8. vēl<b>um</b> <div class="area">ātr<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="vēla"></div> <div class="area" data-key="ātra"></div><br><br></div>
+      <div>8. vēl<b>um</b> <div class="area">sciss<b>us</b> -<b>a</b> -<b>um</b></div> → <div class="area" data-key="vēla"></div> <div class="area" data-key="scissa"></div><br><br></div>
     </div>
     <div class="row">
       <div><b>3. Mūtā nōminātīvum in ablātīvum.</b> Изменить номинатив на аблатив.</div>
