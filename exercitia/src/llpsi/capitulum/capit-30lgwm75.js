@@ -67,7 +67,10 @@ $_GET({
     </div>
     <div class="row">
       <div><b>Exercitium 6</b></div>
-      <div><br></div><div class="fill-ins"><div><div class="area">accubāre</div> <div class="area">bīnī</div> <div class="area">bonum</div> <div class="area">cēnāre</div> <div class="area">cocus</div> <div class="area">convīva</div> <div class="area">convīvium</div> <div class="area">coquere</div> <div class="area">culīna</div> <div class="area">ēligere</div> <div class="area">equidem</div> <div class="area">exōrnāre</div> <div class="area">famēs</div> <div class="area">īmus</div> <div class="area">minister</div> <div class="area">parāre</div> <div class="area">paulisper</div> <div class="area">prīdem</div> <div class="area">singulī</div> <div class="area">sitis</div> <div class="area">sternere</div> <div class="area">ternī</div> <div class="area">triclīnium</div></div>
+      <div><br></div>
+      <div class="fill-ins">
+        <div class="area">accubāre</div> <div class="area">bīnī</div> <div class="area">bonum</div> <div class="area">cēnāre</div> <div class="area">cocus</div> <div class="area">convīva</div> <div class="area">convīvium</div> <div class="area">coquere</div> <div class="area">culīna</div> <div class="area">ēligere</div> <div class="area">equidem</div> <div class="area">exōrnāre</div> <div class="area">famēs</div> <div class="area">īmus</div> <div class="area">minister</div> <div class="area">parāre</div> <div class="area">paulisper</div> <div class="area">prīdem</div> <div class="area">singulī</div> <div class="area">sitis</div> <div class="area">sternere</div> <div class="area">ternī</div> <div class="area">triclīnium</div>
+      </div>
       <div><br></div>
       <div>1. Rōmānī circiter hōrā decimā <div class="area" data-key="cēnant"></div>.</div>
       <div>2. Sī quis nihil ēst nec bibit, <div class="area" data-key="famem"></div> et <div class="area" data-key="sitim"></div>patitur.</div>
