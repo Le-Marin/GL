@@ -37,9 +37,11 @@ $_GET({
       <div><br></div>
       <div><b>Exercitium 4</b></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Discipulus scrīb<u>it</u> id quod magister dictāv<b>it</b>.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Discipulus scrīb<u>ēbat</u> id quod magister dictāv<b>erat</b>. </span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span>Discipulus scrīb<u>et</u> id quod magister dictāv<b>erit</b>. </span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Discipulus scrīb<u>it</u> id quod magister dictāv<b>it</b>.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Discipulus scrīb<u>ēbat</u> id quod magister dictāv<b>erat</b>. </span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Discipulus scrīb<u>et</u> id quod magister dictāv<b>erit</b>. </span></div>
+      </div>
       <div><br></div>
       <div>1. Dominus servum laudat quod industriē labōrāv<div class="area" data-key="it"></div>.</div>
       <div>2. Herī servus laudātus est quod industriē labōrāv<div class="area" data-key="erat"></div>.</div>
@@ -65,7 +67,7 @@ $_GET({
     </div>
     <div class="row">
       <div><b>Exercitium 6</b></div>
-      <div><br></div><div class="fill-ins"><div><div class="area">accubāre</div> <div class="area">bīnī</div> <div class="area">bonum</div> <div class="area">cēnāre</div> <div class="area">cocus</div> <div class="area">convīva</div> <div class="area">convīvium</div> <div class="area">coquere</div> <div class="area">culīna</div> <div class="area">ēligere</div> <div class="area">equidem</div> <div class="area">exōrnāre</div> <div class="area">famēs</div> <div class="area">īmus</div> <div class="area">minister</div> <div class="area">parāre</div> <div class="area">paulisper</div> <div class="area">prīdem</div> <div class="area">singulī</div> <div class="area">sitis</div> <div class="area">sternere</div> <div class="area">ternī</div> @triclīnium@@</div></div>
+      <div><br></div><div class="fill-ins"><div><div class="area">accubāre</div> <div class="area">bīnī</div> <div class="area">bonum</div> <div class="area">cēnāre</div> <div class="area">cocus</div> <div class="area">convīva</div> <div class="area">convīvium</div> <div class="area">coquere</div> <div class="area">culīna</div> <div class="area">ēligere</div> <div class="area">equidem</div> <div class="area">exōrnāre</div> <div class="area">famēs</div> <div class="area">īmus</div> <div class="area">minister</div> <div class="area">parāre</div> <div class="area">paulisper</div> <div class="area">prīdem</div> <div class="area">singulī</div> <div class="area">sitis</div> <div class="area">sternere</div> <div class="area">ternī</div> <div class="area">triclīnium</div></div>
       <div><br></div>
       <div>1. Rōmānī circiter hōrā decimā <div class="area" data-key="cēnant"></div>.</div>
       <div>2. Sī quis nihil ēst nec bibit, <div class="area" data-key="famem"></div> et <div class="area" data-key="sitim"></div>patitur.</div>
@@ -107,7 +109,9 @@ $_GET({
       <div><br></div>
       <div><span class="ff"><i>coniūnctīvus hortātīvus</i></span></div>
       <div><br></div>
-      <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Discēdāmus! = Quīn discēdimus?</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Discēdāmus! = Quīn discēdimus?</span></div>
+      </div>
       <div><br></div>
       <div>1. “Quīn ambulāmus?” = “Ambul<div class="area" data-key="ēmus"></div>!”</div>
       <div>2. “Quīn gaudēmus?” = “Gaud<div class="area" data-key="eāmus"></div>!”</div>
