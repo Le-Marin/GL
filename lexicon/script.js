@@ -21,7 +21,7 @@
   const button = search.nextElementSibling;
   const list = button.nextElementSibling;
 
-  let mv = 3;
+  let mv = 4;
   let selectedListElem = null;
 
   document.addEventListener('click', clearList);
