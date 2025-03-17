@@ -191,7 +191,7 @@ function onBlur() {
   focusTimer = setTimeout(() => {
     clearInput.call(this);
     selectCell(fakeCell);
-  }, 100);
+  }, 250);
 }
 
 function debounce(callback, delay) {
