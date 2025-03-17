@@ -32,7 +32,7 @@ const wordInput = parseNode(/*html*/`
 
 // ====================
 
-const bulbEl = root.appendChild(parseNode('<div id="bulb"></div>'));
+const bulbEl = root.appendChild(parseNode('<div id="bulb-shell"><div id="bulb"></div></div>'));
 
 bulbEl.addEventListener('click', function(e) {
   const {activeElem} = Word;
