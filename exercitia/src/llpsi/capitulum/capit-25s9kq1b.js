@@ -10,7 +10,7 @@ $_GET({
       <div>1. <div class="area" data-key="agnus"></div> et lupus <div class="area" data-key="forte"></div> ad eundem rīvum vēnērunt.</div>
       <div>2. Quattuor equī currum Sōlis <div class="area" data-key="trahunt"></div>; nec facile est equōs Sōlis <div class="area" data-key="regere"></div>.</div>
       <div>3. Achillēs corpus Hectoris post <div class="area" data-key="currum"></div> suum trāxit.</div>
-      <div>4. Rōmulus prīma <div class="area" data-key="moenia"></div> Rōmāna aedificāvit et frātrem <div class="area" data-key="occīdit"></div>.</div>
+      <div>4. Rōmulus prīma <div class="area" data-key="moenia"></div> Rōmāna aedificāvit et frātrem <div class="area" data-key="interfēcit"></div>.</div>
       <div>5. Moenia, quae Rōmulus <div class="area" data-key="aedificāvit"></div>, nōn alta, sed <div class="area" data-key="humilia"></div> erant.</div>
       <div>6. Quīntus <div class="area" data-key="fābulam"></div> dē Rōmulō et Remō iam audīvit.</div>
       <div>7. Nunc fābulam dē <div class="area" data-key="mōnstrō"></div> ferōcī quod hominēs vīvōs <div class="area" data-key="vorat"></div> audīre cupit.</div>
@@ -56,7 +56,7 @@ $_GET({
       <div><br></div><div class="fill-ins"><div><div class="area">-āre</div> <div class="area">-ēre</div> <div class="area">-ere</div> <div class="area">-īre</div></div>
       <div><div class="area">-āminī</div> <div class="area">-ēminī</div> <div class="area">-iminī</div> <div class="area">-īminī</div></div></div>
       <div><br></div>
-      <div>1. Iūlius: “Nōlō sōlus ambulāre. Comit<div class="area" data-key="āre"></div> mē, Syre et Lēander! Opper<div class="area" data-key="īminī"></div> mē ante portam!”</div>
+      <div>1. Iūlius: “Nōlō sōlus ambulāre. Comit<div class="area" data-key="āminī"></div> mē, Syre et Lēander! Opper<div class="area" data-key="īminī"></div> mē ante portam!”</div>
       <div>2. Lȳdia: “Nōlī mē dēserere, Mēde! Hoc mihi pollic<div class="area" data-key="ēre"></div>!”</div>
       <div>3. Mēdus: “Proficīsc<div class="area" data-key="ere"></div> mēcum, Lȳdia! Comit<div class="area" data-key="āre"></div> mē in Graeciam!”</div>
       <div>4. Mēdus: “Nāvem solvite, nautae! Intu<div class="area" data-key="ēminī"></div> caelum! Proficīsc<div class="area" data-key="iminī"></div>!”</div>
