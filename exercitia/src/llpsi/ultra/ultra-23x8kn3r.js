@@ -2,17 +2,17 @@ $_GET({
   title: 'Ultra 23',
   html: /*html*/`
     <div class="row">
-      <div><b>1. Перевести с помощью <i>acc. cum inf.</i>, принимая во внимание идею следования (<i>будущный инфинитив</i>).</b></div>
+      <div><b>1. Перевести с помощью с <i>futūrum periphrasticum</i> или <i>acc. cum inf.</i>, принимая во внимание идею следования (<i>будущный инфинитив</i>).</b></div>
       <div><br></div>
       <div><i>Āctīvum</i>:</div>
       <div>1. In senātū: “Crēdō ipsōs deōs huic urbī contrā hostēs auxilium <div class="area" data-key="datūrōs esse">dare</div>.”</div>
-      <div>2. Lūcius: “Crās Rōmam <div class="area" data-key="ītūrus sum">ībō</div>”.</div>
+      <div>2. Lūcius: “Crās Rōmam <div class="area" data-key="itūrus sum">ībō</div>”.</div>
       <div>3. Lucrētia omnia nārrāvit marītō, quī iūrāvit sē Sextum <div class="area" data-key="necātūrum esse">necāre</div>.”</div>
       <div>4. Iam senex, convocāvit fīliōs et dīxit sē brevī <div class="area" data-key="moritūrum esse">morī</div>.</div>
       <div>5. Māter fīliābus: “Omnia quae mihi erunt vōbīs <div class="area" data-key="datūra sum">dabō</div>.”</div>
       <div>6. Novus dominus spopondit sē lēniōrem in servōs <div class="area" data-key="futūrum esse | fore">esse</div>.</div>
       <div>7. “Quōcumque proficīscēs,” inquiunt sociī Aenēae, “tē <div class="area" data-key="secūtūrī sumus">sequēminī</div>.”</div>
-      <div>8. Vōce āmissā, sciēbat Ēchō vōcem nōn <div class="area" data-key="redītūram esse">redīre</div>.</div>
+      <div>8. Vōce āmissā, sciēbat Ēchō vōcem nōn <div class="area" data-key="reditūram esse">redīre</div>.</div>
       <div>9. Iūlius sententiam uxōris percontāns: “Nōnne,” inquit, “<div class="area" data-key="dictūra es">dīcēs</div> quid cēnseās?”</div>
       <div>10. Sacrificiō factō, spērābant omnēs Iūnōnem opem <div class="area" data-key="lātūram esse">ferre</div>.</div>
       <div><br></div>
