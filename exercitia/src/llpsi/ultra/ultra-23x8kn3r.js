@@ -2,7 +2,7 @@ $_GET({
   title: 'Ultra 23',
   html: /*html*/`
     <div class="row">
-      <div><b>1. Перевести с помощью с <i>futūrum periphrasticum</i> или <i>acc. cum inf.</i>, принимая во внимание идею следования (<i>будущный инфинитив</i>).</b></div>
+      <div><b>1. Заменить простые будущные формы на формы <i>futurum periphrasticum</i>, а инфинитивы — на <i>infinitivi futuri</i>.</b></div>
       <div><br></div>
       <div><i>Āctīvum</i>:</div>
       <div>1. In senātū: “Crēdō ipsōs deōs huic urbī contrā hostēs auxilium <div class="area" data-key="datūrōs esse">dare</div>.”</div>
