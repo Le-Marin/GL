@@ -20,7 +20,7 @@ $_GET({
       <div>Ubi est Iūlius?</div>
       <div>Estne Aemilia sōla in peristȳlō?</div>
       <div>Quid Iūlia agit in hortō?</div>
-      <div>Cūr peurī Iūliam rīdent?</div>
+      <div>Cūr puerī Iūliam rīdent?</div>
     </div>
   `
 });
