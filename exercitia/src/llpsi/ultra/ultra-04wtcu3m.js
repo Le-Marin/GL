@@ -13,7 +13,7 @@ $_GET({
       <div>bon<b>e</b> amīc<b>e</b> <div class="area" data-key="voc sg"></div> ← <div class="area" data-key="bonus amīcus"></div></div>
       <div>herb<b>ārum</b> amār<b>ārum</b> <div class="area" data-key="gen pl"></div> ← <div class="area" data-key="herba amāra"></div></div>
       <div>ros<b>ae</b> silvestr<b>ae</b> <div class="area" data-key="gen sg | nom pl"></div> ← <div class="area" data-key="rosa silvestra"></div></div>
-      <div>somni<b>a</b> prophētic<b>a</b> <div class="area" data-key="nom pl | acc pl"></div> ← <div class="area" data-key="somnium phophēticum"></div></div>
+      <div>somni<b>a</b> prophētic<b>a</b> <div class="area" data-key="nom pl | acc pl"></div> ← <div class="area" data-key="somnium prophēticum"></div></div>
       <div>cōnsili<b>ō</b> mal<b>ō</b> <div class="area" data-key="abl sg"></div> ← <div class="area" data-key="cōnsilium malum"></div></div>
       <div>sagitt<b>ā</b> venēnāt<b>ā</b> <div class="area" data-key="abl sg"></div> ← <div class="area" data-key="sagitta venēnāta"></div></div>
       <div>rām<b>um</b> crass<b>um</b> <div class="area" data-key="acc sg"></div> ← <div class="area" data-key="rāmus crassus"></div></div>
