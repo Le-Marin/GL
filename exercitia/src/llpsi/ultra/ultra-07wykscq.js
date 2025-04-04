@@ -4,7 +4,7 @@ $_GET({
     <div class="row">
       <div><span style="white-space: pre;">	</span>I<br></div>
       <div><br></div>
-      <div><b>1. Дать форму аблятива.</b></div>
+      <div><b>1. Дать форму аблатива.</b></div>
       <div><br></div>
       <div>puell<b>a</b> → <div class="area" data-key="puellā"></div></div>
       <div>cib<b>us</b> → <div class="area" data-key="cibō"></div></div>
@@ -32,7 +32,7 @@ $_GET({
       <div><br></div>
     </div>
     <div class="row">
-      <div><b>3. Дать форму генетива.</b></div>
+      <div><b>3. Дать форму генитива.</b></div>
       <div><br></div>
       <div>mēns<b>a</b> → <div class="area" data-key="mēnsae"></div></div>
       <div>vi<b>ae </b>→ <div class="area" data-key="viārum"></div></div>
@@ -157,7 +157,7 @@ $_GET({
       <div><br></div></div>
     </div>
     <div class="row">
-      <div><div><b>3. Дать форму аблятива.</b></div>
+      <div><div><b>3. Дать форму аблатива.</b></div>
       <div><br></div>
       <div>ancill<b>a</b> → <div class="area" data-key="ancillā"></div></div>
       <div>īnsul<b>a</b> → <div class="area" data-key="īnsulā"></div></div>
@@ -239,7 +239,19 @@ $_GET({
       <div>7. Iūlia est fīlia <b>Iūliī</b>. <div class="area" data-key="cuius?"></div></div>
       <div>8. Lȳdia <b>Rōmae</b> habitat. <div class="area" data-key="ubi?"></div></div>
       <div>9. Mēdus <b>Rōmam </b>it. <div class="area" data-key="quō?"></div></div>
-      <div>10. Cornēlius <b>Rōmā </b>venit. <div class="area" data-key="unde?"></div></div>
+      <div>10. Cornēlius <b>Rōmā </b>venit. <div class="area" data-key="unde?"></div><br><br></div>
+    </div>
+    <div class="row">
+      <span style="white-space: pre;">	</span>III<br><br>❗ <b>1. Verte in sermōnem Latīnum. Sī necesse, ūtere dictiōnāriō.</b> Перевести на латынь. По необходимости используйте словарь.<br><br><div><i>1. Девушка выбегает из комнаты; глаза ее полны слёз.</i></div>
+      <div>P<div class="area" data-key="uella"></div> <div class="area" data-key="ē"></div> c<div class="area" data-key="ubiculō"></div> c<div class="area" data-key="urrit"></div>; o<div class="area" data-key="culī"></div> e<div class="area" data-key="ius"></div> p<div class="area" data-key="lēnī"></div> l<div class="area" data-key="acrimārum"></div> <div class="area" data-key="sunt"></div>.</div>
+      <div><i>2. Юпитер в гневе, но Прометей не открывает ему тайну (~ секрет).</i></div>
+      <div>I<div class="area" data-key="uppiter"></div> ī<div class="area" data-key="rātus"></div> <div class="area" data-key="est"></div>, n<div class="area" data-key="eque"></div> P<div class="area" data-key="romētheus"></div> s<div class="area" data-key="ēcrētum"></div> e<div class="area" data-key="ī"></div> a<div class="area" data-key="perit"></div>.</div>
+      <div><i>3. Он ни красив ни страшен; многие, впрочем, отводят (от-ворачивают) от него взгляд (~ глаза).</i></div>
+      <div>N<div class="area" data-key="eque"></div> p<div class="area" data-key="ulcher"></div> n<div class="area" data-key="eque"></div> f<div class="area" data-key="oedus"></div> <div class="area" data-key="est"></div>; m<div class="area" data-key="ultī"></div> a<div class="area" data-key="utem"></div> o<div class="area" data-key="culōs"></div> <div class="area" data-key="ab"></div> e<div class="area" data-key="ō"></div> āv<div class="area" data-key="ertunt"></div>.</div>
+      <div><i>4. Служанки протирают столы; слуги собирают в саду яблоки и груши.</i></div>
+      <div>A<div class="area" data-key="ncillae"></div> m<div class="area" data-key="ēnsās"></div> t<div class="area" data-key="ergent"></div>; s<div class="area" data-key="ervī"></div> m<div class="area" data-key="āla"></div> p<div class="area" data-key="ira"></div>que <div class="area" data-key="in"></div> h<div class="area" data-key="ortō"></div> c<div class="area" data-key="arpunt"></div>.</div>
+      <div><i>5. Разве не помнят (~ держат) римляне слов Ромула сказанных Рему у стены?</i></div>
+      <div>N<div class="area" data-key="ōnne"></div> t<div class="area" data-key="enent"></div> R<div class="area" data-key="ōmānī"></div> v<div class="area" data-key="erba"></div> R<div class="area" data-key="ōmulī"></div> R<div class="area" data-key="emō"></div> a<div class="area" data-key="pud | d"></div> m<div class="area" data-key="ūrum"></div> dicta?</div>
     </div>
   `
 });

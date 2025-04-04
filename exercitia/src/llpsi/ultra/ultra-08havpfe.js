@@ -49,7 +49,19 @@ $_GET({
       <div>7. Fēminae ōrnāmenta aspiciunt. → <div class="area" data-key="Ōrnāmenta"></div> <div class="area" data-key="ā fēminīs"></div> <div class="area" data-key="aspiciuntur"></div>.</div>
       <div>8. Tabernārius gemmās et margarītās ostendit. → <div class="area" data-key="Gemmae et margarītae"></div> <div class="area" data-key="ā tabernāriō"></div> <div class="area" data-key="ostenduntur"></div>.</div>
       <div>9. Albīnus fēminās virōsque vocat. → <div class="area" data-key="Fēminae virīque"></div> <div class="area" data-key="ab Albīnō"></div> <div class="area" data-key="vocantur"></div>.</div>
-      <div>10. Aliī tabernāriī rosās līliaque vēndunt. → <div class="area" data-key="Rosae līliaque"></div> <div class="area" data-key="ab aliīs tabernāriīs"></div> <div class="area" data-key="vēnduntur"></div>.</div>
+      <div>10. Aliī tabernāriī rosās līliaque vēndunt. → <div class="area" data-key="Rosae līliaque"></div> <div class="area" data-key="ab aliīs tabernāriīs"></div> <div class="area" data-key="vēnduntur"></div>.<br><br></div>
+    </div>
+    <div class="row">
+      ❗ <b>4. Verte in sermōnem Latīnum. Sī necesse, ūtere dictiōnāriō.</b> Перевести на латынь. По необходимости используйте словарь.<br><br><div><i>1. Нарцисс смотрит на себя в зеркальной глади (~ в зеркале) воды.</i></div>
+      <div>N<div class="area" data-key="arcissus"></div> s<div class="area" data-key="ē"></div> in s<div class="area" data-key="peculō"></div> a<div class="area" data-key="quae"></div> a<div class="area" data-key="spicit"></div>.</div>
+      <div><i>2. Кого любит Аполлон? Какой женщине дарит (~ дает) он драгоценные камни и жемчуга?</i></div>
+      <div>Q<div class="area" data-key="uem"></div> a<div class="area" data-key="mat"></div> A<div class="area" data-key="pollō"></div>? C<div class="area" data-key="ui"></div> f<div class="area" data-key="ēminae"></div> g<div class="area" data-key="emmās"></div> <div class="area" data-key="et"></div> m<div class="area" data-key="argarītās"></div> d<div class="area" data-key="at"></div>?</div>
+      <div><i>3. На пальце Прометея — железный перстень (~ кольцо).</i></div>
+      <div><div class="area" data-key="In"></div> d<div class="area" data-key="igitō"></div> P<div class="area" data-key="romētheī"></div> <div class="area" data-key="est"></div> ā<div class="area" data-key="nulus"></div> f<div class="area" data-key="erreus"></div>.</div>
+      <div><i>4. Одному торговцу (~ лавочнику) довольно 20 монет; другой продает лишь за 100 сестерциев.</i></div>
+      <div>A<div class="area" data-key="liī"></div> t<div class="area" data-key="abernāriō"></div> v<div class="area" data-key="īgintī"></div> n<div class="area" data-key="ummī"></div> s<div class="area" data-key="atis"></div> <div class="area" data-key="est"></div>; a<div class="area" data-key="lius"></div> s<div class="area" data-key="ōlum"></div> c<div class="area" data-key="entum"></div> sē<div class="area" data-key="stertiīs"></div> v<div class="area" data-key="ēndit"></div>.</div>
+      <div><i>5. Здесь выставляют (~ показывают) одно, там покупают другое.</i></div>
+      <div>H<div class="area" data-key="īc"></div> a<div class="area" data-key="liud"></div> o<div class="area" data-key="stendunt | stenditur"></div>, ibi a<div class="area" data-key="liud"></div> e<div class="area" data-key="munt | mitur"></div>.</div>
     </div>
   `
 });
