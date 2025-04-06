@@ -34,6 +34,19 @@ $_GET({
       <div>8. Ex vāse Pandōrae morbī cēteraque mala exeunt et per <div class="area" data-key="tōtum orbem">tōtus orbis</div> terrārum extenduntur.</div>
       <div>9. Arachnē, ob <div class="area" data-key="superbiam suam">superbia sua</div>, in <div class="area" data-key="arāneam">arānea</div> mūtāta est.</div>
       <div>10. Actaeōn, in cervum conversus, ā <div class="area" data-key="canibus suīs">canēs suī</div> lacerātur.</div>
+      <div><br></div>
+    </div>
+    <div class="row">
+      ❗ <b>3. Verte in sermōnem Latīnum. Sī necesse, ūtere dictiōnāriō.</b> Перевести на латынь. По необходимости используйте словарь.<br><br><div><i>1. Лавр — дерево Аполлона: ведь это Дафна, которой добивается бог.</i></div>
+      <div>L<div class="area" data-key="aurus"></div> a<div class="area" data-key="rbor"></div> A<div class="area" data-key="pollinis"></div> <div class="area" data-key="est"></div>: n<div class="area" data-key="am"></div> D<div class="area" data-key="aphnē"></div> e<div class="area" data-key="st"></div>, q<div class="area" data-key="uam"></div> d<div class="area" data-key="eus"></div> pe<div class="area" data-key="tit"></div>.</div>
+      <div><i>2. Находятся &lt;те&gt;, кто без страха бросается на врага.</i></div>
+      <div>R<div class="area" data-key="eperiuntur"></div> q<div class="area" data-key="uī"></div> s<div class="area" data-key="ine"></div> t<div class="area" data-key="imōre"></div> i<div class="area" data-key="nimīcum"></div> p<div class="area" data-key="etunt"></div>.</div>
+      <div><i>3. У римлян смоковница (~ фикус) — священное дерево.</i></div>
+      <div>Ap<div class="area" data-key="ud"></div> R<div class="area" data-key="ōmānōs"></div> f<div class="area" data-key="īcus"></div> a<div class="area" data-key="rbor"></div> s<div class="area" data-key="acra"></div> <div class="area" data-key="est"></div>.</div>
+      <div><i>4. Цербер — пес с тремя головами.</i></div>
+      <div>C<div class="area" data-key="erberus"></div> <div class="area" data-key="est"></div> c<div class="area" data-key="anis"></div> c<div class="area" data-key="um"></div> t<div class="area" data-key="ribus"></div> c<div class="area" data-key="apitibus"></div>.</div>
+      <div><i>5. В тени горы лежат руины, где бродят только волки.</i></div>
+      <div><div class="area" data-key="in"></div> u<div class="area" data-key="mbrā"></div> m<div class="area" data-key="ontis"></div> i<div class="area" data-key="acent"></div> r<div class="area" data-key="uīnae"></div>, u<div class="area" data-key="bi"></div> l<div class="area" data-key="upī"></div> t<div class="area" data-key="antum"></div> e<div class="area" data-key="rrant"></div>.</div>
     </div>
   `
 });
