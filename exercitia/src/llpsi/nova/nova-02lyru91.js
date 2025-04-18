@@ -1,5 +1,5 @@
 $_GET({
-  title: 'Nova 1',
+  title: 'Nova exercitia 2',
   html: /*html*/`
     <div class="row">
       <div><b>Exercitium prīmum</b></div>
