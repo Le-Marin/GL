@@ -45,7 +45,7 @@ $_GET({
       <div>7. Mārcus Quīntusque → M<div class="area" data-key="ārcus"></div> <div class="area" data-key="ā"></div> Qu<div class="area" data-key="īntō"></div> / <div class="area" data-key="ab"></div> <div class="area" data-key="eō"></div> d<div class="area" data-key="iscēdit"></div>.</div>
       <div>8. servī ancillaeque → S<div class="area" data-key="ervī"></div> <div class="area" data-key="ab"></div> a<div class="area" data-key="ncillīs"></div>/<div class="area" data-key="iīs"></div> d<div class="area" data-key="iscēdunt"></div>.</div>
       <div>9. Syra Dēliaque → S<div class="area" data-key="yra"></div> <div class="area" data-key="ā"></div> D<div class="area" data-key="ēliā"></div> / <div class="area" data-key="ab"></div> <div class="area" data-key="eā"></div> d<div class="area" data-key="iscēdit"></div>.</div>
-      <div>10. servī et dominus → S<div class="area" data-key="ervī"></div> <div class="area" data-key="ā"></div> dominō / <div class="area" data-key="ab"></div> <div class="area" data-key="eō"></div> d<div class="area" data-key="iscēdunt"></div>.</div>
+      <div>10. servī et dominus → S<div class="area" data-key="ervī"></div> <div class="area" data-key="ā"></div> d<div class="area" data-key="ominō"></div> / <div class="area" data-key="ab"></div> <div class="area" data-key="eō"></div> d<div class="area" data-key="iscēdunt"></div>.</div>
       <div>11. Aemilia et ancillae → Ae<div class="area" data-key="milia"></div> <div class="area" data-key="ab"></div> a<div class="area" data-key="ncillīs"></div>/<div class="area" data-key="iīs"></div> d<div class="area" data-key="iscēdit"></div>.</div>
       <div>12. Cornēlius et Iūlius → C<div class="area" data-key="ornēlius"></div> <div class="area" data-key="ā | ab"></div> I<div class="area" data-key="ūliō"></div> / <div class="area" data-key="ab"></div> <div class="area" data-key="eō"></div> d<div class="area" data-key="iscēdit"></div>.</div>
       <div><br></div>
@@ -71,7 +71,7 @@ $_GET({
       </div>
       <div><br></div>
       <div>1. Aemilia eōs (: puer<div class="area" data-key="ōs"></div>) vocat.</div>
-      <div>2. Ancillae eam (: domin<div class="area" data-key="am"></div>) saIūtant.</div>
+      <div>2. Ancillae eam (: domin<div class="area" data-key="am"></div>) salūtant.</div>
       <div>3. Iūlius eum (: Quīnt<div class="area" data-key="um"></div>) audit.</div>
       <div>4. Rosae eam (: Iūli<div class="area" data-key="am"></div>) dēlectant.</div>
       <div>5. Iūlia eās (: ros<div class="area" data-key="ās"></div>) carpit.</div>
@@ -89,17 +89,17 @@ $_GET({
       <div><br></div><div class="fill-ins"><div><div class="area">eum</div> <div class="area">eam</div> | <div class="area">eōs</div> <div class="area">eās</div></div></div>
       <div><br></div>
       <div class="sc">
-        <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Dāvus domin<b>um</b> (: <u>eum</u>) saIūtat.</span></div>
+        <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Dāvus domin<b>um</b> (: <u>eum</u>) salūtat.</span></div>
       </div>
       <div><br></div>
-      <div>1. Iūlius Acmiliam (: <div class="area" data-key="eam"></div>) vocat.</div>
+      <div>1. Iūlius Aemiliam (: <div class="area" data-key="eam"></div>) vocat.</div>
       <div>2. Dominus servōs (: <div class="area" data-key="eōs"></div>) vocat.</div>
       <div>3. Aemilia ancillās (: <div class="area" data-key="eās"></div>) vocat.</div>
-      <div>4. Dāvus et Mēdus dominum (: <div class="area" data-key="eum"></div>) saIūtant.</div>
+      <div>4. Dāvus et Mēdus dominum (: <div class="area" data-key="eum"></div>) salūtant.</div>
       <div>5. Mārcus Iūliam (: <div class="area" data-key="eam"></div>) pulsat.</div>
       <div>6. Iūlia rosās (: <div class="area" data-key="eās"></div>) in hortō videt.</div>
       <div>7. Ancillae dominam (: <div class="area" data-key="eam"></div>) nōn audiunt.</div>
-      <div>8. Servī probī servōs (: <div class="area" data-key="eōs"></div>)nōn accūsant.</div>
+      <div>8. Servī probī servōs (: <div class="area" data-key="eōs"></div>) nōn accūsant.</div>
       <div>9. Puerī aquam (: <div class="area" data-key="eam"></div>) ex impluviō sūmunt.</div>
       <div>10. Puellae puerōs (: <div class="area" data-key="eōs"></div>) interrogant.</div>
       <div><br></div>
@@ -137,7 +137,7 @@ $_GET({
       </div>
       <div><br></div>
       <div>1. Dominus imperat: “Tac<div class="area" data-key="ēte">ent</div> et aud<div class="area" data-key="īte">iunt</div>, serv<div class="area" data-key="ī">ī</div>!”</div>
-      <div>2. Dominus imperat: “Dominum saIūt<div class="area" data-key="āte">ant</div>, serv<div class="area" data-key="ī">ī</div>!”</div>
+      <div>2. Dominus imperat: “Dominum salūt<div class="area" data-key="āte">ant</div>, serv<div class="area" data-key="ī">ī</div>!”</div>
       <div>3. Domina imperat: “Respond<div class="area" data-key="ēte">ent</div>, ancill<div class="area" data-key="ae">ae</div>!”</div>
       <div>4. Aemilia imperat: “Aquam sūm<div class="area" data-key="ite">unt</div>, Mārc<div class="area" data-key="e">us</div> et Quīnt<div class="area" data-key="e">us</div>!”</div>
       <div>5. Aemilia imperat: “Rosās in aquā pōn<div class="area" data-key="ite">unt</div>, puer<div class="area" data-key="ī">ī</div>!”</div>
@@ -159,7 +159,7 @@ $_GET({
         <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Iūlius: “Dominam voc<b>āte</b>, servī!” Servī dominam voc<b>ant</b>.</span></div>
       </div>
       <div><br></div>
-      <div>1. Dominus: “Dominum saIūt<div class="area" data-key="āte">āre</div>, servī!” Servī dominum salūt<div class="area" data-key="ant">āre</div>.</div>
+      <div>1. Dominus: “Dominum salūt<div class="area" data-key="āte">āre</div>, servī!” Servī dominum salūt<div class="area" data-key="ant">āre</div>.</div>
       <div>2. Iūlius: “Respond<div class="area" data-key="ēte">ēre</div>, ancillae!” Ancillae respond<div class="area" data-key="ent">ēre</div>.</div>
       <div>3. Iūlius: “Tac<div class="area" data-key="ēte">ēre</div>, servī!” Servī tac<div class="area" data-key="ent">ēre</div>.</div>
       <div>4. Aemilia: “Aquam sūm<div class="area" data-key="ite">ere</div>, līberī!” Līberī aquam sūm<div class="area" data-key="unt">ere</div>.</div>
@@ -171,7 +171,6 @@ $_GET({
       <div>10. Pater: “Aud<div class="area" data-key="īte">īre</div> Syram, Mārce et Quīnte!” Mārcus et Quīntus Syram aud<div class="area" data-key="iunt">īre</div>.</div>
       <div>11. Dominus: “Mēdum interrog<div class="area" data-key="āte">āre</div>, servī!” Servī Mēdum interrog<div class="area" data-key="ant">āre</div>.</div>
       <div>12. Aemilia: “Ancillae, ven<div class="area" data-key="īte">īre</div>!” Ancillae ven<div class="area" data-key="iunt">īre</div>.</div>
-      <div><br></div>
     </div>
   `
 });
