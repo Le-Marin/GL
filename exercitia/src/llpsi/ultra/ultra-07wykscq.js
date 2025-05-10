@@ -221,7 +221,7 @@ $_GET({
       <div>tū → ad <div class="area" data-key="tē"></div></div>
       <div>īnsul<b>ae</b> → inter <div class="area" data-key="īnsulās"></div></div>
       <div>aqu<b>a</b> → <i>(ubi?)</i> in <div class="area" data-key="aquā"></div></div>
-      <div>hort<b>us</b> → <i>(quō?)</i> in <div class="area" data-key="hortō"></div></div>
+      <div>hort<b>us</b> → <i>(quō?)</i> in <div class="area" data-key="hortum"></div></div>
       <div><br></div></div>
     </div>
     <div class="row">
