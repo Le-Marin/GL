@@ -145,7 +145,7 @@ $_GET({
       <div>8. Iūlius ā puerīs vocātur. → <div class="area" data-key="Puerī Iūlium vocant"></div>.</div>
       <div>9. Iūlia puerōs nōn audit. → <div class="area" data-key="Puerī ā Iūliā nōn audiuntur"></div>.</div>
       <div>10. Puerī vocantur ā Iūliā. → <div class="area" data-key="Iūlia vocat puerōs"></div>.</div>
-      <div>11. Servī improbī dominum īrātum timent. → <div class="area" data-key="Dominus īrātus ā servīs timētur"></div>.</div>
+      <div>11. Servī improbī dominum īrātum timent. → <div class="area" data-key="Dominus īrātus ā servīs improbīs timētur"></div>.</div>
       <div>12. Servī improbī ā dominō īrātō verberantur. → <div class="area" data-key="Dominus īrātus servōs improbōs verberat"></div>.</div>
       <div><br></div>
     </div>
