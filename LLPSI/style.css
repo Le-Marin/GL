@@ -245,7 +245,8 @@ pre {
 .refs__item[data-abbr="e"] {
   background-color: #cfedf1;
 }
-.refs__item[data-abbr="v"] {
+.refs__item[data-abbr="v"],
+.refs__item[data-abbr="n"] {
   background-color: #d0bef0;
 }
 
