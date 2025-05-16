@@ -21,7 +21,7 @@ $_GET({
       <div><img class="nova-img" src="https://le-marin.github.io/GL/exercitia/src/llpsi/nova/img/06-2.jpg"></div>
       <div>4. <div class="area" data-key="Ubi"></div> e<div class="area" data-key="st"></div> Mēdus? Mēdus <div class="area" data-key="Ariminī"></div> <div class="area" data-key="est"></div>.</div>
       <div>5. <div class="area" data-key="Quō"></div> i<div class="area" data-key="t"></div> Mēdus? Mēdus <div class="area" data-key="Placentiam"></div> <div class="area" data-key="it"></div>.</div>
-      <div>6. <div class="area" data-key="Unde"></div> v<div class="area" data-key="enit"></div> Mēdus? Mēdus <div class="area" data-key="Arominō"></div> <div class="area" data-key="venit"></div>.</div>
+      <div>6. <div class="area" data-key="Unde"></div> v<div class="area" data-key="enit"></div> Mēdus? Mēdus <div class="area" data-key="Ariminō"></div> <div class="area" data-key="venit"></div>.</div>
       <div><img class="nova-img" src="https://le-marin.github.io/GL/exercitia/src/llpsi/nova/img/06-3.jpg"></div>
       <div>7. Q<div class="area" data-key="uō"></div> <div class="area" data-key="it"></div> Mēdus? Mēdus <div class="area" data-key="Genuam"></div> <div class="area" data-key="it"></div>.</div>
       <div>8. <div class="area" data-key="Unde"></div> v<div class="area" data-key="enit"></div> Mēdus? Mēdus <div class="area" data-key="Rōmā"></div> <div class="area" data-key="venit"></div>.</div>
@@ -30,8 +30,10 @@ $_GET({
     </div>
     <div class="row">
       <div><b>Exercitium secundum</b></div>
-      <div><br></div><div class="fill-ins"><div>acс.<span style="white-space: pre;">	</span><div class="area">ad</div> <div class="area">ante</div> <div class="area">post</div> <div class="area">inter</div> <div class="area">prope</div> <div class="area">apud</div> <div class="area">circum</div> <div class="area">per</div></div>
-      <div>abl.<span style="white-space: pre;">	</span><div class="area">ab/ā</div> <div class="area">ex</div> <div class="area">in</div> <div class="area">cum</div> <div class="area">sine</div></div></div>
+      <div class="sc">
+        <div><br></div><div class="fill-ins"><div>acс.<span style="white-space: pre;">	</span><div class="area">ad</div> <div class="area">ante</div> <div class="area">post</div> <div class="area">inter</div> <div class="area">prope</div> <div class="area">apud</div> <div class="area">circum</div> <div class="area">per</div></div>
+        <div>abl.<span style="white-space: pre;">	</span><div class="area">ab/ā</div> <div class="area">ex</div> <div class="area">in</div> <div class="area">cum</div> <div class="area">sine</div></div></div>
+      </div>
       <div><br></div>
       <div><img class="nova-img" src="https://le-marin.github.io/GL/exercitia/src/llpsi/nova/img/06-4.jpg"></div>
       <div>1. Margarīta [canis] <div class="area" data-key="ex"></div> <div class="area" data-key="saccō"></div> exit.</div>
