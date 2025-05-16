@@ -1,5 +1,5 @@
 $_GET({
-  title: 'Nova Exercitia 6',
+  title: 'Nova exercitia 6',
   html: /*html*/`
     <div class="row">
       <style>.nova-img {max-width: 100%;}</style>
