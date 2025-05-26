@@ -78,7 +78,7 @@ $_GET({
       <div>3. Iūlius serv<div class="area" data-key="īs"></div> et līber<div class="area" data-key="īs"></div> su<div class="area" data-key="īs"></div> māla et pira, Aemili<div class="area" data-key="ae"></div> autem ōsculum dat.</div>
       <div>4. Iūli<div class="area" data-key="ae"></div> Iūlius nōn sōlum ōsculum, sed etiam mālum dat. <div class="area" data-key="eī"></div> ōsculum et mālum Iūlius dat.</div>
       <div>5. Iūlius Cornēli<div class="area" data-key="ō"></div>, amīc<div class="area" data-key="ō"></div> su<div class="area" data-key="ō"></div>, magnum librum dat. <div class="area" data-key="cui"></div> Iūlius librum dat? <div class="area" data-key="eī"></div> librum dat.</div>
-      <div>6. Domina Syr<div class="area" data-key="ae"></div> Dēl<div class="area" data-key="ae"></div>que, bon<div class="area" data-key="īs"></div> ancill<div class="area" data-key="īs"></div>, rosās et līlia dat.</div>
+      <div>6. Domina Syr<div class="area" data-key="ae"></div> Dēli<div class="area" data-key="ae"></div>que, bon<div class="area" data-key="īs"></div> ancill<div class="area" data-key="īs"></div>, rosās et līlia dat.</div>
       <div>7. Fēmina <div class="area" data-key="cui"></div> Iūlius ōsculum dat Aemilia est. Amīcus <div class="area" data-key="cui"></div> librum dat Cornēlius est.</div>
       <div>8. Iūlia māl<div class="area" data-key="ō"></div> su<div class="area" data-key="ō"></div> ōsculum dat.</div>
       <div>9. Dominus serv<div class="area" data-key="ō"></div> prob<div class="area" data-key="ō"></div>, quī aliōs servōs nōn accūsat, pecūniam dat.</div>
