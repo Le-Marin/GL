@@ -39,7 +39,7 @@ main {
   --nav-display: none;
   --blocks-display: flex;
   font-family: "Ysabeau Infant", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 2rem;
   min-width: 40rem;
   max-width: 43em;
   min-height: 100vh;
@@ -49,6 +49,7 @@ main {
   color: #222;
   -webkit-user-select: none;
   user-select: none;
+  z-index: 11;
 }
 main.is-menu-shown {
   --nav-display: block;
@@ -260,7 +261,7 @@ main[data-mode="interlinear"] .lit-action[data-action="interlinear"] {
   opacity: 1;
   transition-property: opacity, display;
   transition-behavior: allow-discrete;
-  transition-duration: 0.15s;
+  transition-duration: 0.125s;
   transition-delay: 0.125s;
   transform: translate(var(--x), var(--y));
   white-space: pre-line;
@@ -281,7 +282,7 @@ main[data-mode="interlinear"] .lit-action[data-action="interlinear"] {
 
 @media screen and (max-width: 31.25em) {
   main {
-    font-size: 1.8em;
+    font-size: 1.8rem;
   }
   .subscription {
     font-size: 0.8em;
@@ -289,6 +290,6 @@ main[data-mode="interlinear"] .lit-action[data-action="interlinear"] {
 }
 @media screen and (max-width: 25em) {
   main {
-    font-size: 1.7em;
+    font-size: 1.7rem;
   }
 }
