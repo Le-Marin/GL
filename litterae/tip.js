@@ -8,6 +8,7 @@
   const getClientWidth = () => document.documentElement.clientWidth;
 
   elem.id = 'tip';
+  elem.hidden = true;
   document.getElementById('root').appendChild(elem);
 
   document.addEventListener('mouseover', onTipFocus);

@@ -21,6 +21,7 @@
   const rootDataset = elRoot.dataset;
   const ver = '?v=' + rootDataset.v;
   const docTitle = 'LITTERAE LATINAE';
+  const jsPath = location.host && 'https://le-marin.github.io/GL/litterae/';
 
   // ========== [[ TOOLBAR ]]
 
@@ -89,7 +90,7 @@
 
   function loadJS(src) {
     const script = document.createElement('script');
-    script.src = `${src}.js${ver}`;
+    script.src = `${jsPath + src}.js${ver}`;
     document.head.appendChild(script).remove();
   }
 
