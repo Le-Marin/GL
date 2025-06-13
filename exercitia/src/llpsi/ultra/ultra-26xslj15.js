@@ -17,7 +17,7 @@ $_GET({
       <div><br></div>
       <div><i>для размышления</i> — <div class="area" data-key="ad"></div> c<div class="area" data-key="ōgitandum"></div></div>
       <div><i>чтобы лучше понять</i> — <div class="area" data-key="ad"></div> m<div class="area" data-key="elius"></div> <div class="area" data-key="intellegendum"></div></div>
-      <div><i>для наилучшего воспитания</i> — <div class="area" data-key="ad"></div> o<div class="area" data-key="ptimē"></div> ē<div class="area" data-key="ducandō"></div></div>
+      <div><i>для наилучшего воспитания</i> — <div class="area" data-key="ad"></div> o<div class="area" data-key="ptimē"></div> ē<div class="area" data-key="ducandum"></div></div>
       <div><i>для длительного молчания</i> — <div class="area" data-key="ad"></div> d<div class="area" data-key="iū"></div> <div class="area" data-key="tacendum"></div></div>
       <div><i>чтобы меньше сомневаться</i> — <div class="area" data-key="ad"></div> <div class="area" data-key="minus"></div> d<div class="area" data-key="ubitandum"></div></div>
       <div><i>чтобы отважнее сражаться</i> — <div class="area" data-key="ad"></div> f<div class="area" data-key="ortius"></div> <div class="area" data-key="pugnandum"></div></div>
