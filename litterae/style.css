@@ -1,6 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI"),
+       local("Segoe UI Regular"),
+       local("SegoeUI"),
+       local("SegoeUI-Regular"),
+       url("fonts/SegoeUI-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI Bold"),
+       local("SegoeUI-Bold"),
+       url("fonts/SegoeUI-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI Italic"),
+       local("SegoeUI-Italic"),
+       url("fonts/SegoeUI-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI Bold Italic"),
+       local("SegoeUI-BoldItalic"),
+       url("fonts/SegoeUI-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   font-size: 0.625rem;
   color-scheme: light;
@@ -114,6 +153,13 @@ main[data-mode="interlinear"] .lit-action[data-action="interlinear"] {
   opacity: 0.7;
   pointer-events: none;
 }
+.lit-top-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.2em;
+}
 .lit-title {
   font-size: 1em;
 }
@@ -124,6 +170,99 @@ main[data-mode="interlinear"] .lit-action[data-action="interlinear"] {
   background: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTI4LjU1NCAxNy4yNWgtMjUuMTA4YTEuMjUgMS4yNSAwIDAgMSAwLTIuNWgyNS4xMDhhMS4yNSAxLjI1IDAgMSAxIDAgMi41eiI+PC9wYXRoPjxwYXRoIGQ9Im0yOC41NTQgMTAuMTA3aC0yNS4xMDhhMS4yNSAxLjI1IDAgMSAxIDAtMi41aDI1LjEwOGExLjI1IDEuMjUgMCAxIDEgMCAyLjV6Ij48L3BhdGg+PHBhdGggZD0ibTI4LjU1NCAyNC4zOTNoLTI1LjEwOGExLjI1IDEuMjUgMCAwIDEgMC0yLjVoMjUuMTA4YTEuMjUgMS4yNSAwIDEgMSAwIDIuNXoiPjwvcGF0aD48L3N2Zz4=") no-repeat center / cover;
   border: none;
   outline: none;
+}
+
+/* AUDIO */
+
+.audio {
+  font-size: 0.85em;
+  display: flex;
+  align-items: center;
+  column-gap: 0.3em;
+  padding: 0.1em 0.2em;
+  color: black;
+  background-color: #f4f4f4;
+  border: 1px solid #999;
+  border-radius: 0.2em;
+}
+.audio:empty,
+.audio[hidden] {
+  display: none;
+}
+.audio-btn {
+  font-size: 1.5em;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  color: inherit;
+  background: no-repeat center / 0.75em;
+  border: none;
+  border-radius: 50%;
+}
+.audio-btn:hover {
+  background-color: #ddd;
+}
+.audio-play {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik04IDV2MTRsMTEtN3oiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+");
+}
+.audio-play.__paused {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik02IDE5aDRWNUg2djE0em04LTE0djE0aDRWNWgtNHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+");
+}
+.audio-time {
+  font-family: Consolas, monospace;
+  font-size: 0.75em;
+  word-spacing: -0.3em;
+  white-space: nowrap;
+}
+.audio-track {
+  --fill: 0%;
+  width: 4em;
+  height: 0.16em;
+  position: relative;
+  margin: 0 0.5em;
+  background-color: #ccc;
+  border-radius: 0.1em;
+  outline: none;
+  cursor: pointer;
+}
+.audio-track::before {
+  content: "";
+  width: var(--fill);
+  height: 100%;
+  display: block;
+  background-color: currentColor;
+  border-radius: inherit;
+}
+.audio-track::after {
+  content: "";
+  font-size: 0.5em;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: calc(var(--fill) - 0.5em);
+  top: calc(50% - 0.5em);
+  background-color: currentColor;
+  border-radius: 50%;
+}
+.audio-track:focus::after {
+  box-shadow: 0 0 0 0.2em #4449;
+}
+.audio-vol {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0zIDl2Nmg0bDUgNVY0TDcgOUgzem0xMy41IDNjMC0xLjc3LTEuMDItMy4yOS0yLjUtNC4wM3Y4LjA1YzEuNDgtLjczIDIuNS0yLjI1IDIuNS00LjAyek0xNCAzLjIzdjIuMDZjMi44OS44NiA1IDMuNTQgNSA2Ljcxcy0yLjExIDUuODUtNSA2LjcxdjIuMDZjNC4wMS0uOTEgNy00LjQ5IDctOC43N3MtMi45OS03Ljg2LTctOC43N3oiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+");
+}
+.audio-vol.__muted {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xNi41IDEyYzAtMS43Ny0xLjAyLTMuMjktMi41LTQuMDN2Mi4yMWwyLjQ1IDIuNDVjLjAzLS4yLjA1LS40MS4wNS0uNjN6bTIuNSAwYzAgLjk0LS4yIDEuODItLjU0IDIuNjRsMS41MSAxLjUxQzIwLjYzIDE0LjkxIDIxIDEzLjUgMjEgMTJjMC00LjI4LTIuOTktNy44Ni03LTguNzd2Mi4wNmMyLjg5Ljg2IDUgMy41NCA1IDYuNzF6TTQuMjcgM0wzIDQuMjcgNy43MyA5SDN2Nmg0bDUgNXYtNi43M2w0LjI1IDQuMjVjLS42Ny41Mi0xLjQyLjkzLTIuMjUgMS4xOHYyLjA2YzEuMzgtLjMxIDIuNjMtLjk1IDMuNjktMS44MUwxOS43MyAyMSAyMSAxOS43M2wtOS05TDQuMjcgM3pNMTIgNEw5LjkxIDYuMDkgMTIgOC4xOFY0eiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=");
+}
+
+@media screen and (max-width: 28.75rem) {
+  .audio-time {
+    font-size: 0.7em;
+    word-spacing: -0.35em;
+  }
+  .audio-track {
+    width: 2.5em;
+    margin: 0 0.35em;
+  }
 }
 
 /* NAV */
@@ -238,7 +377,7 @@ main[data-mode="interlinear"] .lit-action[data-action="interlinear"] {
   color: brown;
 }
 .ff-2 {
-  font-family: "Segoe UI", Segoe, Arial, sans-serif;
+  font-family: "Segoe UI", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 /* TIP */

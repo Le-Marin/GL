@@ -16,7 +16,7 @@
   const elRoot = $('#root');
   const elMain = $('.lit-content');
   const elToolbar = $('.lit-toolbar');
-  const elTitle = elToolbar.children[1];
+  const elTitle = $('h4', elToolbar);
 
   const rootDataset = elRoot.dataset;
   const ver = '?v=' + rootDataset.v;
@@ -83,14 +83,17 @@
     navStyle.textContent = `${selector} { ${css} }`;
 
     if (!knownIds.includes(id)) return clearState();
-    if (stack.has(id)) return stack.get(id).init();
 
-    loadJS(`texts/${id}`);
+    if (stack.has(id)) stack.get(id).init();
+    else loadJS(`texts/${id}`);
+
+    initAudio(id);
   });
 
-  function loadJS(src) {
+  function loadJS(src, callback) {
     const script = document.createElement('script');
     script.src = `${jsPath + src}.js${ver}`;
+    script.onload = callback;
     document.head.appendChild(script).remove();
   }
 
@@ -101,6 +104,7 @@
     document.title = docTitle;
     elMain.replaceChildren();
     closeMenu();
+    initAudio(null);
   }
 
   // ====================
@@ -214,8 +218,10 @@
   // ====================
 
   window.$_GET = $_GET;
-  window.dispatchEvent(new HashChangeEvent('hashchange'));
-  loadJS('tip')
+  loadJS('tip');
+  loadJS('audio', function() {
+    window.dispatchEvent(new HashChangeEvent('hashchange'));
+  });
 
   function $_GET(data) {
     data.parts = data.text.split('---');

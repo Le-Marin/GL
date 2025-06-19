@@ -2,7 +2,8 @@
   'use strict';
 
   let timerId = 0;
-  const handlerParams = { once: true };
+  let lastElem = null;
+  const handlerParams = { once: true, passive: true };
   const elem = document.createElement('div');
   const setCSS = elem.style.setProperty.bind(elem.style);
   const getClientWidth = () => document.documentElement.clientWidth;
@@ -13,32 +14,41 @@
 
   document.addEventListener('mouseover', onTipFocus);
   document.addEventListener('touchstart', onTipFocus);
-  document.addEventListener('click', onTipFocus);
 
   function onTipFocus(e) {
-    const trg = e.target;
+    const target = e.target;
 
-    if (!trg.hasAttribute('data-tip')) return hide();
+    if (!target.hasAttribute('data-tip')) return hide();
 
-    if (e.type === 'touchstart') {
-      document.addEventListener('touchend', onTouchEnd, handlerParams);
-    } else if (e.type === 'mouseover') {
-      document.addEventListener('wheel', hide, handlerParams);
+    switch (e.type) {
+      case 'mouseover':
+        document.addEventListener('wheel', hide, handlerParams);
+        break;
+      case 'touchstart':
+        if (timerId) clear();
+        lastElem = target;
+        document.addEventListener('touchend', onTouchEnd, handlerParams);
+        document.addEventListener('click', onTipFocus, handlerParams);
+        break;
+      case 'click':
+        if (timerId) clear();
+        if (target === lastElem) return;
+        break;
     }
 
-    if (timerId) {
-      clearTimeout(timerId);
-      timerId = 0;
-    }
-
-    render(trg);
-    move(trg.getBoundingClientRect());
+    render(target);
+    move(target.getBoundingClientRect());
     document.addEventListener('scroll', hide, handlerParams);
   }
 
   function onTouchEnd() {
     timerId = setTimeout(hide, 300);
     return;
+  }
+
+  function clear() {
+    clearTimeout(timerId);
+    timerId = 0;
   }
 
   function hide() {
