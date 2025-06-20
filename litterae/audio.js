@@ -2,10 +2,9 @@ const initAudio = (function() {
   'use strict';
 
   let audio = null;
-  const audioPath = 'audio/';
   const audioNode = document.getElementById('audio');
 
-  if (!audioNode) return;
+  if (!audioNode) return Function.prototype;
 
   audioNode.innerHTML = /*html*/`
     <button class="audio-play audio-btn" data-action="playpause"></button>
@@ -27,9 +26,7 @@ const initAudio = (function() {
   track.addEventListener('touchstart', onTrackTouch);
   track.addEventListener('keydown', onTrackInput);
 
-  return initAudio;
-
-  function initAudio(name) {
+  return function init(src) {
     if (audio instanceof Audio) clearAudio(audio);
 
     isTouched = false;
@@ -39,13 +36,13 @@ const initAudio = (function() {
     btnVolume.classList.remove('__muted');
     setTrackWidth('0%');
 
-    if (!name) {
+    if (!src) {
       audio = null;
       audioNode.hidden = true;
       return;
     }
 
-    audio = new Audio(audioPath + name + '.mp3');
+    audio = new Audio(src);
     audioNode.hidden = false;
 
     audio.volume = 0.85;
@@ -54,7 +51,7 @@ const initAudio = (function() {
     audio.onpause = onPlayStateChange;
     audio.ontimeupdate = onTimeUpdate;
     audio.oncanplay = onCanPlay;
-  }
+  };
 
   function clearAudio(audio) {
     audio.muted = true;

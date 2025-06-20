@@ -1,5 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@font-face {
+  font-family: "Garamond";
+  src: local("Garamond"),
+       local("Garamond Regular"),
+       local("Garamond-Regular"),
+       url("fonts/Garamond-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Garamond";
+  src: local("Garamond Bold"),
+       local("Garamond-Bold"),
+       url("fonts/Garamond-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Garamond";
+  src: local("Garamond Italic"),
+       local("Garamond-Italic"),
+       url("fonts/Garamond-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Garamond";
+  src: local("Garamond Bold Italic"),
+       local("Garamond-BoldItalic"),
+       url("fonts/Garamond-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
 
 @font-face {
   font-family: "Segoe UI";
@@ -185,7 +222,6 @@ main[data-mode="interlinear"] .lit-action[data-action="interlinear"] {
   border: 1px solid #999;
   border-radius: 0.2em;
 }
-.audio:empty,
 .audio[hidden] {
   display: none;
 }
@@ -385,7 +421,7 @@ main[data-mode="interlinear"] .lit-action[data-action="interlinear"] {
 #tip {
   --x: 0;
   --y: 0;
-  font-family: Garamond, "Times New Roman", Times, serif;
+  font-family: "Garamond", "Times New Roman", Times, serif;
   font-size: 0.9em;
   max-width: 32rem;
   max-width: min(36rem, 92vw);

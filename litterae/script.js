@@ -21,7 +21,7 @@
   const rootDataset = elRoot.dataset;
   const ver = '?v=' + rootDataset.v;
   const docTitle = 'LITTERAE LATINAE';
-  const jsPath = location.host && 'https://le-marin.github.io/GL/litterae/';
+  const PATH = location.host && 'https://le-marin.github.io/GL/litterae/';
 
   // ========== [[ TOOLBAR ]]
 
@@ -74,8 +74,6 @@
   const knownIds = navLinks.map(el => el.hash.slice(2));
   const stack = new Map;
 
-  if (!location.hash.slice(1)) location.replace('#/litterae-01');
-
   window.addEventListener('hashchange', function(e) {
     const id = location.hash.slice(2);
     const css = 'content: "•"; margin-right: 0.4em;';
@@ -87,12 +85,13 @@
     if (stack.has(id)) stack.get(id).init();
     else loadJS(`texts/${id}`);
 
-    initAudio(id);
+    if (typeof initAudio === 'undefined') return;
+    initAudio(`${PATH}audio/${id}.mp3${ver}`);
   });
 
   function loadJS(src, callback) {
     const script = document.createElement('script');
-    script.src = `${jsPath + src}.js${ver}`;
+    script.src = `${PATH + src}.js${ver}`;
     script.onload = callback;
     document.head.appendChild(script).remove();
   }
@@ -137,7 +136,9 @@
       return parseNode('<p class="text-block"></p>', setAppend(elItems));
     });
 
-    const target = parseNode('<div class="text"></div>', setAppend(elBlocks));
+    const target = document.createElement('div');
+    setAppend(elBlocks)(target);
+
     const isTipedWord = (el) => el.textContent === replacement;
     const tipedWords = $$('.word', target).filter(isTipedWord);
 
@@ -219,8 +220,11 @@
 
   window.$_GET = $_GET;
   loadJS('tip');
-  loadJS('audio', function() {
-    window.dispatchEvent(new HashChangeEvent('hashchange'));
+
+  loadJS('audio', async function() {
+    await new Promise(resolve => setTimeout(resolve, 60));
+    if (!location.hash.slice(1)) location.replace('#/litterae-01');
+    else window.dispatchEvent(new HashChangeEvent('hashchange'));
   });
 
   function $_GET(data) {
