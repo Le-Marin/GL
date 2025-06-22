@@ -101,7 +101,7 @@ $_GET({
       <div>4. Iūlia ab Aemiliā et puerīs abit. = Iūlia <div class="area" data-key="Aemiliam et puerōs relinquit"></div>.</div>
       <div>5. Ovis nigra pāstōrem suum relinquit. = Ovis nigra <div class="area" data-key="ā pāstōre suō abit"></div>.</div>
       <div>6. Canis ā pāstōre nōn abit. = Canis <div class="area" data-key="pāstōrem nōn relinquit"></div>.</div>
-      <div>7. Pāstor ovēs albās relinquit. = Pāstor <div class="area" data-key="ab ovibus albīs nōn abit"></div>.</div>
+      <div>7. Pāstor ovēs albās relinquit. = Pāstor <div class="area" data-key="ab ovibus albīs abit"></div>.</div>
       <div>8. Lupus ab ove et cane abit. = Lupus <div class="area" data-key="ovem et canem relinquit"></div>.</div>
       <div><br></div>
     </div>
