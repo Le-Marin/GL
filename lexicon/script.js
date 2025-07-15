@@ -1,4 +1,4 @@
-(function() {
+(function(script) {
   'use strict';
 
   if (!('scrollIntoViewIfNeeded' in Element.prototype)) {
@@ -21,7 +21,8 @@
   const button = search.nextElementSibling;
   const list = button.nextElementSibling;
 
-  let mv = 4;
+  const now = Date.now();
+  let mv = script ? +(script.src.match(/\d+$/) || [now])[0] : now;
   let selectedListElem = null;
 
   document.addEventListener('click', clearList);
@@ -167,7 +168,7 @@
     if (that) return vocabulary[key] = that.default;
 
     mv += 1;
-    alert('Error: Cannot load dictionary');
+    alert('Error: Cannot load dictionary!');
   }
 
   function debounce(callback, delay) {
@@ -177,4 +178,4 @@
       timerId = setTimeout(callback, delay, e);
     };
   }
-})();
+})(document.currentScript);

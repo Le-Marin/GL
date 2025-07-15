@@ -543,7 +543,7 @@ export default [
   ["octagonos", "<big>octagonos</big>\n\n<b>octagonos, on</b> <i>adj.</i> (<i>греч.</i>)\nвосьмиугольный <i>Vtr</i>."],
   ["octagonum", "<big>octagonum</big>\n\n<b>octagonum (on), i</b> <i>n</i> (<i>греч.</i>)\nвосьмиугольник <i>Vtr</i>."],
   ["octangulus", "<big>octangulus</big>\n\n<b>oct–angulus, a, um</b>\nвосьмиугольный <i>Ap</i>."],
-  ["octans", "<big>octans</big>\n\n<b>octans, antis</b> <i>m</i> [octo]\nоктант, хорда в 45" (<i>восьмая часть окружности</i>) <i>Vtr</i>."],
+  ["octans", "<big>octans</big>\n\n<b>octans, antis</b> <i>m</i> [octo]\nоктант, хорда в 45° (<i>восьмая часть окружности</i>) <i>Vtr</i>."],
   ["octaphoron", "<big>octaphoron</big>\n\n<b>octaphoron, i</b> <i>n</i> <i>v. l.</i>\n= octophoron."],
   ["octastylos", "<big>octastylos</big>\n\n<b>octastylos, on</b> <i>adj.</i> (<i>греч.</i>)\nвосьмиколонный <i>Vtr</i>."],
   ["octateuchos", "<big>octateuchos</big>\n\n<b>octateuchos, on</b> (<i>греч.</i>)\nвосьмикнижный (codex <i>Eccl</i>)."],

@@ -155,8 +155,7 @@ main[data-mode="literary"] {
   top: -1px;
   padding: 0.5em 0;
   background-color: #fff;
-  border: 0 solid #aaa;
-  border-width: 1px 0;
+  border-bottom: 1px solid #aaa;
 }
 .lit-action {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
