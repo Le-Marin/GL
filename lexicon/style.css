@@ -79,9 +79,9 @@ h4 {
   line-height: 1.5;
   display: block;
   padding: 0 0.4em;
-  cursor: pointer;
 }
-.search-list__item:hover {
+.search-list__item:hover,
+.search-list__item:focus {
   background-color: #f4f4f4;
 }
 .search-list__item._active {
@@ -111,15 +111,20 @@ h4 {
 .content-box:last-child:empty {
   display: none;
 }
+var {
+  color: brown;
+}
+u {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #666;
+}
 a {
   color: royalblue;
   text-decoration: none;
 }
 a:hover {
   color: mediumblue;
-}
-a._active {
-  color: seagreen;
 }
 
 @media screen and (max-width: 31.25rem) {
