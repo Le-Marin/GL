@@ -60,7 +60,7 @@ $_GET({
       <div>2. Magister Mārcum surgere et respondēre iubet = <div class="area" data-key="Magister Mārcō imperat"></div> ut <div class="area" data-key="surgat et respondeat"></div>.</div>
       <div>3. Domina ancillam intrāre iubet = <div class="area" data-key="Domina ancillae imperat"></div> ut <div class="area" data-key="intret"></div>.</div>
       <div>4. Gubernātor nautās aquam haurīre iubet = <div class="area" data-key="Gubernātor nautīs imperat"></div> ut <div class="area" data-key="aquam hauriant"></div>.</div>
-      <div>5. Dominus servōs industriē labōrāre iubet = <div class="area" data-key="Dominus servīs imperat"></div> ut <div class="area" data-key="labōrent"></div>.</div>
+      <div>5. Dominus servōs industriē labōrāre iubet = <div class="area" data-key="Dominus servīs imperat"></div> ut <div class="area" data-key="industriē labōrent"></div>.</div>
       <div>6. Iūlius iānitōrem vigilāre et domum bene cūstōdīre iubet = <div class="area" data-key="Iūlius iānitōrī imperat"></div> ut <div class="area" data-key="vigilet et domum bene cūstōdiat"></div>.</div>
       <div>7. Dux mīlitēs oppidum hostium oppugnāre iubet = <div class="area" data-key="Dux mīlitibus imperat"></div> ut <div class="area" data-key="oppidum hostium oppugnent"></div>.</div>
       <div>8. Iūlius servum medicum arcessere iubet = <div class="area" data-key="Iūlius servō imperat"></div> ut <div class="area" data-key="medicum arcessat"></div>.</div>
@@ -111,7 +111,7 @@ $_GET({
       <div><br></div>
       <div><span class="ff"><i>coniūnctīvus praesentis passīvī</i></span></div>
       <div><br></div>
-      <div>1. Dominus imperat ut servus voc<div class="area" data-key="ētur"></div> et interrog<div class="area" data-key=" ētur"></div> (= Dominus servum voc<div class="area" data-key="ārī"></div> et interrog<div class="area" data-key="ārī"></div> iubet).</div>
+      <div>1. Dominus imperat ut servus voc<div class="area" data-key="ētur"></div> et interrog<div class="area" data-key="ētur"></div> (= Dominus servum voc<div class="area" data-key="ārī"></div> et interrog<div class="area" data-key="ārī"></div> iubet).</div>
       <div>2. Iūlius imperat ut pāstor prehend<div class="area" data-key="ātur"></div> et tene<div class="area" data-key="ātur"></div> (= Iūlius pāstōrem prehend<div class="area" data-key="ī"></div> et ten<div class="area" data-key="ērī"></div> iubet).</div>
       <div>3. Colōnus: “Cūrā ut ovēs tuae ab agrīs prohibe<div class="area" data-key="antur"></div>!”</div>
       <div>4. Dux nūntium monet ut cautē ex castrīs ēgredi<div class="area" data-key="ātur"></div> et ōret ut sine morā sibi auxilium mitt<div class="area" data-key="ātur"></div>.</div>
@@ -138,4 +138,5 @@ $_GET({
       <div>10. Iūlius, quamquam sevērus exīstimātur, tamen <div class="area" data-key="inhūmānus"></div> nōn est.</div>
     </div>
   `
+
 });
