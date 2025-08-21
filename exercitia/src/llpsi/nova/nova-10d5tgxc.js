@@ -165,7 +165,7 @@ $_GET({
       <div><br></div>
       <div>Pāstor can<div class="area" data-key="ī"></div> su<div class="area" data-key="ō"></div> cibum dat. Canis ā pāstōr<div class="area" data-key="e"></div> cibum accipit et caud<div class="area" data-key="am"></div> movet, quod laet<div class="area" data-key="us"></div> est. Ov<div class="area" data-key="ibus"></div> suīs cibum nōn dat pāstor, quia cibus ov<div class="area" data-key="ium"></div> est herba, quae in camp<div class="area" data-key="ō"></div> est. Ovēs aquam bibunt ē flūmin<div class="area" data-key="e"></div>, quod prope silvam est. In silvā mult<div class="area" data-key="ae"></div> arbor<div class="area" data-key="ēs"></div> sunt; sed etiam in hort<div class="area" data-key="ō"></div> Iūli<div class="area" data-key="ī"></div> mult<div class="area" data-key="ae"></div> arbor<div class="area" data-key="ēs"></div> sunt.</div>
       <div><br></div>
-      <div>Mārcus et Quīntus nīd<div class="area" data-key="um"></div> in arbor<div class="area" data-key="e"></div> reperiunt, et in e<div class="area" data-key="um"></div> ascendere volunt. Nīdus inter rām<div class="area" data-key="ōs"></div> et foli<div class="area" data-key="a"></div> est. Sed quid in e<div class="area" data-key="ō"></div> est? In nīdō nōn ōv<div class="area" data-key="a"></div>, sed pull<div class="area" data-key="ī"></div> vīv<div class="area" data-key="ī"></div> sunt.</div>
+      <div>Mārcus et Quīntus nīd<div class="area" data-key="um"></div> in arbor<div class="area" data-key="e"></div> reperiunt, et in e<div class="area" data-key="am"></div> ascendere volunt. Nīdus inter rām<div class="area" data-key="ōs"></div> et foli<div class="area" data-key="a"></div> est. Sed quid in e<div class="area" data-key="ō"></div> est? In nīdō nōn ōv<div class="area" data-key="a"></div>, sed pull<div class="area" data-key="ī"></div> vīv<div class="area" data-key="ī"></div> sunt.</div>
       <div><br></div>
       <div>Dum Iūlia cum Margarītā, can<div class="area" data-key="e"></div> su<div class="area" data-key="ā"></div>, pil<div class="area" data-key="ā"></div> lūdit; dum pāstor ov<div class="area" data-key="em"></div> nigr<div class="area" data-key="am"></div> in silvā quaerit; dum Mēdus cum amīc<div class="area" data-key="ā"></div> su<div class="area" data-key="ā"></div> Rōmae est — Quīntus, quī crass<div class="area" data-key="us"></div> est neque parv<div class="area" data-key="ō"></div> rām<div class="area" data-key="ō"></div> sustinērī potest, ad terram cadit.</div>
       <div><br></div>
@@ -176,3 +176,4 @@ $_GET({
   `
 
 });
+
