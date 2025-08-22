@@ -11,6 +11,10 @@
     return elem.firstElementChild;
   }
 
+  // ====================
+
+  const noMediaKeys = new Set(['04']);
+
   // ========== [[ DOM ]]
 
   const elRoot = $('#root');
@@ -21,7 +25,11 @@
   const rootDataset = elRoot.dataset;
   const ver = '?v=' + rootDataset.v;
   const docTitle = 'LITTERAE LATINAE';
-  const PATH = location.host && 'https://le-marin.github.io/GL/litterae/';
+
+  const { hostname } = location;
+  const PATH = (!hostname || /^(localhost|127\.0\.0\.1)$/.test(hostname))
+    ? './'
+    : 'https://le-marin.github.io/GL/litterae/';
 
   // ========== [[ TOOLBAR ]]
 
@@ -86,7 +94,9 @@
     else loadJS(`texts/${id}`);
 
     if (typeof initAudio === 'undefined') return;
-    initAudio(`${PATH}audio/${id}.mp3${ver}`);
+
+    if (noMediaKeys.has(id.slice(9))) initAudio(null);
+    else initAudio(`${PATH}audio/${id}.mp3${ver}`);
   });
 
   function loadJS(src, callback) {
@@ -108,12 +118,16 @@
 
   // ====================
 
-  function splitLatText(text) {
-    return splitText(text).map(chunks => chunks.filter(Boolean));
+  function createCounter(global) {
+    const reg = /\{(\d+)\}/;
+    return {
+      matcher: global ? new RegExp(reg, 'g') : reg,
+      tpl: (m, n) => `<sup class="num">${n}</sup>`
+    };
   }
 
-  function splitSubText(text) {
-    return splitText(text);
+  function splitLatText(text) {
+    return splitText(text).map(chunks => chunks.filter(Boolean));
   }
 
   function splitText(text) {
@@ -125,21 +139,21 @@
 
   function createContainer(latText, subText) {
     const [tips, text, replacement] = matchTips(latText);
-
+    const counter = createCounter();
     const latBlocks = splitLatText(text);
-    const subBlocks = splitSubText(subText);
+    const subBlocks = splitText(subText);
     const setAppend = (elems) => (elem) => elem.append(...elems);
 
     const elBlocks = latBlocks.map((chunks, i) => {
       const subs = subBlocks[i];
-      const elItems = chunks.map((x, i) => createTextItem(x, subs[i]));
+      const elItems = chunks.map((x, i) => createTextItem(x, subs[i], counter));
       return parseNode('<p class="text-block"></p>', setAppend(elItems));
     });
 
     const target = document.createElement('div');
     setAppend(elBlocks)(target);
 
-    const isTipedWord = (el) => el.textContent === replacement;
+    const isTipedWord = (el) => el.textContent.startsWith(replacement);
     const tipedWords = $$('.word', target).filter(isTipedWord);
 
     tipedWords.forEach((el, i) => parseTip(el, tips[i]));
@@ -153,10 +167,16 @@
     return [tips, text.replace(matcher, replacement), replacement];
   }
 
-  function createTextItem(lat, sub) {
+  function createTextItem(lat, sub, counter) {
     const empty = [''];
     const tplWord = '<span class="word">$&</span>';
     const tplSub = '<small class="subscription">$&</small>';
+
+    const nm = lat.match(counter.matcher);
+    const sup = nm ? counter.tpl(...nm) : '';
+
+    if (nm) lat = lat.replace(nm[0], '');
+
     const lm = (lat.match(/^[“(]{1,2}/) || empty)[0];
     const rm = (lat.match(/[”).,;:!?]{1,4}$/) || empty)[0];
     const regAll = /.*/;
@@ -165,12 +185,20 @@
     let lhtm = rm ? lat.slice(0, -rm.length) : lat;
     lhtm = lhtm.slice(lm.length).replace(regAll, tplWord);
 
-    const html = lm + lhtm + rm + shtm;
+    const html = sup + lm + lhtm + rm + shtm;
     return parseNode(`<span class="text-item">${html}</span>`);
   }
 
   function parseTip(elem, tipText) {
     const [word, markup] = tipText.slice(2, -2).split(' | ');
+
+    if (markup.startsWith('=')) {
+      elem.className += ' _lex';
+      elem.__word = markup.slice(1);
+      elem.innerHTML = word;
+      return;
+    }
+
     const tip = markup
       .replace(/\^(.+?)\^/g, '<span class="c-red">$1</span>')
       .replace(/\*(.+?)\*/g, '<b>$1</b>')
@@ -186,9 +214,12 @@
   }
 
   function createLitElem(text) {
+    const counter = createCounter(true);
+    const reN = (s) => s.replace(counter.matcher, counter.tpl);
     const blocks = text.trim().replaceAll('\r', '').split('\n\n');
-    const elems = blocks.map(s => parseNode(`<p class="text-block">${s}</p>`));
-    return parseNode('<div class="text"></div>', (el) => el.append(...elems));
+    const cb = (s) => parseNode(`<p class="text-block">${reN(s)}</p>`);
+    const appendAll = (el) => el.append(...blocks.map(cb));
+    return parseNode('<div class="text"></div>', appendAll);
   }
 
   // ====================
@@ -220,9 +251,9 @@
 
   window.$_GET = $_GET;
   loadJS('tip');
-
+  loadJS('lexicon');
   loadJS('audio', async function() {
-    await new Promise(resolve => setTimeout(resolve, 60));
+    await new Promise(resolve => setTimeout(resolve, 50));
     if (!location.hash.slice(1)) location.replace('#/litterae-01');
     else window.dispatchEvent(new HashChangeEvent('hashchange'));
   });

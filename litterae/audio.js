@@ -50,7 +50,7 @@ const initAudio = (function() {
     audio.onplay = onPlayStateChange;
     audio.onpause = onPlayStateChange;
     audio.ontimeupdate = onTimeUpdate;
-    audio.oncanplay = onCanPlay;
+    audio.onloadedmetadata = onMetaLoaded;
   };
 
   function clearAudio(audio) {
@@ -58,7 +58,7 @@ const initAudio = (function() {
     audio.onplay = null;
     audio.onpause = null;
     audio.ontimeupdate = null;
-    audio.oncanplay = null;
+    audio.onloadedmetadata = null;
     audio.pause();
   }
 
@@ -74,8 +74,8 @@ const initAudio = (function() {
     return btnPlay.classList.toggle('__paused', !this.paused);
   }
 
-  function onCanPlay() {
-    this.oncanplay = null;
+  function onMetaLoaded() {
+    this.onloadedmetadata = null;
     endTimeNode.data = getMinSec(this.duration);
   }
 
@@ -179,6 +179,7 @@ const initAudio = (function() {
 
   function extendEvent(e) {
     if (typeof e.x === 'number') return;
+    if (typeof e.clientX === 'number') return void (e.x = e.clientX);
     const touches = e.changedTouches || e.targetTouches || e.touches || [];
     e.x = (touches[0] || {}).clientX || 0;
   }
