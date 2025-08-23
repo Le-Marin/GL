@@ -1,65 +1,62 @@
 (async function() {
   'use strict';
 
-  const frameElem = document.getElementById('lexicon');
-  const frameView = frameElem && frameElem.contentWindow;
+  const curScript = document.currentScript;
+  const container = document.getElementById('lexicon');
 
-  if (!String(frameView).endsWith('Window]')) return;
+  await initLexicon();
 
-  await new Promise(resolve => {
-    const timerId = setTimeout(resolve, 4e3);
-    frameView.onload = function() {
-      clearTimeout(timerId);
-      resolve();
-    };
-  });
+  async function initLexicon() {
+    const v = 35475303;
+    const url = new URL(curScript.src);
+    const src = url.origin + url.pathname + '/../../lexicon';
+    const html = await (await fetch(`${src}?v=${v}`)).text();
+    const s = html.indexOf('<body>') + 6;
+    const e = html.lastIndexOf('</body>');
 
-  frameView.onload = null;
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = src + '/style.css?v=' + v;
 
-  const frameDoc = frameView.document;
+    const script = document.createElement('script');
+    script.src = src + '/script.js?v=' + v;
 
-  if (!frameDoc) return;
+    const shell = document.createElement('div');
+    shell.innerHTML = html.slice(s, e);
+    container.replaceChildren(shell.firstElementChild);
+    document.head.append(script, link);
+  }
 
-  const style = frameDoc.createElement('style');
-
-  style.textContent = /*css*/`
-    :root { scrollbar-width: thin; }
-    #root { padding: 0; }
-    #root > *:not(#content) { display: none; }
-    #content { border-top: none; }
-    big { visibility: hidden; display: block; margin-bottom: -3em; }
-  `;
-
-  frameDoc.head.appendChild(style);
-
-  let isFrameShown = 0;
+  let isVisible = 0;
   const fakeKeyupEvent = { type: 'keyup', key: 'Escape' };
+
+  container.addEventListener('click', (e) => e.stopPropagation());
 
   document.addEventListener('click', function(e) {
     const elem = e.target.closest('.word._lex');
 
     if (elem) showResult(elem.__word);
-    else if (isFrameShown) close(fakeKeyupEvent);
+    else if (isVisible) close(fakeKeyupEvent);
   });
 
   window.addEventListener('hashchange', function(e) {
-    if (!isFrameShown) return;
+    if (!isVisible) return;
     close(fakeKeyupEvent);
   });
 
   function showResult(word) {
-    const state = { word };
-    const event = new frameView.PopStateEvent('popstate', { state });
-    frameView.dispatchEvent(event);
-    frameElem.classList.add('_shown');
-    isFrameShown = 1;
+    const detail = { word };
+    const event = new CustomEvent('lexicon:search', { detail });
     document.addEventListener('keyup', close);
+    document.dispatchEvent(event);
+    container.classList.add('_shown');
+    isVisible = 1;
   }
 
   function close(e) {
     if (e.key !== 'Escape') return;
     document.removeEventListener(e.type, close);
-    frameElem.classList.remove('_shown');
-    isFrameShown = 0;
+    container.classList.remove('_shown');
+    isVisible = 0;
   }
 })();

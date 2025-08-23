@@ -1,4 +1,4 @@
-(function(script) {
+(function() {
   'use strict';
 
   if (!('scrollIntoViewIfNeeded' in Element.prototype)) {
@@ -15,7 +15,8 @@
   const badDictKeys = 'w';
   const cases = {'ā': 'a', 'ē': 'e', 'ī': 'i', 'ō': 'o', 'ū': 'u', 'ȳ': 'y'};
 
-  const cont = document.getElementById('content');
+  const cont = document.getElementById('lex-content');
+  const root = cont.parentNode;
   const [lBox, rBox] = cont.children;
   const search = document.getElementById('search');
   const button = search.nextElementSibling;
@@ -24,9 +25,18 @@
   const htmlCache = {};
   const style = document.head.appendChild(document.createElement('style'));
 
-  const now = Date.now();
-  let mv = script ? +(script.src.match(/\d+$/) || [now])[0] : now;
+  let mv = +root.dataset.v || Date.now();
   let selectedListElem = null;
+
+  if (location.hostname.startsWith('glos')) return initGL();
+
+  function initGL() {
+    root.replaceChildren(cont);
+    document.addEventListener('lexicon:search', function(e) {
+      const state = e.detail;
+      onPopState({ state });
+    });
+  }
 
   document.addEventListener('click', clearList);
 
@@ -323,4 +333,4 @@
       timerId = setTimeout(callback, delay, e);
     };
   }
-})(document.currentScript);
+})();
