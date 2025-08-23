@@ -19,6 +19,7 @@
     link.href = src + '/style.css?v=' + v;
 
     const script = document.createElement('script');
+    script.type = 'module';
     script.src = src + '/script.js?v=' + v;
 
     const shell = document.createElement('div');
