@@ -82,6 +82,8 @@ body {
   line-height: 1.5;
   display: block;
   padding: 0 0.4em;
+  color: #555;
+  text-decoration: none;
 }
 .search-list__item:hover,
 .search-list__item:focus {
