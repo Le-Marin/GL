@@ -5,6 +5,7 @@ $_GET({
       <div><b>Exercitium prīmum</b></div>
       <div><br></div>
       <div><span class="ff"><i>datīvus possessīvus</i></span></div>
+      <div><br></div>
       <div class="sc">
         <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Mārcus ūnam sorōrem habet. = Mārcō ūna soror est.</span></div>
       </div>
@@ -131,7 +132,7 @@ $_GET({
       <div><br></div>
       <div class="sc">
         <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Mārcus nōn tam crassus nec tam gravis est quam Quīntus.</span></div>
-        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Quīntus crassior et gravior est quam Mārcus.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Quīntus crass<u>ior</u> et grav<u>ior</u> est quam Mārcus.</span></div>
       </div>
       <div><br></div>
       <div>1. Iūlia nōn tam trīstis est quam Quīntus. = <div class="area" data-key="Quīntus"></div> t<div class="area" data-key="rīstior"></div> <div class="area" data-key="est"></div> quam <div class="area" data-key="Iūlia"></div>.</div>
