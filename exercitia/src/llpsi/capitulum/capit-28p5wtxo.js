@@ -59,7 +59,7 @@ $_GET({
       <div><br></div>
       <div>1. Iēsūs virō claudō imperāvit ut surg<div class="area" data-key="eret"></div> et ambul<div class="area" data-key="āret"></div>.</div>
       <div>2. Medicus Quīntō imperāvit ut ōs aper<div class="area" data-key="īret"></div> et linguam ostend<div class="area" data-key="eret"></div>.</div>
-      <div>3. Dux mīlitēs monuit ut fortiter pugn<div class="area" data-key="āret"></div> nēve hostēs tim<div class="area" data-key="ērent"></div>.</div>
+      <div>3. Dux mīlitēs monuit ut fortiter pugn<div class="area" data-key="ārent"></div> nēve hostēs tim<div class="area" data-key="ērent"></div>.</div>
       <div>4. Mīnōs postulāvit ut Athēniēnsēs ad Mīnōtaurum mitt<div class="area" data-key="erentur"></div>.</div>
       <div>5. Ariadna Thēseum monuit ut cav<div class="area" data-key="ēret"></div> nē ā mōnstrō occīd<div class="area" data-key="erētur"></div>.</div>
       <div>6. Thēseus Ariadnam rogāvit ut sē ante iānuam opper<div class="area" data-key="īrētur"></div>.</div>
@@ -147,4 +147,5 @@ $_GET({
       <div>16. <div class="area" data-key="pecūlium"></div> est pecūnia dominī quae servō datur.</div>
     </div>
   `
+
 });
