@@ -3,69 +3,69 @@ $_GET({
   text: `
 Arma virumque canō, Trōiae quī prīmus ab ōrīs
 
-Ītaliam, fātō profugus, Lāvīniaque vēnit
+Ītaliam, fātō [[profugus | =profugus]], {{Lāvīniaque | Lāvīni͡aque}} vēnit
 
 lītora, multum ille et terrīs iactātus et altō
 
-vī superum saevae memorem~Iūnōnis ob īram;
+vī {{superum | стяжение формы *superōrum*}} saevae [[memorem | =memor]]~Iūnōnis ob īram;
 
-{5}multa quoque et bellō passus, dum conderet urbem,
+{5}multa quoque et bellō passus, dum [[conderet | =condo]] urbem,
 
-inferretque deōs Latiō, genus unde Latīnum,
+īnferretque deōs Latiō, [[genus | =genus]] unde Latīnum,
 
 Albānīque patrēs, atque altae moenia Rōmae.
 
-Mūsa, mihī causās memorā, quō nūmine laesō,
+Mūsa, mihī causās [[memorā | =memoro]], quō [[nūmine | =numen]] [[laesō | =laedo]],
 
-quidve dolēns, rēgīna deum tot volvere cāsūs
+quidve dolēns, rēgīna {{deum | стяжение формы *deōrum*}} tot volvere [[cāsūs | =casus]]
 
-{10}īnsīgnem pietāte virum, tot adīre labōrēs
+{10}[[īnsīgnem | =insignis]] [[pietāte | =pietas]] virum, tot adīre [[labōrēs | =labor]]
 
-impulerit. Tantaene animīs caelestibus īrae?
+[[impulerit | =impello]]. Tantaene animīs caelestibus īrae?
 
 Urbs antīqua fuit (Tyriī tenuēre colōnī)
 
 Carthāgō, Ītaliam contrā Tiberīnaque longē
 
-ōstia, dīves opum studiīsque asperrima bellī,
+ōstia, dīves [[opum | =ops]] studiīsque [[asperrima | =asper]] bellī,
 
 {15}quam Iūnō fertur terrīs magis omnibus ūnam
 
-posthabitā~coluisse Samō; hīc illius arma,
+posthabitā~coluisse [[Samō | =Samos]]; hīc {{illius | illĭus}} arma,
 
-hīc currus fuit; hoc rēgnum dea gentibus esse,
+hīc currus fuit; hoc rēgnum dea [[gentibus | =gens]] esse,
 
-sī quā Fāta sinant, iam tum tenditque fovetque.
+sī quā Fāta sinant, iam tum [[tenditque | =tendo]] [[fovetque | =foveo]].
 
-Prōgeniem sed enim Trōiānō ā sanguine dūcī
+[[Prōgeniem | progenies]] sed enim Trōiānō ā sanguine dūcī
 
-{20}audierat, Tyriās olim quae verteret arcēs;
+{20}audierat, Tyriās ōlim quae verteret [[arcēs | =arx]];
 
-hinc populum lātē rēgem bellōque superbum
+hinc populum [[lātē | =late]] rēgem bellōque [[superbum | =superbus]]
 
-ventūrum excidiō Libyae: sīc volvere Parcās.
+{{ventūrum | ventūrum _esse_}} [[excidiō | =excidium]] Libyae: sīc volvere [[Parcās | =Parca]].
 
-Id metuēns veterisque memor Sāturnia bellī,
+Id metuēns veterisque memor [[Sāturnia | =Saturnia]] bellī,
 
-prīma~quod ad Trōiam prō cārīs gesserat Argīs
+prīma~quod ad Trōiam prō [[cārīs | =carus]] gesserat [[Argīs | =Argi]]
 
-{25}(necdum etiam causae īrārum saevīque dolōrēs
+{25}([[necdum | =necdum]] etiam causae īrārum saevīque dolōrēs
 
-exciderant animō: manet altā mente repostum
+[[exciderant | =excido]] animō: manet altā mente [[repostum | =repostus]]
 
-iūdicium Paridis sprētaeque~iniūria fōrmae,
+[[iūdicium | =judicium]] [[Paridis | =paris]] sprētaeque~iniūria fōrmae,
 
-et genus invīsum, et raptī Ganymēdis honōrēs),—
+et genus [[invīsum | =invisus]], et raptī [[Ganymēdis | =Ganymedes]] [[honōrēs | =honor]]),—
 
-hīs accēnsa super, iactātōs aequore tōtō
+hīs [[accēnsa | =accendo]] super, iactātōs [[aequore | =aequor]] tōtō
 
-{30}Trōas, rēliquiās Danaum atque immītis Achillis,
+{30}[[Trōas | =Tros]], [[rēliquiās | =reliquiae]] {{Danaum | =Danai}} atque [[immītis | =immitis]] Achillis,
 
-arcēbat longē Latiō; multōsque per annōs
+[[arcēbat | =arceo]] longē Latiō; multōsque per annōs
 
 errābant, āctī fātīs, maria omnia~circum.
 
-Tantae mōlis erat Rōmānam condere gentem!
+Tantae [[mōlis | =moles]] erat Rōmānam condere gentem!
 
 ---
 
@@ -91,7 +91,7 @@ Tantae mōlis erat Rōmānam condere gentem!
 
 вынудила Так~ли~велики у~натур небесных проявления~гнева
 
-Город древний был тирийские господствовали~<там> обитатели
+Город древний был тирийские господствовали обитатели
 
 Карфаген Италии напротив и~тибрского вдали
 
