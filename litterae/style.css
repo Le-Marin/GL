@@ -367,10 +367,11 @@ main[data-mode="interlinear"] .lit-action[data-action="interlinear"] {
 }
 sup.num {
   font-size: 0.65em;
+  line-height: normal;
   display: inline-block;
   vertical-align: top;
   margin-right: 0.3em;
-  margin-top: -0.3em;
+  margin-top: -0.1em;
   color: brown;
 }
 .text-item {
