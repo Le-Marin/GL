@@ -51,7 +51,7 @@ $_GET({
       <div>1. Quandō lūna et stēllae lūcent? = N<div class="area" data-key="octe"></div>.</div>
       <div>2. Quandō Mārtius mēnsis prīmus erat? = A<div class="area" data-key="ntiquō | ntiquīs"></div> t<div class="area" data-key="empore | emporibus"></div>.</div>
       <div>3. Quandō lūna dīmidia vidētur? = D<div class="area" data-key="iē"></div> sep<div class="area" data-key="timō"></div> vel oct<div class="area" data-key="āvō"></div> post lūnam novam.</div>
-      <div>4. Quandō diēs longissimī sunt? = Ae<div class="area" data-key="stāte"></div>, m<div class="area" data-key="ēnse"></div> Iū<div class="area" data-key="liō"></div>.</div>
+      <div>4. Quandō diēs longissimī sunt? = Ae<div class="area" data-key="stāte"></div>, m<div class="area" data-key="ēnse"></div> Iū<div class="area" data-key="niō"></div>.</div>
       <div>5. Quandō sōl altissimus in caelō est? = M<div class="area" data-key="erīdiē"></div>.</div>
       <div>6. Quandō puerī Germānī super glaciem lacuum lūdere possunt? = H<div class="area" data-key="ieme"></div>.</div>
       <div>7. Quandō campī novā herbā operiuntur? = V<div class="area" data-key="ēre"></div>.</div>
@@ -155,4 +155,5 @@ $_GET({
       <div>25. Dux Rōmānus mīlitibus fort<div class="area" data-key="issimīs"></div> imperat.</div>
     </div>
   `
+
 });
