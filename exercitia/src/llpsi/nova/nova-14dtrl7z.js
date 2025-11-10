@@ -132,7 +132,7 @@ $_GET({
       <div>15. Pāstor, ovem nigram quaer<div class="area" data-key="ēns"></div>, silvam petit.</div>
       <div>16. Pāstōrēs dorm<div class="area" data-key="ientēs"></div> ā canibus lātr<div class="area" data-key="antibus"></div> excitantur.</div>
       <div>17. Puer servō vestīmenta affer<div class="area" data-key="entī"></div> pāret.</div>
-      <div>18. Clāmor hostium castra oppugn<div class="area" data-key="antibus"></div> ā mīlitibus audītur.</div>
+      <div>18. Clāmor hostium castra oppugn<div class="area" data-key="antium"></div> ā mīlitibus audītur.</div>
       <div>19. Dux ā mīlitibus, in castrīs habit<div class="area" data-key="antibus"></div>, salūtātur.</div>
       <div>20. Medicus puerī in lectō iac<div class="area" data-key="entis"></div> cor palpit<div class="area" data-key="āns"></div> manū sentit.</div>
       <div>21. Servī puerīs frīg<div class="area" data-key="entibus"></div> vestīmenta afferunt.</div>
@@ -142,4 +142,5 @@ $_GET({
       <div>25. Quīntus, in lectō vigil<div class="area" data-key="āns"></div>, membra dol<div class="area" data-key="entia"></div> movēre nōn potest.</div>
     </div>
   `
+
 });
