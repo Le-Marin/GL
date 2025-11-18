@@ -91,7 +91,7 @@ $_GET({
       <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Dāvus domin<b>um</b> (: <u>eum</u>) saIūtat.</span></div>
       </div>
       <div><br></div>
-      <div>1. Iūlius Acmiliam (: <div class="area" data-key="eam"></div>) vocat.</div>
+      <div>1. Iūlius Aemiliam (: <div class="area" data-key="eam"></div>) vocat.</div>
       <div>2. Dominus servōs (: <div class="area" data-key="eōs"></div>) vocat.</div>
       <div>3. Aemilia ancillās (: <div class="area" data-key="eās"></div>) vocat.</div>
       <div>4. Dāvus et Mēdus dominum (: <div class="area" data-key="eum"></div>) saIūtant.</div>
@@ -172,4 +172,5 @@ $_GET({
       <div>12. Aemilia: “Ancillae, ven<div class="area" data-key="īte">īre</div>!” Ancillae ven<div class="area" data-key="iunt">īre</div>.</div>
     </div>
   `
+
 });
