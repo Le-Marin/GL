@@ -7,7 +7,7 @@ Arma virumque canō, Trōiae quī prīmus ab ōrīs
 
 lītora, multum ille et terrīs iactātus et altō
 
-vī {{superum | стяжение формы *superōrum*}} saevae [[memorem | =memor]]~Iūnōnis ob īram;
+vī {{superum | стяжение формы *superōrum*}} saevae memorem~Iūnōnis ob īram;
 
 {5}multa quoque et bellō passus, dum [[conderet | =condo]] urbem,
 
@@ -37,7 +37,7 @@ hīc currus fuit; hoc rēgnum dea [[gentibus | =gens]] esse,
 
 sī quā Fāta sinant, iam tum [[tenditque | =tendo]] [[fovetque | =foveo]].
 
-[[Prōgeniem | progenies]] sed enim Trōiānō ā sanguine dūcī
+[[Prōgeniem | =progenies]] sed enim Trōiānō ā sanguine dūcī
 
 {20}audierat, Tyriās ōlim quae verteret [[arcēs | =arx]];
 
@@ -47,7 +47,7 @@ hinc populum [[lātē | =late]] rēgem bellōque [[superbum | =superbus]]
 
 Id metuēns veterisque memor [[Sāturnia | =Saturnia]] bellī,
 
-prīma~quod ad Trōiam prō [[cārīs | =carus]] gesserat [[Argīs | =Argi]]
+prīma~quod ad Trōiam prō [[cārīs | =carus]] gesserat [[Argīs | =Argos]]
 
 {25}([[necdum | =necdum]] etiam causae īrārum saevīque dolōrēs
 
