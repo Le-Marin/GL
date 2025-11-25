@@ -102,7 +102,7 @@ $_GET({
       <div>9. Iūlius: “Cūr hīc cōnsistimus? Ubi <div class="area" data-key="sumus"></div>?”</div>
       <div>10. Dāvus: “In monte <div class="area" data-key="sumus"></div>. Iam tē portāre nōn <div class="area" data-key="possumus"></div>, domine.”</div>
       <div>11. Iūlius: “Quid mē portāre nōn <div class="area" data-key="potestis"></div>?”</div>
-      <div>12. Dāvus: “Tē portāre nōn <div class="area" data-key="possumus"></div>, quia nimis gravis <div class="area" data-key="es"></div>.</div>
+      <div>12. Dāvus: “Tē portāre nōn <div class="area" data-key="possumus"></div>, quia nimis gravis <div class="area" data-key="es"></div>.”</div>
       <div>13. Iūlius: “Ego gravis nōn <div class="area" data-key="sum"></div>, nec lectīca gravis <div class="area" data-key="est"></div>.”</div>
       <div>14. Ursus: “Sine tē lectīca gravis nōn <div class="area" data-key="est"></div>. Tūne apud lectīcam ambulāre <div class="area" data-key="potes"></div>?”</div>
       <div>15. Iūlius: “Fessus <div class="area" data-key="sum"></div>: ambulāre nōn <div class="area" data-key="possum"></div>.”</div>
