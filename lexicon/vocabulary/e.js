@@ -1493,7 +1493,7 @@ export default [
   ["examurco", "<big>examurco</big>\n\n<b>ex–amurco, —, —, āre</b> [amurca]\nвыжимать, отжимать, сушить (aliquid <i>Ap</i>)."],
   ["examussim", "<big>examussim</big>\n\n<b>ex–amussim</b> <i>adv.</i>\nточно, тщательно, в совершенстве <i>Pl, Ap</i>."],
   ["exancillatus", "<big>exancillatus</big>\n\n<b>ex–ancillātus, a, um</b> [ancillor]\nпо-рабски служащий (falsis dis <i>Tert</i>)."],
-  ["exanclo", "<big>exanclo</big>\n\n<b>exanclo</b> <i>C</i>\n= exantio."],
+  ["exanclo", "<big>exanclo</big>\n\n<b>exanclo</b> <i>C</i>\n= exantlo."],
   ["exanguis", "<big>exanguis</big>\n\n<b>exanguis, e</b> <i>v. l.</i>\n= exsanguis."],
   ["exanima", "<big>exanima</big>\n\n<b>exanima, ōrum</b> <i>n</i> [exanimus]\nнеодушевлённые предметы <i>Lact</i>."],
   ["exanimabiliter", "<big>exanimabiliter</big>\n\n<b>exanimābiliter</b>\nв смертельном страхе <i>Naev</i>."],
