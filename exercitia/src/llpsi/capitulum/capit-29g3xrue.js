@@ -62,7 +62,7 @@ $_GET({
       <div>7. Orpheus tantā arte canēbat ut ferae ad eum accēd<div class="area" data-key="erent"></div>.</div>
       <div>8. Arīōn tam pulchrē canēbat ut alter Orpheus appellā<div class="area" data-key="rētur"></div>.</div>
       <div>9. Tantus erat numerus hostium ut Rōmānī in castrīs remanē<div class="area" data-key="rent"></div>.</div>
-      <div>10. Magna tempestās facta est, ita ut nāvis operi<div class="area" data-key="rētur"></div> flūctibus.</div>
+      <div>10. Magna tempestās facta est, ita ut nāvis operī<div class="area" data-key="rētur"></div> flūctibus.</div>
       <div><br></div>
     </div>
     <div class="row">
@@ -143,4 +143,5 @@ $_GET({
       <div>11. Mīnōtaurum occīdere nōn maleficium, sed <div class="area" data-key="beneficium"></div> fuit.</div>
     </div>
   `
+
 });
