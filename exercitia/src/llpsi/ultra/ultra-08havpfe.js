@@ -59,9 +59,10 @@ $_GET({
       <div><i>3. На пальце Прометея — железный перстень (~ кольцо).</i></div>
       <div><div class="area" data-key="In"></div> d<div class="area" data-key="igitō"></div> P<div class="area" data-key="romētheī"></div> <div class="area" data-key="est"></div> ā<div class="area" data-key="nulus"></div> f<div class="area" data-key="erreus"></div>.</div>
       <div><i>4. Одному торговцу (~ лавочнику) довольно 20 монет; другой продает лишь за 100 сестерциев.</i></div>
-      <div>A<div class="area" data-key="liī"></div> t<div class="area" data-key="abernāriō"></div> v<div class="area" data-key="īgintī"></div> n<div class="area" data-key="ummī"></div> s<div class="area" data-key="atis"></div> <div class="area" data-key="est"></div>; a<div class="area" data-key="lius"></div> s<div class="area" data-key="ōlum"></div> c<div class="area" data-key="entum"></div> sē<div class="area" data-key="stertiīs"></div> v<div class="area" data-key="ēndit"></div>.</div>
+      <div>A<div class="area" data-key="liī"></div> t<div class="area" data-key="abernāriō"></div> v<div class="area" data-key="īgintī"></div> n<div class="area" data-key="ummī"></div> s<div class="area" data-key="atis"></div> <div class="area" data-key="est"></div>; a<div class="area" data-key="lius"></div> t<div class="area" data-key="antum"></div> c<div class="area" data-key="entum"></div> sē<div class="area" data-key="stertiīs"></div> v<div class="area" data-key="ēndit"></div>.</div>
       <div><i>5. Здесь выставляют (~ показывают) одно, там покупают другое.</i></div>
       <div>H<div class="area" data-key="īc"></div> a<div class="area" data-key="liud"></div> o<div class="area" data-key="stendunt | stenditur"></div>, ibi a<div class="area" data-key="liud"></div> e<div class="area" data-key="munt | mitur"></div>.</div>
     </div>
   `
+
 });
