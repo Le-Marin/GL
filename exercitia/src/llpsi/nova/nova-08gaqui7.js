@@ -5,7 +5,7 @@ $_GET({
       <div><b>Exercitium prīmum</b></div>
       <div><br></div><div class="fill-ins"><div><div class="area">hic</div> <div class="area">haec</div> <div class="area">hoc</div></div></div>
       <div><br></div>
-      <div>1. Hic ānulus, haec gemma, hoc ōrnāmentum. <div class="area" data-key="hī"></div> ānulī, <div class="area" data-key="hae"></div> gemmae, <div class="area" data-key="haeca"></div> ōrnāmenta.</div>
+      <div>1. Hic ānulus, haec gemma, hoc ōrnāmentum. <div class="area" data-key="hī"></div> ānulī, <div class="area" data-key="hae"></div> gemmae, <div class="area" data-key="haec"></div> ōrnāmenta.</div>
       <div>2. Albīnus: “Aspicite <div class="area" data-key="hunc"></div> ānulum, <div class="area" data-key="hanc"></div> gemmam, <div class="area" data-key="hoc"></div> ōrnāmentum! Aspicite etiam <div class="area" data-key="hōs"></div> ānulōs, <div class="area" data-key="hās"></div> gemmās, <div class="area" data-key="haec"></div> ōrnāmenta!”</div>
       <div>3. Albīnus: “Pretium <div class="area" data-key="huius"></div> ānulī magnum nōn est. Neque pretium <div class="area" data-key="huius"></div> gemmae magnum est. Pretium <div class="area" data-key="huius"></div> ōrnāmentī parvum est. Pretium <div class="area" data-key="hōrum"></div> ānulōrum magnum nōn est. Neque pretium <div class="area" data-key="hārum"></div> gemmārum magnum est. Pretium <div class="area" data-key="hōrum"></div> ōrnāmentōrum parvum est.”</div>
       <div>4. Albīnus: “Pecūniam <div class="area" data-key="huic"></div> tabernāriō, nōn illī, date! Nummōs <div class="area" data-key="huic"></div> fēminae, nōn illī, date! Pecūniam <div class="area" data-key="hīs"></div> tabernāriīs date, quī sunt in <div class="area" data-key="hāc"></div> viā, nōn illīs tabernāriīs, quī sunt in illā viā! Pecūniam <div class="area" data-key="hīs"></div> fēminīs date, quae sunt in <div class="area" data-key="hīs"></div> viīs!”</div>
@@ -125,3 +125,4 @@ $_GET({
     </div>
   `
 });
+
