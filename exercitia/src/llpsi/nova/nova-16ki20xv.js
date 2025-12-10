@@ -119,7 +119,7 @@ $_GET({
       <div><br></div><div class="fill-ins"><div><div class="area">multum</div> <div class="area">paulum</div></div>
       <div><div class="area">multō</div> <div class="area">paulō</div></div></div>
       <div><br></div>
-      <div>1. Pāstor ovem nigram quaerit; paulum<div class="area" data-key="ō"></div> post eam in silvā reperit.</div>
+      <div>1. Pāstor ovem nigram quaerit; paul<div class="area" data-key="ō"></div> post eam in silvā reperit.</div>
       <div>2. Paul<div class="area" data-key="ō"></div> ante tempestātem, nāvis ē portū ēgredītur.</div>
       <div>3. Iūlia nōn mult<div class="area" data-key="um"></div> ēsse solet, ergō Quīntus paul<div class="area" data-key="ō"></div> crassior est quam Iūlia.</div>
       <div>4. Quīntus, quī mult<div class="area" data-key="um"></div> ēsse solet, hodiē nihil ēst, quod aegrōtat.</div>
@@ -131,4 +131,5 @@ $_GET({
       <div>10. Mēdus pecūniam Iūliī sūmit et, paul<div class="area" data-key="ō"></div> post, ē vīllā discēdit.</div>
     </div>
   `
+
 });
