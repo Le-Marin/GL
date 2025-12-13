@@ -69,7 +69,7 @@ $_GET({
       <div><br></div>
       <div class="sc">
         <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Aemilia abit. Iūlius: “Manē!” (= “Nōlī abīre!”)</span></div>
-        <div><span class="ff"><span style="white-space: pre;">			</span>Aemilia et Iūlius abeunt. Iūlia: “Manēte!” (= “Nōlīte abīre!”)</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span>Aemilia et Iūlius abeunt. Iūlia: “Manēte!” (= “Nōlīte abīre!”)</span></div>
       </div>
       <div><br></div>
       <div>1. Iūlia cantat. Mārcus: “Tacē!” (= “<div class="area" data-key="Nōlī cantāre"></div>!”)</div>
@@ -136,4 +136,5 @@ $_GET({
       <div>8. sermō Mēdī Lȳdiaeque / rēs futūrae / esse = <div class="area" data-key="Sermō"></div> <div class="area" data-key="Mēdī"></div> <div class="area" data-key="Lȳdiae"></div>que <div class="area" data-key="dē"></div> <div class="area" data-key="rēbus"></div> f<div class="area" data-key="utūrīs"></div> <div class="area" data-key="est"></div>.</div>
     </div>
   `
+
 });
