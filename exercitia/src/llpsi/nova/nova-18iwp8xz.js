@@ -52,12 +52,12 @@ $_GET({
       </div>
       <div><br></div>
       <div>1. Mārcus nōn tam rēctē scrībit quam Titus. = Titus <div class="area" data-key="rēctius"></div> scrībit quam Mārcus.</div>
-      <div>2. Titus nōn tam sevērē a magistrō reprehenditur quam Mārcus. = <div class="area" data-key="Mārcus"></div> <div class="area" data-key="evērius"></div> ā magistrō reprehenditur <div class="area" data-key="quam"></div> <div class="area" data-key="Titus"></div>.</div>
+      <div>2. Titus nōn tam sevērē a magistrō reprehenditur quam Mārcus. = <div class="area" data-key="Mārcus"></div> <div class="area" data-key="sevērius"></div> ā magistrō reprehenditur <div class="area" data-key="quam"></div> <div class="area" data-key="Titus"></div>.</div>
       <div>3. Mārcus nōn tam graviter stilum in cēram premit quam magister. = <div class="area" data-key="Magister"></div> <div class="area" data-key="gravius"></div> stilum in cēram premit <div class="area" data-key="quam"></div> <div class="area" data-key="Mārcus"></div>.</div>
       <div>4. Titus nōn tam foedē scrībit quam Mārcus. = <div class="area" data-key="Mārcus"></div> <div class="area" data-key="foedius"></div> scrībit quam <div class="area" data-key="Titus"></div>.</div>
       <div>5. Germānī nōn tam fortiter pugnant quam Rōmānī. = <div class="area" data-key="Rōmānī"></div> <div class="area" data-key="fortius"></div> pugnant quam <div class="area" data-key="Germānī"></div>.</div>
       <div>6. Stēllae nōn tam clārē lūcent quam lūna plēna. = <div class="area" data-key="Lūna"></div> <div class="area" data-key="plēna"></div> <div class="area" data-key="clārius"></div> lūce<div class="area" data-key="t"></div> quam <div class="area" data-key="stēllae"></div>.</div>
-      <div>7. Sextus nōn tam leviter scrībit quam Mārcus. = <div class="area" data-key="Mārcus"></div> <div class="area" data-key="levius"></div> <div class="area" data-key="scrībit"></div> <div class="area" data-key="quam"></div> <div class="area" data-key="Titus"></div>.</div>
+      <div>7. Sextus nōn tam leviter scrībit quam Mārcus. = <div class="area" data-key="Mārcus"></div> <div class="area" data-key="levius"></div> <div class="area" data-key="scrībit"></div> <div class="area" data-key="quam"></div> <div class="area" data-key="Sextus"></div>.</div>
       <div>8. Improbī discipulī nōn tam rēctē respondent quam probī discipulī. = <div class="area" data-key="Probī"></div> d<div class="area" data-key="iscipulī"></div> <div class="area" data-key="rēctius"></div> respondent <div class="area" data-key="quam"></div> <div class="area" data-key="improbī"></div> d<div class="area" data-key="iscipulī"></div>.</div>
       <div>9. Titus nōn tam graviter verberātur quam Mārcus. = <div class="area" data-key="Mārcus"></div> <div class="area" data-key="gravius"></div> <div class="area" data-key="verberātur"></div> <div class="area" data-key="quam"></div> <div class="area" data-key="Titus"></div>.</div>
       <div>10. Titus nōn tam pulchrē scrībit quam Sextus. = <div class="area" data-key="Sextus"></div> <div class="area" data-key="pulchrius"></div> <div class="area" data-key="scrībit"></div> <div class="area" data-key="quam"></div> <div class="area" data-key="Titus"></div>.</div>
@@ -172,7 +172,7 @@ $_GET({
         <div><span class="ff"><span style="white-space: pre;">			</span>magister / puerī / legere / docēre = Magister puer<b>ōs</b> <u>legere</u> docet.</span></div>
       </div>
       <div><br></div>
-      <div>1. magister / puerī / numerī / docēre = Magister <div class="area" data-key="puerōs"></div> Magister <div class="area" data-key="numerōs"></div> docet.</div>
+      <div>1. magister / puerī / numerī / docēre = Magister <div class="area" data-key="puerōs"></div> <div class="area" data-key="numerōs"></div> docet.</div>
       <div>2. magister / discipulī / multae rēs / docēre = Magister <div class="area" data-key="discipulōs"></div> <div class="area" data-key="multās rēs"></div> docet.</div>
       <div>3. magister / puellae / litterae / docēre = Magister <div class="area" data-key="puellās"></div> <div class="area" data-key="litterās"></div> docet.</div>
       <div>4. magister / iī / legere / docēre = Magister <div class="area" data-key="eōs"></div> <div class="area" data-key="legere"></div> docet.</div>
@@ -182,4 +182,5 @@ $_GET({
       <div>8. magistrī: “discipulī / lingua Graeca / docēre” = <div class="area" data-key="Magistrī"></div>: “<div class="area" data-key="discipulōs"></div> <div class="area" data-key="linguam Graecam"></div> <div class="area" data-key="docēmus"></div>.”</div>
     </div>
   `
+
 });
