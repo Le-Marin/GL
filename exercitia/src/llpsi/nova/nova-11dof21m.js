@@ -174,7 +174,7 @@ $_GET({
         <div><span class="ff"><span style="white-space: pre;">			</span>→ Māter gaudet <u>quod</u> Quīnt<b>us</b> vīv<b>us</b> <b>est</b>.</span></div>
       </div>
       <div><br></div>
-      <div>1. Aemilia gaudet <div class="area" data-key="quod Iūlius">Iūlim</div> <div class="area" data-key="advenit">advenīre</div>.</div>
+      <div>1. Aemilia gaudet <div class="area" data-key="quod Iūlius">Iūlium</div> <div class="area" data-key="advenit">advenīre</div>.</div>
       <div>2. Pāstor gaudet <div class="area" data-key="quod canis">canem</div> <div class="area" data-key="bonus">bonum</div> <div class="area" data-key="est">esse</div>.</div>
       <div>3. Lȳdia gaudet <div class="area" data-key="quod Mēdus">Mēdum</div> <div class="area" data-key="adest">adesse</div>.</div>
       <div>4. Albīnus gaudet <div class="area" data-key="quod Mēdus">Mēdum</div> pecūniam <div class="area" data-key="habet">habēre</div>.</div>
@@ -218,7 +218,7 @@ $_GET({
       <div>3. Quīntus aeger est; puer<div class="area" data-key="um"></div> autem aegr<div class="area" data-key="um"></div> dorm<div class="area" data-key="īre"></div> necesse est.</div>
       <div>4. Lȳdia ānul<div class="area" data-key="um"></div> ad digitum medium conven<div class="area" data-key="īre"></div> nōn sentit: ergō ‘ānulum in digitō quārtō pōn<div class="area" data-key="ī"></div> necesse es<div class="area" data-key="se"></div>’ dīcit.</div>
       <div>5. Aemilia ancill<div class="area" data-key="ās"></div>, quae dīcunt ‘Quīnt<div class="area" data-key="um"></div> in terrā iac<div class="area" data-key="ēre"></div>’, clām<div class="area" data-key="āre"></div> audit.</div>
-      <div>6. Pāstor ov<div class="area" data-key="em"></div> nigr<div class="area" data-key="am"></div> abes<div class="area" data-key="se"></div> videt et lup<div class="area" data-key="um"></div> ulul<div class="area" data-key="āre"></div> audit. Ergō pāstor necesse es<div class="area" data-key="se"></div> putat ovēs albās in capmō relinqu<div class="area" data-key="ī"></div>, et ovem nigram reper<div class="area" data-key="īrī"></div> eamque ad cēterās ovēs port<div class="area" data-key="ārī"></div>.</div>
+      <div>6. Pāstor ov<div class="area" data-key="em"></div> nigr<div class="area" data-key="am"></div> abes<div class="area" data-key="se"></div> videt et lup<div class="area" data-key="um"></div> ulul<div class="area" data-key="āre"></div> audit. Ergō pāstor necesse es<div class="area" data-key="se"></div> putat ovēs albās in campō relinqu<div class="area" data-key="ī"></div>, et ovem nigram reper<div class="area" data-key="īrī"></div> eamque ad cēterās ovēs port<div class="area" data-key="ārī"></div>.</div>
       <div>7. Aemilia sanguin<div class="area" data-key="em"></div> rubr<div class="area" data-key="um"></div> dē bracchiō Quīntī in pōculum flu<div class="area" data-key="ere"></div> videt. Māter fīli<div class="area" data-key="um"></div> tim<div class="area" data-key="ēre"></div> putat.</div>
       <div>8. Medicus puerī pectus tangit et cor eius palpit<div class="area" data-key="āre"></div> sentit: ergō ‘puer<div class="area" data-key="um"></div> spīr<div class="area" data-key="āre"></div> et vīv<div class="area" data-key="um"></div> es<div class="area" data-key="se"></div>’ dīcit. Iam Aemilia sanguinem dē bracchiō Quīntī dēterg<div class="area" data-key="ērī"></div> necesse es<div class="area" data-key="se"></div> putat.</div>
       <div><br></div>
@@ -241,4 +241,5 @@ $_GET({
       <div>6. Ille vir ōs aegrum habet. = Ille vir ō<div class="area" data-key="re"></div> ae<div class="area" data-key="ger"></div> <div class="area" data-key="est"></div>.</div>
     </div>
   `
+
 });
