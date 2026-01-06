@@ -78,7 +78,7 @@ $_GET({
       <div>1. Nūllī mīlitēs fortius pugnant quam mīlitēs Rōmānī. = Mīlitēs Rōmānī <div class="area" data-key="fortissimē"></div> pugnant.</div>
       <div>2. Nūllus discipulus stultius quam Mārcus respondet. = M<div class="area" data-key="ārcus"></div> <div class="area" data-key="stultissimē"></div> respondet.</div>
       <div>3. Nūllus puer rēctius et pulchrius scrībit quam Sextus. = <div class="area" data-key="Sextus"></div> <div class="area" data-key="rēctissimē"></div> et <div class="area" data-key="pulcherrimē"></div> scrībit.</div>
-      <div>4. Nūllus magister discipulōs sevērius pūnit quam Diodōrus. = <div class="area" data-key="Diodōrus"></div> d<div class="area" data-key="iscipulōs"></div> <div class="area" data-key="sevērrimē"></div> p<div class="area" data-key="ūnit"></div>.</div>
+      <div>4. Nūllus magister discipulōs sevērius pūnit quam Diodōrus. = <div class="area" data-key="Diodōrus"></div> d<div class="area" data-key="iscipulōs"></div> <div class="area" data-key="sevērissimē"></div> p<div class="area" data-key="ūnit"></div>.</div>
       <div>5. Nūlla stēlla clārius lūcet quam Sōl. = <div class="area" data-key="Sōl"></div> <div class="area" data-key="clārissimē"></div> <div class="area" data-key="lūcet"></div>.</div>
       <div>6. Nūllus discipulus turpius quam Mārcus legit. = <div class="area" data-key="Mārcus"></div> <div class="area" data-key="turpissimē"></div> <div class="area" data-key="legit"></div>.</div>
       <div>7. Nūllus discipulus facilius quam Sextus scrībit atque numerat. = <div class="area" data-key="Sextus"></div> <div class="area" data-key="facillimē"></div> s<div class="area" data-key="crībit"></div> atque n<div class="area" data-key="umerat"></div>.</div>
@@ -184,3 +184,4 @@ $_GET({
   `
 
 });
+
