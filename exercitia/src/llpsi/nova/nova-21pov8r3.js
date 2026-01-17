@@ -82,7 +82,7 @@ $_GET({
       <div>13. Mārcus ā magistrō verberātus est. = M<div class="area" data-key="agister"></div> M<div class="area" data-key="ārcum"></div> <div class="area" data-key="verberāvit"></div>.</div>
       <div>14. Iūlia ā patre laudāta est. = <div class="area" data-key="Pater"></div> <div class="area" data-key="Iūliam"></div> l<div class="area" data-key="audāvit"></div>.</div>
       <div>15. Dominī ā servīs salūtātī sunt. = <div class="area" data-key="Servī"></div> <div class="area" data-key="dominōs"></div> <div class="area" data-key="salūtāvērunt"></div>.</div>
-      <div>16. Mare ā deō īrātō turbātum est. = <div class="area" data-key="Deus"></div> ī<div class="area" data-key="ratus"></div> <div class="area" data-key="mare"></div> <div class="area" data-key="turbāvit"></div>.</div>
+      <div>16. Mare ā deō īrātō turbātum est. = <div class="area" data-key="Deus"></div> ī<div class="area" data-key="rātus"></div> <div class="area" data-key="mare"></div> <div class="area" data-key="turbāvit"></div>.</div>
       <div><br></div>
     </div>
     <div class="row">
@@ -255,4 +255,5 @@ $_GET({
       <div>10. Aemilia in ātriō e<div class="area" data-key="rat"></div>. Tum ab Iūliā vocā<div class="area" data-key="ta est"></div>.</div>
     </div>
   `
+
 });
