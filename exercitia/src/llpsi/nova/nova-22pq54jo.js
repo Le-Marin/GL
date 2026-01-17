@@ -31,7 +31,7 @@ $_GET({
       <div>1. Facile est hoc nōmen dīcere. = Hoc nōmen facile est dic<div class="area" data-key="tū"></div>.</div>
       <div>2. Facile nōn est facere quod dīcis. = Facile nōn est f<div class="area" data-key="actū"></div> quod d<div class="area" data-key="īcis"></div>.</div>
       <div>3. Litterās Graecās legere difficile est. = L<div class="area" data-key="itterae"></div> <div class="area" data-key="Graecae"></div> difficil<div class="area" data-key="ēs"></div> sunt l<div class="area" data-key="ēctū"></div>.</div>
-      <div>4. Facilius est hoc dīcere quam facere. = H<div class="area" data-key="oc"></div> <div class="area" data-key="facilius"></div> est f<div class="area" data-key="actū"></div> quam <div class="area" data-key="dictū"></div>.</div>
+      <div>4. Facilius est hoc dīcere quam facere. = H<div class="area" data-key="oc"></div> <div class="area" data-key="facilius"></div> est d<div class="area" data-key="ictū"></div> quam <div class="area" data-key="factū"></div>.</div>
       <div><br></div>
     </div>
     <div class="row">
@@ -47,12 +47,12 @@ $_GET({
       <div><br></div>
       <div>1. Postquam catēna ā cane rupta est (= c<div class="area" data-key="atēnā"></div> ā cane r<div class="area" data-key="uptā"></div>), tabellārius territus neque recēdere neque prōcēdere potest.</div>
       <div>2. Quia canis solūtus est (= c<div class="area" data-key="ane"></div> s<div class="area" data-key="olūtō"></div>), tabellārius īrātus timet.</div>
-      <div>3. Postquam Mēdus ab Aemiliā vocātus est (= M<div class="area" data-key="ēdō"></div> ab Aemiliā v<div class="area" data-key="ocātō"></div>), Iūlius baculum sumit.</div>
+      <div>3. Postquam Mēdus ab Aemiliā vocātus est (= M<div class="area" data-key="ēdō"></div> ab Aemiliā v<div class="area" data-key="ocātō"></div>), Iūlius baculum sūmit.</div>
       <div>4. Quia ānulus ā Mēdō ēmptus est (= ā<div class="area" data-key="nulō"></div> ā Mēdō ē<div class="area" data-key="mptō"></div>), Lȳdia laeta est.</div>
-      <div>5. Postquam urbs ab hostibus oppugnāta est (=<div class="area" data-key="urbe"></div> ab <div class="area" data-key="hostibus"></div> op<div class="area" data-key="pugnātā"></div>), exercitus Rōmānus vocātus est.</div>
-      <div>6. Postquam discipulī verberātī sunt (=<div class="area" data-key="discipulīs"></div> v<div class="area" data-key="erberātīs"></div>), magister librum iterum recitat.</div>
-      <div>7. Postquam ancillae monitae sunt (=<div class="area" data-key="ancillīs"></div> <div class="area" data-key="monitīs"></div>), Aemilia in hortum exit.</div>
-      <div>8. Quia pallium ā cane scissum est (=<div class="area" data-key="palliō"></div> ā <div class="area" data-key="cane"></div> <div class="area" data-key="scissō"></div>), tabellārius īrātus discēdit.</div>
+      <div>5. Postquam urbs ab hostibus oppugnāta est (= <div class="area" data-key="urbe"></div> ab <div class="area" data-key="hostibus"></div> op<div class="area" data-key="pugnātā"></div>), exercitus Rōmānus vocātus est.</div>
+      <div>6. Postquam discipulī verberātī sunt (= <div class="area" data-key="discipulīs"></div> v<div class="area" data-key="erberātīs"></div>), magister librum iterum recitat.</div>
+      <div>7. Postquam ancillae monitae sunt (= <div class="area" data-key="ancillīs"></div> <div class="area" data-key="monitīs"></div>), Aemilia in hortum exit.</div>
+      <div>8. Quia pallium ā cane scissum est (= <div class="area" data-key="palliō"></div> ā <div class="area" data-key="cane"></div> <div class="area" data-key="scissō"></div>), tabellārius īrātus discēdit.</div>
       <div><br></div>
     </div>
     <div class="row">
@@ -122,4 +122,5 @@ $_GET({
       <div>13. vincīre, <div class="area" data-key="vīnxisse"></div>, <div class="area" data-key="vīnctum"></div></div>
     </div>
   `
+
 });
