@@ -62,7 +62,7 @@ $_GET({
       <div>4. Mīlitēs vōcem ducis, quī pugnat, nōn audiunt. = Mīlitēs vōcem <div class="area" data-key="ducis"></div> <div class="area" data-key="pugnantis"></div> nōn <div class="area" data-key="audiunt"></div>.</div>
       <div>5. Dux mīlitum quī castra dēfendunt fortissimus est. = Dux mīlitum <div class="area" data-key="castra"></div> <div class="area" data-key="dēfendentium"></div> fortissimus <div class="area" data-key="est"></div>.</div>
       <div>6. Aemilia sanguinem dē bracchiō Quīntī, quī in lectō iacet, dēterget. = Aemilia <div class="area" data-key="sanguinem"></div> dē bracchiō <div class="area" data-key="Quīntī"></div> in <div class="area" data-key="lectō"></div> <div class="area" data-key="iacentis"></div> <div class="area" data-key="dēterget"></div>.</div>
-      <div>7. Domina vōcem ancillārum, quae lūdent et rīdent, audit. = Domina vōcem <div class="area" data-key="ancillārum"></div> <div class="area" data-key="lūdentium"></div> <div class="area" data-key="et"></div> <div class="area" data-key="rīdentium"></div> au<div class="area" data-key="dit"></div>.</div>
+      <div>7. Domina vōcem ancillārum, quae lūdunt et rīdent, audit. = Domina vōcem <div class="area" data-key="ancillārum"></div> <div class="area" data-key="lūdentium"></div> <div class="area" data-key="et"></div> <div class="area" data-key="rīdentium"></div> au<div class="area" data-key="dit"></div>.</div>
       <div>8. Iūlius lacrimās fīliae, quae in cubiculō plōrat, nōn videt. = Iūlius lacrimās <div class="area" data-key="fīliae"></div> <div class="area" data-key="in"></div> <div class="area" data-key="cubiculō"></div> <div class="area" data-key="plōrantis"></div> nōn <div class="area" data-key="videt"></div>.</div>
       <div>9. Lȳdia vōcem amīcī, quī advenit, audit et laeta est. = Lȳdia vōcem <div class="area" data-key="amīcī"></div> <div class="area" data-key="advenientis"></div> <div class="area" data-key="audit"></div> et laeta <div class="area" data-key="est"></div>.</div>
       <div>10. Mārcus vōcem Iūliae, quae canit et rīdet, audit et īrātus est. = Mārcus vōcem <div class="area" data-key="Iūliae"></div> <div class="area" data-key="canentis"></div> <div class="area" data-key="et"></div> <div class="area" data-key="rīdentis"></div> au<div class="area" data-key="dit"></div> et <div class="area" data-key="īrātus"></div> <div class="area" data-key="est"></div>.</div>
@@ -144,3 +144,4 @@ $_GET({
   `
 
 });
+
