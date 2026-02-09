@@ -21,7 +21,7 @@ $_GET({
       <div><b>2. Изменить глаголы, данные в настоящем времени, на глаголы в будущем.</b></div>
       <div><br></div>
       <div>1. Deus Nōēmō: “<div class="area" data-key="pōnam">Pōnō</div> arcum meum in nūbibus, et <div class="area" data-key="erit">est</div> signum quod faciō vōbīscum.”</div>
-      <div>2. Milerēs Sabīnae: “Melius <div class="area" data-key="perībimus">perīmus</div> quam sine alterīs vestrum <div class="area" data-key="vīvēmus">vīvimus</div>!”</div>
+      <div>2. Mulierēs Sabīnae: “Melius <div class="area" data-key="perībimus">perīmus</div> quam sine alterīs vestrum <div class="area" data-key="vīvēmus">vīvimus</div>!”</div>
       <div>3. Tālis arx ab hostibus nunquam <div class="area" data-key="expugnābitur">expugnātur</div>.</div>
       <div>4. Serva: “Iuvāte mē, et viam vōbīs <div class="area" data-key="mōnstrābō">mōnstrō</div> quā in urbem clam penetrāre <div class="area" data-key="poteritis">potestis</div>.”</div>
       <div>5. Epistulā acceptā, uxor statim respōnsum <div class="area" data-key="scrībet">scrībit</div>.</div>
@@ -33,3 +33,4 @@ $_GET({
     </div>
   `
 });
+
