@@ -270,7 +270,7 @@ export default [
   }],
   [6, 'pat~ior pass~um -ī(3.2)', 'endure, suffer / терпеть, претерпевать'],
   [6, 'ex-per~ior -pert~um -īrī(4)', 'try, experience / пробовать, испытывать'],
-  [6, 'op-per~īrī -pert~um -īrī(4)', 'wait for / ждать, дожидаться'],
+  [6, 'op-per~ior -pert~um -īrī(4)', 'wait for / ждать, дожидаться'],
   [6, 'ment~īrī(4)', 'lie, tell lies about / лгать, выдумывать'],
   [6, 'f~īō fact~um fier~ī(3.2)', 'become / становиться', {
     1: {
