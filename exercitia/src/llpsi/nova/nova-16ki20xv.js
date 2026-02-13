@@ -120,7 +120,7 @@ $_GET({
       <div><div class="area">multō</div> <div class="area">paulō</div></div></div>
       <div><br></div>
       <div>1. Pāstor ovem nigram quaerit; paul<div class="area" data-key="ō"></div> post eam in silvā reperit.</div>
-      <div>2. Paul<div class="area" data-key="ō"></div> ante tempestātem, nāvis ē portū ēgredītur.</div>
+      <div>2. Paul<div class="area" data-key="ō"></div> ante tempestātem, nāvis ē portū ēgreditur.</div>
       <div>3. Iūlia nōn mult<div class="area" data-key="um"></div> ēsse solet, ergō Quīntus paul<div class="area" data-key="ō"></div> crassior est quam Iūlia.</div>
       <div>4. Quīntus, quī mult<div class="area" data-key="um"></div> ēsse solet, hodiē nihil ēst, quod aegrōtat.</div>
       <div>5. Puerī sānī mult<div class="area" data-key="ō"></div> fortiōrēs sunt quam puerī aegrī.</div>
