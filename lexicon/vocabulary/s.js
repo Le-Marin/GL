@@ -289,7 +289,7 @@ export default [
   ["saltatricula", "<big>saltatricula</big>\n\n<b>saltātricula, ae</b> <i>f</i> [<i>demin. к</i> saltatrix]\nмолоденькая танцовщица <i>AG</i>."],
   ["saltatrix", "<big>saltatrix</big>\n\n<b>saltātrīx, īcis</b> <i>f</i> [saltator]\nтанцовщица, плясунья <i>C, PM etc.</i>"],
   ["saltatus", "<big>saltatus</big>\n\n<b>saltātus, ūs</b> <i>m</i> <i>L, O</i>\n= saltatio."],
-  ["saltem", "<big>saltem</big>\n\n<b>saltem</b> <i>adv.</i>\nпо крайней мере, во всяком случае: eripere aliquid aut minuere s. <i>C</i> устранить или, по крайней мере, ослабить что-л.; s. nobis parce <i>Pt</i> хоть нас-то Пощади; qui ego sum s., si non sum Sosia? <i>Pl</i> кто же я, наконец, если нё Сосия?; non s. <i>L, Q etc.</i> даже не; iter neque impervium neque s. durum <i>Q</i> путь не непроходимый и даже не трудный; vix s. <i>Q</i> лишь с трудом; Si tenet hoc nos <i>H</i> ведь это, в конце концов, занимательно."],
+  ["saltem", "<big>saltem</big>\n\n<b>saltem</b> <i>adv.</i>\nпо крайней мере, во всяком случае: eripere aliquid aut minuere s. <i>C</i> устранить или, по крайней мере, ослабить что-л.; s. nobis parce <i>Pt</i> хоть нас-то пощади; qui ego sum s., si non sum Sosia? <i>Pl</i> кто же я, наконец, если не Сосия?; non s. <i>L, Q etc.</i> даже не; iter neque impervium neque s. durum <i>Q</i> путь не непроходимый и даже не трудный; vix s. <i>Q</i> лишь с трудом; Si tenet hoc nos <i>H</i> ведь это, в конце концов, занимательно."],
   ["salti", "<big>salti</big>\n\n<b>salti</b> <i>Acc арх. gen. sg. к</i>\nsaltus II."],
   ["salticus", "<big>salticus</big>\n\n<b>salticus, a, um</b> [saltus I]\nтанцующий (puella <i>Tert</i>)."],
   ["saltim", "<big>saltim</big>\n\n<b>saltim</b> <i>adv.</i> <i>J v. l.</i>\n= saltem."],
