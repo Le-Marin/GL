@@ -57,7 +57,7 @@ $_GET({
       <div><br></div>
       <div>1. Iūlius haec locūtus est atque abiit. = Iūlius haec l<div class="area" data-key="ocūtus"></div> ab<div class="area" data-key="iit"></div>.</div>
       <div>2. Thēseus Athēnīs profectus est et Crētam petīvit. = Thēseus Athēnīs p<div class="area" data-key="rofectus"></div> <div class="area" data-key="Crētam"></div> <div class="area" data-key="petīvit"></div>.</div>
-      <div>3. Multī virī prōmissa sua oblītī sunt et fēminās sine pecūniā dēseruērunt. = Multī virī p<div class="area" data-key="rōmissa"></div> <div class="area" data-key="sua"></div> <div class="area" data-key="oblītī"></div> f<div class="area" data-key="ēminās"></div> since pecūniā <div class="area" data-key="dēseruērunt"></div>.</div>
+      <div>3. Multī virī prōmissa sua oblītī sunt et fēminās sine pecūniā dēseruērunt. = Multī virī p<div class="area" data-key="rōmissa"></div> <div class="area" data-key="sua"></div> <div class="area" data-key="oblītī"></div> f<div class="area" data-key="ēminās"></div> sine pecūniā <div class="area" data-key="dēseruērunt"></div>.</div>
       <div>4. Mēdus et Lȳdia ex Italiā profectī erant et in Graeciam nāvigābant. = Mēdus et Lȳdia <div class="area" data-key="ex Italiā"></div> p<div class="area" data-key="rofectī"></div> <div class="area" data-key="in Graeciam"></div> n<div class="area" data-key="āvigābant"></div>.</div>
       <div>5. Syra Iūliam in hortum comitāta est et in Quīntī cubiculum rediit. = Syra <div class="area" data-key="Iūliam"></div> <div class="area" data-key="in hortum"></div> c<div class="area" data-key="omitāta"></div> <div class="area" data-key="in"></div> <div class="area" data-key="Quīntī"></div> c<div class="area" data-key="ubiculum"></div> <div class="area" data-key="rediit"></div>.</div>
       <div>6. Mīlitēs ‘sē fortiter pugnātūrōs esse’ pollicitī sunt et in hostēs impetum fēcērunt. = Mīlitēs sē fortiter <div class="area" data-key="pugnātūrōs esse"></div> <div class="area" data-key="pollicitī"></div> in <div class="area" data-key="hostēs"></div> <div class="area" data-key="impetum"></div> <div class="area" data-key="fēcērunt"></div>.</div>
@@ -92,4 +92,5 @@ $_GET({
       <div>22. <div class="area" data-key="pollicērī"></div>, pollicitum</div>
     </div>
   `
+
 });
