@@ -351,6 +351,7 @@ pre {
   letter-spacing: normal;
   display: flex;
   align-items: center;
+  position: relative;
   column-gap: 0.3em;
   margin-left: 0.5em;
   padding: 0.1em 0.2em;
@@ -429,6 +430,28 @@ pre {
 }
 .audio-vol.__muted {
   background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xNi41IDEyYzAtMS43Ny0xLjAyLTMuMjktMi41LTQuMDN2Mi4yMWwyLjQ1IDIuNDVjLjAzLS4yLjA1LS40MS4wNS0uNjN6bTIuNSAwYzAgLjk0LS4yIDEuODItLjU0IDIuNjRsMS41MSAxLjUxQzIwLjYzIDE0LjkxIDIxIDEzLjUgMjEgMTJjMC00LjI4LTIuOTktNy44Ni03LTguNzd2Mi4wNmMyLjg5Ljg2IDUgMy41NCA1IDYuNzF6TTQuMjcgM0wzIDQuMjcgNy43MyA5SDN2Nmg0bDUgNXYtNi43M2w0LjI1IDQuMjVjLS42Ny41Mi0xLjQyLjkzLTIuMjUgMS4xOHYyLjA2YzEuMzgtLjMxIDIuNjMtLjk1IDMuNjktMS44MUwxOS43MyAyMSAyMSAxOS43M2wtOS05TDQuMjcgM3pNMTIgNEw5LjkxIDYuMDkgMTIgOC4xOFY0eiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=");
+}
+.audio-x2 {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJXaW5kb3dUZXh0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHdpZHRoPSIyNCI+CiAgPHBhdGggZD0iTTAgMGgyNHYyNEgwVjB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTEzLjA1IDkuNzlMMTAgNy41djlsMy4wNS0yLjI5TDE2IDEybC0yLjk1LTIuMjF6bTAgMEwxMCA3LjV2OWwzLjA1LTIuMjlMMTYgMTJsLTIuOTUtMi4yMXptMCAwTDEwIDcuNXY5bDMuMDUtMi4yOUwxNiAxMmwtMi45NS0yLjIxek0xMSA0LjA3VjIuMDVjLTIuMDEuMi0zLjg0IDEtNS4zMiAyLjIxTDcuMSA1LjY5QTcuOTQxIDcuOTQxIDAgMDExMSA0LjA3ek01LjY5IDcuMUw0LjI2IDUuNjhBOS45NDkgOS45NDkgMCAwMDIuMDUgMTFoMi4wMmMuMTgtMS40Ni43Ni0yLjc5IDEuNjItMy45ek00LjA3IDEzSDIuMDVjLjIgMi4wMSAxIDMuODQgMi4yMSA1LjMybDEuNDMtMS40M0E3Ljg2OCA3Ljg2OCAwIDAxNC4wNyAxM3ptMS42MSA2Ljc0QTkuOTgxIDkuOTgxIDAgMDAxMSAyMS45NXYtMi4wMmE3Ljk0MSA3Ljk0MSAwIDAxLTMuOS0xLjYybC0xLjQyIDEuNDN6TTIyIDEyYzAgNS4xNi0zLjkyIDkuNDItOC45NSA5Ljk1di0yLjAyQzE2Ljk3IDE5LjQxIDIwIDE2LjA1IDIwIDEycy0zLjAzLTcuNDEtNi45NS03LjkzVjIuMDVDMTguMDggMi41OCAyMiA2Ljg0IDIyIDEyeiIvPgo8L3N2Zz4=");
+}
+.audio-rates {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  padding: 0.5em 0;
+  border: inherit;
+  background-color: inherit;
+}
+.audio-rate {
+  display: block;
+  padding: 0.2em 0.5em;
+  color: inherit;
+  background-color: inherit;
+  text-decoration: none;
+}
+.audio-rate:hover,
+.audio-rate._active {
+  filter: contrast(0.8);
 }
 
 @media screen and (max-width: 28.75rem) {

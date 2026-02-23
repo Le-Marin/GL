@@ -8,18 +8,27 @@
   const audioPath = atob('aHR0cHM6Ly9sZS1tYXJpbi5naXRodWIuaW8vR0wvTExQU0kvYXVkaW8v');
   const audioName = location.pathname.match(/cap-(\d{2})/)[1];
   const audio = new Audio(audioPath + audioName + '.mp3');
-  audio.volume = 0.6;
+  audio.volume = 0.65;
 
   audioNode.innerHTML = /*html*/`
-    <button class="audio-play audio-btn" data-action="playpause"></button>
+    <button class="audio-btn audio-play" data-action="playpause"></button>
     <div class="audio-time"><span>00:00</span> / <span>00:00</span></div>
     <div class="audio-track" tabindex="0"></div>
-    <button class="audio-vol audio-btn" data-action="mute"></button>
+    <button class="audio-btn audio-vol" data-action="mute"></button>
+    <button class="audio-btn audio-x2" data-action="toggleRates"></button>
+    <div class="audio-rates" hidden>
+      <a href="#" class="audio-rate _active" data-action="setRate">1</a>
+      <a href="#" class="audio-rate" data-action="setRate">1.25</a>
+      <a href="#" class="audio-rate" data-action="setRate">1.5</a>
+      <a href="#" class="audio-rate" data-action="setRate">1.75</a>
+      <a href="#" class="audio-rate" data-action="setRate">2</a>
+    </div>
   `;
 
   const [btnPlay, times, track] = audioNode.children;
   const curTimeNode = times.firstElementChild.firstChild;
   const endTimeNode = times.lastElementChild.firstChild;
+  const elRates = audioNode.lastElementChild;
 
   let isTouched = false;
   const format = (n) => n > 9 ? n : `0${n}`;
@@ -37,7 +46,6 @@
 
   function onTimeUpdate() {
     if (isTouched) return;
-
     const time = this.currentTime;
     const perc = +(time / this.duration * 100).toFixed(3) || 0;
     setTrackCSS('--fill', `${perc}%`);
@@ -63,7 +71,24 @@
 
     if (action === 'mute') {
       audio.muted ^= 1;
-      trg.classList.toggle('__muted', audio.muted);
+      return trg.classList.toggle('__muted', audio.muted);
+    }
+
+    if (action === 'toggleRates') {
+      if (elRates.hidden ^= 1) return;
+      e.stopPropagation();
+      return document.addEventListener('click', function handler(e) {
+        this.removeEventListener(e.type, handler);
+        elRates.hidden = 1;
+      });
+    }
+
+    if (action === 'setRate') {
+      e.preventDefault();
+      e.stopPropagation();
+      [...elRates.children].forEach(el => el.classList.remove('_active'));
+      trg.classList.add('_active');
+      audio.playbackRate = Math.max(1, Math.min(2, +trg.textContent || 1));
     }
   }
 
@@ -156,8 +181,8 @@
   }
 
   function getMinSec(val) {
-    const min = (val / 60 >> 0) % 60;
-    const sec = ~~val % 60;
-    return `${format(min)}:${format(sec)}`;
+    const m = (val / 60 >> 0) % 60;
+    const s = ~~val % 60;
+    return `${format(m)}:${format(s)}`;
   }
 })();
