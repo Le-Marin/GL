@@ -246,7 +246,7 @@ $_GET({
       <div>1. Rōmānī in castrīs erant: nūllus hostis cernē<div class="area" data-key="bātur"></div>. Tum hostēs castra oppugnā<div class="area" data-key="vērunt"></div>.</div>
       <div>2. Discipulī in lūdō sedē<div class="area" data-key="bant"></div>, cum Mārcus intrā<div class="area" data-key="vit"></div> neque magistrum salūtā<div class="area" data-key="vit"></div>.</div>
       <div>3. Puerī in viā ambulā<div class="area" data-key="bant"></div>, cum tonitrum audī<div class="area" data-key="vērunt"></div>.</div>
-      <div>4. Tonitrus audī<div class="area" data-key="tus est"></div> ā puerīs, quī domum redi<div class="area" data-key="ēbant"></div>.</div>
+      <div>4. Tonitrus audī<div class="area" data-key="tus est"></div> ā puerīs, quī domum redī<div class="area" data-key="bant"></div>.</div>
       <div>5. Iūlia in hortō canē<div class="area" data-key="bat"></div>. Tum ā Mārcō pugnō pulsā<div class="area" data-key="ta est"></div>.</div>
       <div>6. Mārcus et Quīntus in hortō lūdē<div class="area" data-key="bant"></div>. Tum Iūlius ā Mārcō vocā<div class="area" data-key="tus est"></div>.</div>
       <div>7. Iūlius Mārcum audī<div class="area" data-key="vit"></div>, quī perterritus clāmā<div class="area" data-key="bat"></div>, quia Quīntus humī iacē<div class="area" data-key="bat"></div> neque sē movē<div class="area" data-key="bat"></div>.</div>
@@ -257,3 +257,4 @@ $_GET({
   `
 
 });
+
