@@ -14,7 +14,7 @@ $_GET({
       <div>1. Iūlius: “Māter tē amat.” = “(<div class="area" data-key="Tū"></div>) <div class="area" data-key="ā"></div> <div class="area" data-key="mātre"></div> <div class="area" data-key="amāris"></div>.”</div>
       <div>2. Mārcus: “Magister mē reprehendit et verberat.” = “(<div class="area" data-key="Ego"></div>) <div class="area" data-key="ā"></div> <div class="area" data-key="magistrō"></div> <div class="area" data-key="reprehendor"></div> et <div class="area" data-key="verberor"></div>.”</div>
       <div>3. Servus: “Dominus tē quaerit nec tē reperit.” = “Ā <div class="area" data-key="dominō"></div> <div class="area" data-key="quaereris"></div> nec <div class="area" data-key="reperīris"></div>.”</div>
-      <div>4. Quīntus: “Māter mē lavat et tergit.” = “Ā <div class="area" data-key="mātre"></div> <div class="area" data-key="lavor"></div> et <div class="area" data-key="tergeor"></div>.”</div>
+      <div>4. Quīntus: “Māter mē lavat et terget.” = “Ā <div class="area" data-key="mātre"></div> <div class="area" data-key="lavor"></div> et <div class="area" data-key="tergeor"></div>.”</div>
       <div>5. Lȳdia: “Tabernārius tē vocat.” = “<div class="area" data-key="Ā"></div> t<div class="area" data-key="abernāriō"></div> <div class="area" data-key="vocāris"></div>.”</div>
       <div>6. Mīles: “Dux tē exspectat.” = “<div class="area" data-key="Ā"></div> <div class="area" data-key="duce"></div> ex<div class="area" data-key="spectāris"></div>.”</div>
       <div>7. Lȳdia: “Deus mē dēfendit.” = “<div class="area" data-key="Ā"></div> <div class="area" data-key="Deō"></div> <div class="area" data-key="defendor"></div>.”</div>
@@ -127,4 +127,5 @@ $_GET({
       <div>Dum Sextus māla in vestīmentīs <u>pōnit</u> (= Dum <div class="area" data-key="māla"></div> <div class="area" data-key="ā"></div> <div class="area" data-key="Sextō"></div> in <div class="area" data-key="vestīmentīs"></div> <div class="area" data-key="pōnuntur"></div>), puerī vōcem Cornēliī clāmantis <u>audiunt</u> (= v<div class="area" data-key="ōx"></div> C<div class="area" data-key="ornēliī"></div> <div class="area" data-key="clāmantis"></div> <div class="area" data-key="ā"></div> p<div class="area" data-key="uerīs"></div> <div class="area" data-key="audītur"></div>): “Quis māla mea <u>carpit</u>? (=<div class="area" data-key="Ā"></div> q<div class="area" data-key="uō"></div> <div class="area" data-key="māla"></div> <div class="area" data-key="mea"></div> c<div class="area" data-key="arpuntur"></div>?) Redde mihi māla mea, improbe puer! Nam tibi malum dare possum.” Cornēliō clāmante, puerī māla <u>relinquunt</u> (= m<div class="area" data-key="āla"></div> <div class="area" data-key="ā"></div> <div class="area" data-key="puerīs"></div> <div class="area" data-key="relinquuntur"></div>).</div>
     </div>
   `
+
 });
