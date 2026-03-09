@@ -24,7 +24,7 @@ $_GET({
       <div>1. Agamemnōn, īram deae placāns, fīliam suam Īphigenīam <div class="area" data-key="sacrificāvit">sacrificat</div>.</div>
       <div>2. Rōma conditōris nōmine <div class="area" data-key="appellāta est">appellātur</div>.</div>
       <div>3. Iam advesperāscēbat cum tandem <div class="area" data-key="audītus est">audītur</div> procul strepitus rotārum.</div>
-      <div>4. Apollō Hyacinthī: “Ubi prīmum <div class="area" data-key="cōnspexī">cōnspiciō</div>, statim tē <div class="area" data-key="adamāvī">adamō</div>.”</div>
+      <div>4. Apollō Hyacinthō: “Ubi prīmum <div class="area" data-key="cōnspexī">cōnspiciō</div>, statim tē <div class="area" data-key="adamāvī">adamō</div>.”</div>
       <div>5. Nummī <div class="area" data-key="numerātī sunt">numerantur</div>, et Iūlius <div class="area" data-key="intellēxit">intelligit</div> aliquot deesse.</div>
       <div>6. Vellus aureum per multōs annōs ā dracōne <div class="area" data-key="cūstōdītum est">cūstōdītur</div>.</div>
       <div>7. Rēx Proca Numitōrem et Amūlium <div class="area" data-key="prōcreāvit">prōcreat</div> nec huic, sed illī rēgnum <div class="area" data-key="relīquit">relinquit</div>.</div>
@@ -38,4 +38,5 @@ $_GET({
       <div>15. “<div class="area" data-key="Audīvistī">Audīs</div>ne? Aiunt nāvem in altō marī <div class="area" data-key="mersam esse">mergī</div>.”</div>
     </div>
   `
+
 });
