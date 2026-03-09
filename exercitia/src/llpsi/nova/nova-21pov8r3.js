@@ -184,7 +184,7 @@ $_GET({
       <div><br></div>
     </div>
     <div class="row">
-      <div>Exercitium octāvum</div>
+      <div><b>Exercitium octāvum</b></div>
       <div><br></div>
       <div class="sc">
         <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Magister: “(<u>Ego</u>) bene recitō”. = Magister ‘<u>sē</u> bene recitāre’ dīcit.</span></div>
@@ -198,7 +198,7 @@ $_GET({
       <div>3. Iūlius: “Servum meum nōn reperiō”. = Iūlius <div class="area" data-key="sē"></div> serv<div class="area" data-key="um"></div> <div class="area" data-key="suum"></div> nōn reper<div class="area" data-key="īre"></div> dīcit.</div>
       <div>4. Mārcus: “Ā magistrō semper reprehendor”. = Mārcus <div class="area" data-key="sē"></div> ā magistrō semper reprehend<div class="area" data-key="ī"></div> dīcit.</div>
       <div>5. Albīnus: “Ānulōs ac gemmās vēndō”. = Albīnus <div class="area" data-key="sē"></div> ānul<div class="area" data-key="ōs"></div> ac gemm<div class="area" data-key="ās"></div> <div class="area" data-key="vēndere"></div> dīcit.</div>
-      <div>6. Albīnus: “Ōrnāmenta mea pulcherrima sunt”. = Albīnus <div class="area" data-key="ōrnāmenta"></div> <div class="area" data-key="sua"></div> pulch<div class="area" data-key="errima"></div> dīcit.</div>
+      <div>6. Albīnus: “Ōrnāmenta mea pulcherrima sunt”. = Albīnus <div class="area" data-key="ōrnāmenta"></div> <div class="area" data-key="sua"></div> pulch<div class="area" data-key="errima"></div> <div class="area" data-key="esse"></div> dīcit.</div>
       <div>7. Ancillae: “Saepe ā dominā laudāmur”. = Ancillae <div class="area" data-key="sē"></div> saepe <div class="area" data-key="ā dominā"></div> l<div class="area" data-key="audārī"></div> dīcunt.</div>
       <div>8. Nautae: “Nūbēs ātrās procul intuēmur”. = Nautae <div class="area" data-key="sē"></div> <div class="area" data-key="nūbēs"></div> <div class="area" data-key="ātrās"></div> procul <div class="area" data-key="intuērī"></div> dīcunt.</div>
       <div>9. Iūlius: “Nummōs meōs nōn reperiō”. = Iūlius <div class="area" data-key="sē"></div> n<div class="area" data-key="ummōs"></div> <div class="area" data-key="suōs"></div> nōn r<div class="area" data-key="eperīre"></div> dīcit.</div>
@@ -257,4 +257,5 @@ $_GET({
   `
 
 });
+
 
