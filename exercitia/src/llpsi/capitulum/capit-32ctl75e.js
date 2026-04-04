@@ -158,7 +158,8 @@ $_GET({
       <div>2. agere, <div class="area" data-key="ēg"></div>iss, <div class="area" data-key="āct"></div>um esse</div>
       <div>3. flectere, <div class="area" data-key="flex"></div>isse, <div class="area" data-key="flex"></div>um esse</div>
       <div>4. offerre, <div class="area" data-key="obtul"></div>isse, <div class="area" data-key="oblāt"></div>um esse</div>
-      <div>5. redimere, <div class="area" data-key="redēm"></div>isse, <div class="area" data-key="redēmpt}um esse&lt;/div&gt;&lt;div&gt;6. tollere, $${{sustul"></div>isse, <div class="area" data-key="sublāt"></div>um esse</div>
+      <div>5. redimere, <div class="area" data-key="redēm"></div>isse, <div class="area" data-key="redēmpt"></div>um esse</div>
+      <div>6. tollere, <div class="area" data-key="sustul"></div>isse, <div class="area" data-key="sublāt"></div>um esse</div>
       <div>7. vincere, <div class="area" data-key="vīc"></div>isse, <div class="area" data-key="vict"></div>um esse</div>
     </div>
   `
