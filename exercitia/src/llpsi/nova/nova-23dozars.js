@@ -15,7 +15,7 @@ $_GET({
       <div>7. Mēdus: “Certē hunc ānulum tibi <div class="area" data-key="ēmptūrus sum"></div> (= emam), Lȳdia, amīca mea, quod tē amō”.</div>
       <div>8. Tabellārius: “Retinē canem tuum, iānitor, quī catēnam <div class="area" data-key="ruptūrus est"></div> (= rumpet)”.</div>
       <div>9. Ancillae pecūniam prōmunt quā pānem <div class="area" data-key="ēmptūrae sunt"></div> (= ement).</div>
-      <div>10. Discipulī: “Posthāc bonī discipulī <div class="area" data-key="futūrī sumus"></div> (= erimus), magister, ac tibi <div class="area" data-key="pāritūrī sumus"></div> (= pārebimus). Hoc tibi prōmittimus!”</div>
+      <div>10. Discipulī: “Posthāc bonī discipulī <div class="area" data-key="futūrī sumus"></div> (= erimus), magister, ac tibi <div class="area" data-key="pāritūrī sumus"></div> (= pārēbimus). Hoc tibi prōmittimus!”</div>
       <div>11. Aemilia: “Novum īnfantem mox <div class="area" data-key="habitūra sum"></div> (= habēbō)”.</div>
       <div>12. Fēmina quae īnfantem <div class="area" data-key="habitūra est"></div> (= habēbit) multum laetātur.</div>
       <div><br></div>
@@ -30,7 +30,7 @@ $_GET({
         <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Iūlius ‘crās quoque Mārcum in lūdō dorm<u>ītūr<b>um</b> esse</u>’ dīcit.</span></div>
       </div>
       <div><br></div>
-      <div>1. Aemilia: “Iūlia mox dormit”. = Aemilia Iūli<div class="area" data-key="am"></div> mox dormīt<div class="area" data-key="ūram"></div> <div class="area" data-key="esse"></div> dīcit.</div>
+      <div>1. Aemilia: “Iūlia mox dormiet”. = Aemilia Iūli<div class="area" data-key="am"></div> mox dormīt<div class="area" data-key="ūram"></div> <div class="area" data-key="esse"></div> dīcit.</div>
       <div>2. Magister: “Crās quoque Sextus rēctē, Mārcus vērō prāvē scrībet”. = Magister crās quoque Sext<div class="area" data-key="um"></div> rēctē, Mārc<div class="area" data-key="um"></div> vērō prāvē scrīpt<div class="area" data-key="ūrōs"></div> <div class="area" data-key="esse"></div> dīcit.</div>
       <div>3. Aemilia: “Ancillae aquam ex impluviō sūment”. = Aemilia ancill<div class="area" data-key="ās"></div> aquam ex impluviō sūm<div class="area" data-key="ptūrās esse"></div> dīcit.</div>
       <div>4. Mīlitēs: “Hostēs mox castra oppugnābunt”. = Mīlitēs h<div class="area" data-key="ostēs"></div> mox c<div class="area" data-key="astra"></div> op<div class="area" data-key="pugnātūrōs esse"></div> dīcunt.</div>
