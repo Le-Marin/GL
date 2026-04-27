@@ -11,7 +11,7 @@ $_GET({
       <div>4. Est liber tam ēgregius ut eum in aliās linguās vertere opus sit.</div>
       <div>Est lib<div class="area" data-key="er"></div> tam ēgregi<div class="area" data-key="us"></div> ut in aliās linguās vert<div class="area" data-key="endus sit"></div>.</div>
       <div>5. Necesse erat mūrōs inter bellum dīrutōs dēnuō reficere. →</div>
-      <div>Mūr<div class="area" data-key="ī"></div> inter bellum dīrut<div class="area" data-key="ī"></div> dēnuō refic<div class="area" data-key="iednī erant"></div>.</div>
+      <div>Mūr<div class="area" data-key="ī"></div> inter bellum dīrut<div class="area" data-key="ī"></div> dēnuō refic<div class="area" data-key="iendī erant"></div>.</div>
       <div>6. “Stulte! Utinam haec nē dīxissēs! Tacēre dēbēbās!” →</div>
       <div>“Stulte! Utinam haec nē dīxissēs! <div class="area" data-key="erat"></div> t<div class="area" data-key="ibi"></div> tac<div class="area" data-key="endum"></div>.</div>
       <div>7. Lībertīnus: “Cum servī essēmus, arbitrābāmur nōs tacitē patī dēbēre iniūriās”. →</div>
