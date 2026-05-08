@@ -9,7 +9,7 @@ $_GET({
       <div><br></div>
       <div>1. Īcarus, fessus ambul<div class="area" data-key="andō"></div>, cōnsēdit.</div>
       <div>2. Daedalus cōnsilium ē carcere fugi<div class="area" data-key="endī"></div> excōgitāvit.</div>
-      <div>3. Daedalus et Īcarus ad vol<div class="area" data-key="um"></div> parātī sunt.</div>
+      <div>3. Daedalus et Īcarus ad vol<div class="area" data-key="andum"></div> parātī sunt.</div>
       <div>4. Iūlius dēlectātur leg<div class="area" data-key="endō"></div>.</div>
       <div>5. Mēdus cupidus erat fugi<div class="area" data-key="endī"></div>.</div>
       <div>6. Lȳdia parāta est ad proficīsc<div class="area" data-key="endum"></div>.</div>
@@ -108,7 +108,7 @@ $_GET({
       <div>8. Iūlius Mārcum humī iacuisse putat. = <div class="area" data-key="Mārcus"></div> <div class="area" data-key="Iūliō"></div> humī <div class="area" data-key="iacuisse"></div> <div class="area" data-key="vidētur"></div>.</div>
       <div>9. Tabellārius canem catēnam rūpisse putat. = <div class="area" data-key="Canis"></div> <div class="area" data-key="tabellāriō"></div> catēn<div class="area" data-key="am"></div> <div class="area" data-key="rūpisse"></div> <div class="area" data-key="vidētur"></div>.</div>
       <div>10. Syra virōs prōmissa sua saepe oblīvīscī putat. = <div class="area" data-key="Virī"></div> <div class="area" data-key="Syrae"></div> prōmiss<div class="area" data-key="a"></div> su<div class="area" data-key="a"></div> saepe <div class="area" data-key="oblīvīscī"></div> <div class="area" data-key="videntur"></div>.</div>
-      <div>11. Aemilia Iūlium fīliam habēre velle putat. = <div class="area" data-key="Iūlia"></div> <div class="area" data-key="Aemiliae"></div> fīli<div class="area" data-key="am"></div> hab<div class="area" data-key="ēre"></div> <div class="area" data-key="velle"></div> <div class="area" data-key="vidētur"></div>.</div>
+      <div>11. Aemilia Iūlium fīliam habēre velle putat. = <div class="area" data-key="Iūlius"></div> <div class="area" data-key="Aemiliae"></div> fīli<div class="area" data-key="am"></div> hab<div class="area" data-key="ēre"></div> <div class="area" data-key="velle"></div> <div class="area" data-key="vidētur"></div>.</div>
       <div>12. Syra: “Mārcum cēterīs discipulīs peiōrem nōn esse putō.” = Syra: “<div class="area" data-key="Mārcus"></div> <div class="area" data-key="mihi"></div> cēterīs discipulīs <div class="area" data-key="peior"></div> nōn <div class="area" data-key="esse"></div> <div class="area" data-key="vidētur"></div>”.</div>
       <div>13. Syra: “Nōnne idem putās, Quīnte?” = Syra: “Nōnne <div class="area" data-key="idem"></div> t<div class="area" data-key="ibi"></div> <div class="area" data-key="vidētur"></div>, Quīnte?”</div>
       <div>14. Quīntus: “Magister Mārcum pessimum discipulum esse putat.” = Qīntus: “<div class="area" data-key="Mārcus"></div> <div class="area" data-key="magistrō"></div> pessim<div class="area" data-key="us"></div> discipul<div class="area" data-key="us"></div> <div class="area" data-key="vidētur"></div>”.</div>
