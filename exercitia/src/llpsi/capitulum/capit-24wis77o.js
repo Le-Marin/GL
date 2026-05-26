@@ -10,7 +10,7 @@ $_GET({
       <div>1. Mārcus: “Ecce tabula mea. <div class="area" data-key="ego"></div> ipse hoc scripsī. Nōnne litterae meae pulchrae v<div class="area" data-key="ōs"></div> dēlectant? Cūr nōn laudor ā v<div class="area" data-key="ōbīs"></div>?”</div>
       <div>2. Iūlius: “N<div class="area" data-key="ōs"></div> t<div class="area" data-key="ibi"></div> nōn crēdimus, Mārce. T<div class="area" data-key="ū"></div> hoc nōn scrīpsistī.”</div>
       <div>3. Mārcus: “Cūr v<div class="area" data-key="ōs"></div> m<div class="area" data-key="ihi"></div> nōn crēditis? Nōnne m<div class="area" data-key="ē"></div> pulchrē scrībere putātis?”</div>
-      <div>4. Iūlius: “Scīmus t<div class="area" data-key="ē"></div> foedē scrībere! Hae litterae pulchrae ā t<div class="area" data-key="ē"></div> scrīptāe esse nōn possunt.”</div>
+      <div>4. Iūlius: “Scīmus t<div class="area" data-key="ē"></div> foedē scrībere! Hae litterae pulchrae ā t<div class="area" data-key="ē"></div> scrīptae esse nōn possunt.”</div>
       <div>5. Mārcus: “Certē ā m<div class="area" data-key="ē"></div> scrīptae sunt!” Mārcus ‘litterās ā s<div class="area" data-key="ē"></div> scrīptās esse’ dīcit.</div>
       <div>6. Iūlius: “N<div class="area" data-key="ōs"></div> fallere nōn potes. Num t<div class="area" data-key="ibi"></div> Sextus nōmen est?”</div>
       <div>7. Tandem Mārcus fatētur ‘s<div class="area" data-key="ē"></div> tabulās mūtāvisse’ neque s<div class="area" data-key="ē"></div> excūsāre cōnāntur.</div>
