@@ -6,8 +6,10 @@ $_GET({
       <div><br></div>
       <div><span class="ff"><i>imperfectum coniūnctīvī āctīvī</i></span></div>
       <div><br></div>
-      <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Magister iussit discipulōs industriōs esse, tacēre et audīre, prīmum computāre, deinde sententiam scrībere.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Magister imperāvit discipulīs <u>ut</u> industriī <b>essent</b>, tac<b>ērent</b> et aud<b>īrent</b>, prīmum comput<b>ārent</b>, deinde sententiam scrīb<b>erent</b>.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Magister iussit discipulōs industriōs esse, tacēre et audīre, prīmum computāre, deinde sententiam scrībere.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Magister imperāvit discipulīs <u>ut</u> industriī <b>essent</b>, tac<b>ērent</b> et aud<b>īrent</b>, prīmum comput<b>ārent</b>, deinde sententiam scrīb<b>erent</b>.</span></div>
+      </div>
       <div><br></div>
       <div>1. Iūlius servum venīre iussit. = Iūlius serv<div class="area" data-key="ō"></div> imperāvit <div class="area" data-key="ut"></div> ven<div class="area" data-key="īret"></div>.</div>
       <div>2. Dux mīlitēs fortiter pugnāre iussit. = Dux mīlit<div class="area" data-key="ibus"></div> imperāvit <div class="area" data-key="ut"></div> pugn<div class="area" data-key="ārent"></div>.</div>
@@ -66,8 +68,10 @@ $_GET({
     <div class="row">
       <div><b>Exercitium quārtum</b></div>
       <div><br></div>
-      <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Iūlius colōnōs monuit: “Agrōs bene colite! Nōlīte neglegentēs esse!”</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Iūlius colōnōs monuit <u>ut</u> agrōs bene col<b>erent</b> <u>nē</u>ve neglegentēs <b>essent</b>.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Iūlius colōnōs monuit: “Agrōs bene colite! Nōlīte neglegentēs esse!”</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Iūlius colōnōs monuit <u>ut</u> agrōs bene col<b>erent</b> <u>nē</u>ve neglegentēs <b>essent</b>.</span></div>
+      </div>
       <div><br></div>
       <div>1. Iūlius servīs imperāvit: “Pāstōrem prehendite et tenēte!” = Iūlius serv<div class="area" data-key="īs"></div> imperāvit <div class="area" data-key="ut"></div> pāstōrem prehend<div class="area" data-key="erent"></div> et ten<div class="area" data-key="ērent"></div>.</div>
       <div>2. Iūlius Dāvō imperāvit: “Mārcum ad lūdum comitāre!” = Iūlius Dāv<div class="area" data-key="ō"></div> imperāvit <div class="area" data-key="ut"></div> Mārcum ad lūdum comit<div class="area" data-key="ārētur"></div>.</div>
@@ -88,15 +92,17 @@ $_GET({
       <div><br></div>
       <div><span class="ff"><i>praes. et imperf. coniūnctīvī</i></span></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Dāvus clāmat, quia puerum excitāre vult.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Dāvus clāmat, <u>ut</u> puerum excit<b>et</b>.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Syra tacet, quia Quīntum excitāre nōn vult.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Syra tacet, <u>nē</u> Quīntum excit<b>et</b>.</span></div>
-      <div><br></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Dāvus clāmāvit, quia puerum excitāre volēbat.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Dāvus clāmāvit, <u>ut</u> puerum excit<b>āret</b>.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Syra tacēbat, quia Quīntum excitāre nōlēbat.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Syra tacēbat, <u>nē</u> Quīntum excit<b>āret</b>.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Dāvus clāmat, quia puerum excitāre vult.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Dāvus clāmat, <u>ut</u> puerum excit<b>et</b>.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Syra tacet, quia Quīntum excitāre nōn vult.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Syra tacet, <u>nē</u> Quīntum excit<b>et</b>.</span></div>
+        <div><br></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Dāvus clāmāvit, quia puerum excitāre volēbat.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Dāvus clāmāvit, <u>ut</u> puerum excit<b>āret</b>.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Syra tacēbat, quia Quīntum excitāre nōlēbat.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Syra tacēbat, <u>nē</u> Quīntum excit<b>āret</b>.</span></div>
+      </div>
       <div><br></div>
       <div>1a. Ancilla in hortum exit, quia puerōs vocāre vult. = Ancilla in hortum exit <div class="area" data-key="ut"></div> puerōs <div class="area" data-key="vocet"></div>.</div>
       <div>1b. Ancilla in hortum exiit, quia puerōs vocāre volēbat. Ancilla in hortum exiit <div class="area" data-key="ut"></div> puerōs <div class="area" data-key="vocāret"></div>.</div>
@@ -125,8 +131,10 @@ $_GET({
       <div><br></div>
       <div><span class="ff"><i>praes. et imperf. coniūnctīvī</i></span></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Pater fīliōs <i>monet</i> ut probī <b>sint</b>.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Pater fīliōs <i>monuit</i> ut probī <b>essent</b>.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Pater fīliōs <i>monet</i> ut probī <b>sint</b>.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Pater fīliōs <i>monuit</i> ut probī <b>essent</b>.</span></div>
+      </div>
       <div><br></div>
       <div>1. Gubernātor Mēdum monet nē Lȳdiae <div class="area" data-key="crēdat">crēdere</div>.</div>
       <div>2. Thēseus in labyrinthum intrāvit ut Mīnōtaurum <div class="area" data-key="occīderet">occīdere</div>.</div>
@@ -148,10 +156,12 @@ $_GET({
     <div class="row">
       <div><b>Exercitium septimum</b></div>
       <div><br></div>
-      <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Iēsūs (efficere) ut surdī audiant.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Iēsūs <i>efficit</i> / <i>efficiet</i> ut surdī aud<b>iant</b>.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Iēsūs (efficere) ut surdī audīrent.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Iēsūs <i>efficiēbat</i> / <i>effēcit</i> / <i>effēcerat</i> ut surdī aud<b>īrent</b>.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Iēsūs (efficere) ut surdī audiant.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Iēsūs <i>efficit</i> / <i>efficiet</i> ut surdī aud<b>iant</b>.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Iēsūs (efficere) ut surdī audīrent.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Iēsūs <i>efficiēbat</i> / <i>effēcit</i> / <i>effēcerat</i> ut surdī aud<b>īrent</b>.</span></div>
+      </div>
       <div><br></div>
       <div>1. Lupus <div class="area" data-key="fugit | fugiet">fugere</div>, nē ā cane mordeātur.</div>
       <div>2. Iūlius Rōmam <div class="area" data-key="it | ībit">īre</div> ut negōtia urbāna cūret.</div>
@@ -173,8 +183,10 @@ $_GET({
     <div class="row">
       <div><b>Exercitium octāvum</b></div>
       <div><br></div>
-      <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Quīntus ā Syrā <i>postulat</i> ut fābulam nārr<b>et</b>.</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>→ Quīntus ā Syrā <i>postulābat</i> / <i>postulāvit</i> / <i>postulāverat</i> ut fābulam nārr<b>āret</b>.</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Quīntus ā Syrā <i>postulat</i> ut fābulam nārr<b>et</b>.</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>→ Quīntus ā Syrā <i>postulābat</i> / <i>postulāvit</i> / <i>postulāverat</i> ut fābulam nārr<b>āret</b>.</span></div>
+      </div>
       <div><br></div>
       <div>1. Iūlius agricolās monet ut opus suum cūrent. → Iūlius agricolās mon<div class="area" data-key="ēbat | uit | uerat"></div> ut opus suum cūr<div class="area" data-key="ārent"></div>.</div>
       <div>2. Magister discipulīs imperat ut tabulās prōmant et sententiam scrībant. → Magister discipulīs imper<div class="area" data-key="ābat | āvit | āverat"></div> ut tabulās prōm<div class="area" data-key="erent"></div> et sententiam scrī<div class="area" data-key="berent"></div>.</div>
@@ -194,19 +206,21 @@ $_GET({
       <div><br></div>
     </div>
     <div class="row">
-      <div>Exercitium nōnum</div>
+      <div><div><b>Exercitium nōnum</b></div>
       <div><br></div>
-      <div><span class="ff">XV menda quaere, quae sunt in sententiis quae sequuntur.</span></div>
+      <div><span class="ff"><i>XV menda quaere, quae sunt in sententiis quae sequuntur.</i></span></div>
       <div><br></div>
-      <div><span class="ff">Exemplum:<span style="white-space: pre;">	</span>Syra monet puerōs ut probi essent sint</span></div>
+      <div class="sc">
+        <div><span class="ff"><i>Exemplum</i>:<span style="white-space: pre;">	</span>Syra monet puerōs ut probī <s>essent</s> <b>sint</b>.</span></div>
+      </div>
       <div><br></div>
-      <div><div class="area">Agricolae</div> <div class="area">in</div> <div class="area">agrīs</div> <div class="area">labōrant</div> <div class="area">ut</div> <div class="area">pecūniam</div> <div class="area" data-key="accipiant">acciperent</div>: cūrant enim ut agrī bene colantur et frūmentum mātūrum mēnse Augustō meterētur. Ante ūnum annum dominus colōnīs imperāvit ut vītēs probē cūrārent neque neglegentēs sint, quod vīnum bonum bibere cupiēbat. Sed imber et frīgus vītibus nocuērunt, neque colonī tunc efficere potuērunt ut vīnum bonum sit.</div>
+      <div><div class="area" data-key="agricolae">Agricolae</div> <div class="area" data-key="in">in</div> <div class="area" data-key="agrīs">agrīs</div> <div class="area" data-key="labōrant">labōrant</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="pecūniam">pecūniam</div> <div class="area" data-key="accipiant">acciperent</div>: <div class="area" data-key="cūrant">cūrant</div> <div class="area" data-key="enim">enim</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="agrī">agrī</div> <div class="area" data-key="bene">bene</div> <div class="area" data-key="colantur">colantur</div> <div class="area" data-key="et">et</div> <div class="area" data-key="frūmentum">frūmentum</div> <div class="area" data-key="mātūrum">mātūrum</div> <div class="area" data-key="mēnse">mēnse</div> <div class="area" data-key="Augustō">Augustō</div> <div class="area" data-key="metātur">meterētur</div>. <div class="area" data-key="ante">Ante</div> <div class="area" data-key="ūnum">ūnum</div> <div class="area" data-key="annum">annum</div> <div class="area" data-key="dominus">dominus</div> <div class="area" data-key="colōnīs">colōnīs</div> <div class="area" data-key="imperāvit">imperāvit</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="vītēs">vītēs</div> <div class="area" data-key="probē">probē</div> <div class="area" data-key="cūrārent">cūrārent</div> <div class="area" data-key="neque | nēve">neque</div> <div class="area" data-key="neglegentēs">neglegentēs</div> <div class="area" data-key="essent">sint</div>, <div class="area" data-key="quod">quod</div> <div class="area" data-key="vīnum">vīnum</div> <div class="area" data-key="bonum">bonum</div> <div class="area" data-key="bibere">bibere </div> <div class="area" data-key="cupiēbat">cupiēbat</div>. <div class="area" data-key="sed">Sed</div> <div class="area" data-key="imber">imber</div> <div class="area" data-key="et">et</div> <div class="area" data-key="frīgus">frīgus</div> <div class="area" data-key="vītibus">vītibus</div> <div class="area" data-key="nocuērunt">nocuērunt</div>, <div class="area" data-key="neque | nec">neque</div> <div class="area" data-key="colōnī">colonī</div> <div class="area" data-key="tunc">tunc</div> <div class="area" data-key="efficere">efficere</div> <div class="area" data-key="potuērunt">potuērunt</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="vīnum">vīnum</div> <div class="area" data-key="bonum">bonum</div> <div class="area" data-key="esset">sit</div>.</div>
       <div><br></div>
-      <div>Sed hōc annō sōl et calor efficient ut vīnum bonum sit. Nōn idem dīcī potest dē frūmentō: parum enim aquae est et, quamquam agricolae cūrant ut agrī rigārentur, herba sicca est. Saepe Iūlius dīcit: "Nōlīte pigrī esse, colōnī! Labōrāte ut frūmentum bonum habeāmus! Sī parum aquae est, vobīs imperō ut rīvum peterētis et aquam ē rīvō hauriātis. Necesse est agrōs rigāre ut frūmentum crēsceret". Agricolās saepe monēre oportet, ut officium suum cūrārent.</div>
+      <div><div class="area" data-key="sed">Sed</div> <div class="area" data-key="hōc">hōc</div> <div class="area" data-key="annō">annō</div> <div class="area" data-key="sōl">sōl</div> <div class="area" data-key="et">et</div> <div class="area" data-key="calor">calor</div> <div class="area" data-key="efficient">efficient</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="vīnum">vīnum</div> <div class="area" data-key="bonum">bonum</div> <div class="area" data-key="sit">sit</div>. <div class="area" data-key="nōn">Nōn</div> <div class="area" data-key="idem">idem</div> <div class="area" data-key="dīcī">dīcī</div> <div class="area" data-key="potest">potest</div> <div class="area" data-key="dē">dē</div> <div class="area" data-key="frūmentō">frūmentō</div>: <div class="area" data-key="parum">parum</div> <div class="area" data-key="enim">enim</div> <div class="area" data-key="aquae">aquae</div> <div class="area" data-key="est">est</div> <div class="area" data-key="et">et</div>, <div class="area" data-key="quamquam">quamquam</div> <div class="area" data-key="agricolae">agricolae</div> <div class="area" data-key="cūrant">cūrant</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="agrī">agrī</div> <div class="area" data-key="rigentur">rigārentur</div>, <div class="area" data-key="herba">herba</div> <div class="area" data-key="sicca">sicca</div> <div class="area" data-key="est">est</div>. <div class="area" data-key="saepe">Saepe</div> <div class="area" data-key="Iūlius">Iūlius</div> <div class="area" data-key="dīcit">dīcit</div>: “<div class="area" data-key="nōlīte">Nōlīte</div> <div class="area" data-key="pigrī">pigrī</div> <div class="area" data-key="esse">esse</div>, <div class="area" data-key="colōnī">colōnī</div>! <div class="area" data-key="labōrāte">Labōrāte</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="frūmentum">frūmentum</div> <div class="area" data-key="bonum">bonum</div> <div class="area" data-key="habeāmus">habeāmus</div>! <div class="area" data-key="sī">Sī</div> <div class="area" data-key="parum">parum</div> <div class="area" data-key="aquae">aquae</div> <div class="area" data-key="est">est</div>, <div class="area" data-key="vōbīs">vōbīs</div> <div class="area" data-key="imperō">imperō</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="rīvum">rīvum</div> <div class="area" data-key="petātis">peterētis</div> <div class="area" data-key="et">et</div> <div class="area" data-key="aquam">aquam</div> <div class="area" data-key="ē">ē</div> <div class="area" data-key="rīvō">rīvō</div> <div class="area" data-key="hauriātis">hauriātis</div>. <div class="area" data-key="necesse">Necesse</div> <div class="area" data-key="est">est</div> <div class="area" data-key="agrōs">agrōs</div> <div class="area" data-key="rigāre">rigāre</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="frūmentum">frūmentum</div> <div class="area" data-key="crēscat">crēsceret</div>”. <div class="area" data-key="agricolās">Agricolās</div> <div class="area" data-key="saepe">saepe</div> <div class="area" data-key="monēre">monēre</div> <div class="area" data-key="oportet">oportet</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="officium">officium</div> <div class="area" data-key="suum">suum</div> <div class="area" data-key="cūrent">cūrārent</div>.</div>
       <div><br></div>
-      <div>Ante ūnum annum, pāstōre dormiente, ovis silvam petīvit. Sed pāstor cūrāvit nē ā lupō vorētur: in silvam intrāvit, ovem quaesīvit atque invēnit; tum canī imperāvit ut in lupum, qui ovem petēbat, impetum faciat. Hōc modō pāstor cūrāvit nē ovis ā lupō raperētur. Tunc dominus īrātus, nē pāstor officium suum iterum neglegat, imperāvit ut prehenderētur et teneātur: eum enim verberāre volēbat. Pāstor autem, verbera exspectāns, dominum ōrābat nē inhūmānus esset, nēve sē verberet. Simul vērō ovēs in agrōs aberrābant, et frūmentum immātūrum carpēbant. Agricolae clāmantēs ovibus imperāvērunt ut ex agrīs exīrent, Iūliusque, haec vidēns, pāstōrī imperāvit ut officium suum faciat.</div>
+      <div><div class="area" data-key="ante">Ante</div> <div class="area" data-key="ūnum">ūnum</div> <div class="area" data-key="annum">annum</div>, <div class="area" data-key="pāstōre">pāstōre</div> <div class="area" data-key="dormiente">dormiente</div>, <div class="area" data-key="ovis">ovis</div> <div class="area" data-key="silvam">silvam</div> <div class="area" data-key="petīvit">petīvit</div>. <div class="area" data-key="sed">Sed</div> <div class="area" data-key="pāstor">pāstor</div> <div class="area" data-key="cūrāvit">cūrāvit</div> <div class="area" data-key="nē">nē</div> <div class="area" data-key="ā">ā</div> <div class="area" data-key="lupō">lupō</div> <div class="area" data-key="vorārētur">vorētur</div>: <div class="area" data-key="in">in</div> <div class="area" data-key="silvam">silvam</div> <div class="area" data-key="intrāvit">intrāvit</div>, <div class="area" data-key="ovem">ovem</div> <div class="area" data-key="quaesīvit">quaesīvit</div> <div class="area" data-key="atque">atque</div> <div class="area" data-key="invēnit">invēnit</div>; <div class="area" data-key="tum">tum</div> <div class="area" data-key="canī">canī</div> <div class="area" data-key="imperāvit">imperāvit</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="in">in</div> <div class="area" data-key="lupum">lupum</div>, <div class="area" data-key="quī">quī</div> <div class="area" data-key="ovem">ovem</div> <div class="area" data-key="petēbat">petēbat</div>, <div class="area" data-key="impetum">impetum</div> <div class="area" data-key="faceret">faciat</div>. <div class="area" data-key="hōc">Hōc</div> <div class="area" data-key="modō">modō</div> <div class="area" data-key="pāstor">pāstor</div> <div class="area" data-key="cūrāvit">cūrāvit</div> <div class="area" data-key="nē">nē</div> <div class="area" data-key="ovis">ovis</div> <div class="area" data-key="ā">ā</div> <div class="area" data-key="lupō">lupō</div> <div class="area" data-key="reperētur">raperētur</div>. <div class="area" data-key="tunc">Tunc</div> <div class="area" data-key="dominus">dominus</div> <div class="area" data-key="īrātus">īrātus</div>, <div class="area" data-key="nē">nē</div> <div class="area" data-key="pāstor">pāstor</div> <div class="area" data-key="officium">officium</div> <div class="area" data-key="suum">suum</div> <div class="area" data-key="iterum">iterum</div> <div class="area" data-key="neglegeret">neglegat</div>, <div class="area" data-key="imperāvit">imperāvit</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="prehenderētur">prehenderētur</div> <div class="area" data-key="et">et</div> <div class="area" data-key="tenērētur">teneātur</div>: <div class="area" data-key="eum">eum</div> <div class="area" data-key="enim">enim</div> <div class="area" data-key="verberāre">verberāre</div> <div class="area" data-key="volēbat">volēbat</div>. <div class="area" data-key="pāstor">Pāstor</div> <div class="area" data-key="autem">autem</div>, <div class="area" data-key="verbera">verbera</div> <div class="area" data-key="exspectāns">exspectāns</div>, <div class="area" data-key="dominum">dominum</div> <div class="area" data-key="ōrābat">ōrābat</div> <div class="area" data-key="nē">nē</div> <div class="area" data-key="inhūmānus">inhūmānus</div> <div class="area" data-key="esset">esset</div> <div class="area" data-key="nēve">nēve</div> <div class="area" data-key="sē">sē</div> <div class="area" data-key="verberāret">verberet</div>. <div class="area" data-key="simul">Simul</div> <div class="area" data-key="vērō">vērō</div> <div class="area" data-key="ovēs">ovēs</div> <div class="area" data-key="in">in</div> <div class="area" data-key="agrōs">agrōs</div> <div class="area" data-key="aberrābant">aberrābant</div> <div class="area" data-key="et">et</div> <div class="area" data-key="frūmentum">frūmentum</div> <div class="area" data-key="immātūrum">immātūrum</div> <div class="area" data-key="carpēbant">carpēbant</div>. <div class="area" data-key="agricolae">Agricolae</div> <div class="area" data-key="clāmantēs">clāmantēs</div> <div class="area" data-key="ovibus">ovibus</div> <div class="area" data-key="imperāvērunt">imperāvērunt</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="ex">ex</div> <div class="area" data-key="agrīs">agrīs</div> <div class="area" data-key="exīrent">exīrent</div>, <div class="area" data-key="Iūliusque">Iūliusque</div>, <div class="area" data-key="haec">haec</div> <div class="area" data-key="vidēns">vidēns</div>, <div class="area" data-key="pāstōrī">pāstōrī</div> <div class="area" data-key="imperāvit">imperāvit</div> <div class="area" data-key="ut">ut</div> <div class="area" data-key="officium">officium</div> <div class="area" data-key="suum">suum</div> <div class="area" data-key="faceret">faciat</div>.</div>
       <div><br></div>
-      <div>Sīc quī probē cūrat officium suum laudātur, neque cavēre dēbet nē verberārētur.</div>
+      <div><div class="area" data-key="sīc">Sīc</div> <div class="area" data-key="quī">quī</div> <div class="area" data-key="probē">probē</div> <div class="area" data-key="cūrat">cūrat</div> <div class="area" data-key="officium">officium</div> <div class="area" data-key="suum">suum</div> <div class="area" data-key="laudātur">laudātur</div> <div class="area" data-key="neque | nec">neque</div> <div class="area" data-key="cavēre">cavēre</div> <div class="area" data-key="dēbet">dēbet</div> <div class="area" data-key="nē">nē</div> <div class="area" data-key="verberētur">verberārētur</div>.</div></div>
       <div><br></div>
     </div>
     <div class="row">
