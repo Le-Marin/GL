@@ -10,9 +10,9 @@ $_GET({
       <div>3. Tabellārius: “<div class="area" data-key="ego"></div> Tlēpolemus sum”.</div>
       <div>4. Iānitor: “Quisnam <div class="area" data-key="tū"></div> es, quī sīc clāmās?”</div>
       <div>5. Tabellārius: “Tlēpolemus sum, Diodōrī tabellārius. Cūr <div class="area" data-key="mihi"></div> iānuam nōn aperīs, iānitor?”</div>
-      <div>6. Tlēpolemus: ‘<div class="area" data-key="sē"></div> Diodōrī tabellārium esse’ dīcit.</div>
+      <div>6. Tlēpolemus ‘<div class="area" data-key="sē"></div> Diodōrī tabellārium esse’ dīcit.</div>
       <div>7. Iānitor: “<div class="area" data-key="tibi"></div> nōn crēdō. Cūr ad vīllam vēnistī?”</div>
-      <div>8. Tlēpolemus: “Epistulam ferō, iānitor. Nōnne sīc tabellāriōs epistulās ferre? <div class="area" data-key="tū | mē"></div> stultē interrogās, iānitor!”</div>
+      <div>8. Tlēpolemus: “Epistulam ferō, iānitor. Nōnne scīs tabellāriōs epistulās ferre? <div class="area" data-key="tū | mē"></div> stultē interrogās, iānitor!”</div>
       <div>9. Tlēpolemus ‘epistulam ā <div class="area" data-key="sē"></div> ferrī’ dīcit.</div>
       <div>10. Iānitor: “<div class="area" data-key="nōs"></div> iānitōrēs crēdere nōn solēmus tabellāriīs, quod saepe mentīminī”.</div>
       <div>11. Tabellārius: “Quīn aperīs, iānitor, <div class="area" data-key="mē"></div>que sub tēctum admittis? Per imbrem ambulāvī, et pedēs <div class="area" data-key="mihi"></div> dolent. Sub tēctō melius colloquēmur”.</div>
@@ -87,7 +87,7 @@ $_GET({
       <div>7. Cēterī servī nōn <div class="area" data-key="mentītī sunt">mentīrī</div>: “Nōs autem vērum <div class="area" data-key="locūtī sumus">loquī</div>, domine”.</div>
       <div>8. Iūlius: “Ita est, vōs vērum <div class="area" data-key="locūtī estis">loquī</div>, et ancillae quoque vērum <div class="area" data-key="locūtae sunt">loquī</div>”.</div>
       <div>9. Syra Quīntum cōnsōlārī <div class="area" data-key="cōnāta est">cōnārī</div>.</div>
-      <div>10. Mēdus Lȳdiam ad Albīnī tabernam Rōmae <div class="area" data-key="comitāta est">comitārī</div>.</div>
+      <div>10. Mēdus Lȳdiam ad Albīnī tabernam Rōmae <div class="area" data-key="comitātus est">comitārī</div>.</div>
       <div><br></div>
     </div>
     <div class="row">
