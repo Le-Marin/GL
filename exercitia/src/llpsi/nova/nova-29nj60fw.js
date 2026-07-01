@@ -282,9 +282,15 @@ $_GET({
       <div><br></div>
       <div class="sc">
       <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>Mēdus: “<b>Quantī</b> (= Quot nummīs) cōnstat ānulus aureus?”</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Albīnus: “Ānulus aureus centum nummīs cōnstat: <b>plūris</b> (= maiōre pretiō) cōnstat quam ānulus ferreus; ānulus ferreus <b>minōris</b> (= minōre pretiō) cōnstat quam ānulus aureus”.</span></div>
+      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Albīnus: “Ānulus aureus centum nummīs cōnstat: <b>plūris</b><br>
+        (= maiōre pretiō) cōnstat quam ānulus ferreus;<br>
+        ānulus ferreus <b>minōris</b> (= minōre pretiō) cōnstat<br>
+        quam ānulus aureus”.</span></div>
       <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Gubernātor: “<b>Quantī</b> aestimās nautārum vītam?”</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Mercātor: “Nautārum vītam <b>parvī</b> aestimō; mercēs vērō meās <b>magnī</b> aestimō; mercēs meās <b>plūris</b> aestimō quam nautārum vītam (= nautārum vītam <b>minōris</b> aestimō quam mercēs meās)”.</span></div>
+      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Mercātor: “Nautārum vītam <b>parvī</b> aestimō; mercēs vērō<br>
+        meās <b>magnī</b> aestimō; mercēs meās <b>plūris</b> aestimō<br>
+        quam nautārum vītam (= nautārum vītam <b>minōris</b> aestimō<br>
+        quam mercēs meās)”.</span></div>
       </div>
       <div><br></div>
       <div>1. Tlēpolemus: “<div class="area" data-key="quantī"></div> (= Quot numm<div class="area" data-key="īs"></div>) cōnstat illud pallium?” Tabernārius: “Istud pallium octōgintā numm<div class="area" data-key="īs"></div> cōnstat: <div class="area" data-key="tantī"></div> igitur cōnstat quam hoc, quod septuāgintā numm<div class="area" data-key="īs"></div> cōnstat”.</div>
