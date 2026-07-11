@@ -51,7 +51,7 @@ $_GET({
       <div><br></div>
       <div>1. Pater ā fīliō quaerit cūr verberāt<div class="area" data-key="us sit"></div> ā magistrō: “Dīc mihi, fīlī, cūr tū ā magistrō verberāt<div class="area" data-key="us sīs"></div>?”</div>
       <div>2. Fīlius respondet: “Nesciō cūr verberāt<div class="area" data-key="us sim"></div>, ego enim bonus discipulus fuī.”</div>
-      <div>3. Pater dubitat num fīlius vērum dīx<div class="area" data-key="erit"></div> eumque interrogat num vērē bonus fu<div class="area" data-key="erit"></div> ac magistrō pāru<div class="area" data-key="eit"></div>. Fīlius nōn respondet.</div>
+      <div>3. Pater dubitat num fīlius vērum dīx<div class="area" data-key="erit"></div> eumque interrogat num vērē bonus fu<div class="area" data-key="erit"></div> ac magistrō pāru<div class="area" data-key="erit"></div>. Fīlius nōn respondet.</div>
       <div>4. Pater: “Quīn respondēs? Quaerō ā tē num bonus discipulus fu<div class="area" data-key="erīs"></div> ас magistrō pāru<div class="area" data-key="erīs"></div>.”</div>
       <div>5. Fīlius: “Cūr ā mē quaeris num bonus discipulus fu<div class="area" data-key="erim"></div> ac magistrō pāru<div class="area" data-key="erim"></div>? Iam tibi dīxī ‘mē bonum discipulum fuisse’.”</div>
       <div>6. Pater: “Id quaerō quia dubitō num vērum dīx<div class="area" data-key="erīs"></div>.”</div>
