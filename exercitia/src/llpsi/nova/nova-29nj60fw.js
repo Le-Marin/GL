@@ -245,7 +245,7 @@ $_GET({
       <div>7b. Mēdus, cum servus esset, magnam pecūniam nōn <div class="area" data-key="habēbat">habēre</div>.</div>
       <div>8a. Cum puer aegrōtet, medicus Tūsculō <div class="area" data-key="arcessitur">arcessere</div>.</div>
       <div>8b. Cum puer aegrōtāret, medicus Tūsculō <div class="area" data-key="arcessītus est">arcessere</div>.</div>
-      <div>9a. Cum ventus secundus flet, nāvis ē portū <div class="area" data-key=" ēgreditur">ēgredī</div>.</div>
+      <div>9a. Cum ventus secundus flet, nāvis ē portū <div class="area" data-key="ēgreditur">ēgredī</div>.</div>
       <div>9b. Cum ventus secundus flāret, nāvis ē portū <div class="area" data-key="ēgressa est">ēgredī</div>.</div>
       <div>10a. Colōnus, cum mercēdem dēbitam nōn solvat, ab Iūliō <div class="area" data-key="reprehenditur">reprehendere</div>.</div>
       <div>10b. Colōnus, cum mercēdem dēbitam nōn solveret, ab Iūliō <div class="area" data-key="reprehendēbātur | reprehēnsus est">reprehendere</div>.</div>
