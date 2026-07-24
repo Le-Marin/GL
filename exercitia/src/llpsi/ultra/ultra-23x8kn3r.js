@@ -11,7 +11,7 @@ $_GET({
       <div>4. Iam senex, convocāvit fīliōs et dīxit sē brevī <div class="area" data-key="moritūrum esse">morī</div>.</div>
       <div>5. Māter fīliābus: “Omnia quae mihi erunt vōbīs <div class="area" data-key="datūra sum">dabō</div>.”</div>
       <div>6. Novus dominus spopondit sē lēniōrem in servōs <div class="area" data-key="futūrum esse | fore">esse</div>.</div>
-      <div>7. “Quōcumque proficīscēs,” inquiunt sociī Aenēae, “tē <div class="area" data-key="secūtūrī sumus">sequēminī</div>.”</div>
+      <div>7. “Quōcumque proficīscēs,” inquiunt sociī Aenēae, “tē <div class="area" data-key="secūtūrī sumus">sequēmur</div>.”</div>
       <div>8. Vōce āmissā, sciēbat Ēchō vōcem nōn <div class="area" data-key="reditūram esse">redīre</div>.</div>
       <div>9. Iūlius sententiam uxōris percontāns: “Nōnne,” inquit, “<div class="area" data-key="dictūra es">dīcēs</div> quid cēnseās?”</div>
       <div>10. Sacrificiō factō, spērābant omnēs Iūnōnem opem <div class="area" data-key="lātūram esse">ferre</div>.</div>
