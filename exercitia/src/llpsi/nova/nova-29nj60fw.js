@@ -11,7 +11,7 @@ $_GET({
       <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>= Syra fābulam dē Īcarō nārrat <u>ut</u> Quīntum mon<b>eat</b>.</span></div>
       </div>
       <div><br></div>
-      <div>1. Mēdus ē vīllā abit, quia amīcam vidēre vult. = Mēdus ē vīllā abit <div class="area" data-key="ut"></div> amīcum vid<div class="area" data-key="eat"></div>.</div>
+      <div>1. Mēdus ē vīllā abit, quia amīcam vidēre vult. = Mēdus ē vīllā abit <div class="area" data-key="ut"></div> amīcam vid<div class="area" data-key="eat"></div>.</div>
       <div>2. Polycratēs ānulum abiēcit, quia deōrum invidiam āvertere volēbat. = Polycratēs ānulum abiēcit <div class="area" data-key="ut"></div> deōrum invidiam āvert<div class="area" data-key="eret"></div>.</div>
       <div>3. Mercātōrēs nāvigant, quia pecūniam facere volunt. =  Mercātōrēs nāvigant <div class="area" data-key="ut"></div> pecūniam <div class="area" data-key="faciant"></div>.</div>
       <div>4. Iūlius rūs petīvit, quia cum colōnīs suīs loquī volēbat. = Iūlius rūs petīvit <div class="area" data-key="ut"></div> cum colōnīs suīs <div class="area" data-key="loquerētur"></div>.</div>
