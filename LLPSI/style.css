@@ -90,7 +90,7 @@ pre {
   scrollbar-width: thin;
 }
 
-.word {
+span.word {
   color: var(--word-fg) !important;
   pointer-events: auto !important;
   cursor: pointer;
