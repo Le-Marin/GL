@@ -39,7 +39,7 @@ $_GET({
       <div>6.<span style="white-space: pre;">	</span>Timōre <div class="area" data-key="perturbāta">perturbāre</div>, nōn poterat respondēre īnfēlīx mulier.</div>
       <div>7.<span style="white-space: pre;">	</span><div class="area" data-key="adductī">addūcere</div> ad rēgem, lēgātī prōcubuērunt ad pedēs illīus.</div>
       <div>8.<span style="white-space: pre;">	</span>Ā Iove <div class="area" data-key="rapta">rapere</div>, Eurōpa deō nūpsit.</div>
-      <div>9.<span style="white-space: pre;">	</span>Ariadna, ā Tēseō <div class="area" data-key="relicta">relinquere</div>, uxor Dionȳsī facta est.</div>
+      <div>9.<span style="white-space: pre;">	</span>Ariadna, ā Thēseō <div class="area" data-key="relicta">relinquere</div>, uxor Dionȳsī facta est.</div>
       <div>10.<span style="white-space: pre;">	</span>Legimus apud Ovidium Eurydicēn ā serpente <div class="area" data-key="morsam">mordēre</div> morī Orpheumque...</div>
       <div>11.<span style="white-space: pre;">	</span>Rōmā sub noctem <div class="area" data-key="profectī">proficīscī</div>, īnsequentī diē iam pervēnērunt Tūsculum.</div>
       <div>12.<span style="white-space: pre;">	</span>Haec <div class="area" data-key="locūta">loquī</div>, Dīdō rogum ascendit.</div>
