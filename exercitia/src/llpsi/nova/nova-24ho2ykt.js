@@ -138,7 +138,7 @@ $_GET({
       <div>3. īre, <div class="area" data-key="iisse | īvisse"></div></div>
       <div>4. redīre, <div class="area" data-key="rediisse | redīvisse"></div></div>
       <div>5. <div class="area" data-key="cognōscere"></div>, <div class="area" data-key="cognōvisse"></div>, cognitum</div>
-      <div>6. <div class="area" data-key="cupere"></div>, <div class="area" data-key="cupīvisse"></div></div>
+      <div>6. <div class="area" data-key="cupere"></div>, cupīvisse</div>
       <div>7. frangere, <div class="area" data-key="frēgisse"></div>, <div class="area" data-key="frāctum"></div></div>
       <div>8. <div class="area" data-key="reprehendere"></div>, reprehendisse, <div class="area" data-key="reprehēnsum"></div></div>
       <div>9. lavāre, <div class="area" data-key="lāvisse"></div>, <div class="area" data-key="lavātum"></div> / <div class="area" data-key="lautum"></div></div>
