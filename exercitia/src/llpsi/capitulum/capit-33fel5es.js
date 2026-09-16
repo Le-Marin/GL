@@ -51,7 +51,6 @@ $_GET({
       <div><br></div>
       <div class="sc">
         <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>parātus ad scrībend<b>um</b> : parātus ad epistul<b>am</b> scrībend<b>am</b></span></div>
-        </div>
         <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>cupidus scrībend<b>ī</b> : cupidus epistul<b>ae</b> scrībend<b>ae</b> (= cupidus epistulam scrībendī)</span></div>
         <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>fessus scrībend<b>ō</b> : fessus epistul<b>ā</b> scrībend<b>ā</b> (= fessus epistulam scrībendō)</span></div>
       </div>
