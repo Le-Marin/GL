@@ -6,12 +6,12 @@ $_GET({
       <div><br></div>
       <div><b>Exercitium 1</b></div>
       <div><br></div>
-      <div>1. Bis <div class="area" data-key="bīnī"></div> sunt quattuor [2 × 2 = 4].</div>
-      <div>2. Bis <div class="area" data-key="ternī"></div> sunt sex.</div>
-      <div>3. Ter <div class="area" data-key="quaternī"></div> sunt duodecim.</div>
-      <div>4. Quater <div class="area" data-key="quīnī"></div> sunt vīgintī.</div>
-      <div>5. Quīnquiēs <div class="area" data-key="sēnī"></div> sunt trīgintā.</div>
-      <div>6. Deciēs <div class="area" data-key="dēnī"></div> sunt centum.</div>
+      <div>1. Bis <div class="area" data-key="bīna"></div> sunt quattuor [2 × 2 = 4].</div>
+      <div>2. Bis <div class="area" data-key="terna"></div> sunt sex.</div>
+      <div>3. Ter <div class="area" data-key="quaterna"></div> sunt duodecim.</div>
+      <div>4. Quater <div class="area" data-key="quīna"></div> sunt vīgintī.</div>
+      <div>5. Quīnquiēs <div class="area" data-key="sēna"></div> sunt trīgintā.</div>
+      <div>6. Deciēs <div class="area" data-key="dēna"></div> sunt centum.</div>
       <div>7. Legiōnēs Rōmānae in <div class="area" data-key="dēnās"></div> [X] cohortēs dīviduntur.</div>
       <div>8. In singulīs legiōnibus sunt <div class="area" data-key="quaterna"></div> [IV] vel <div class="area" data-key="quīna"></div> [V] vel <div class="area" data-key="sēna"></div> [VI] mīlia mīlitum.</div>
       <div>9. In <div class="area" data-key="singulīs"></div> lectīs <div class="area" data-key="singulī"></div> aut <div class="area" data-key="bīnī"></div> aut <div class="area" data-key="ternī"></div> convīvae accubant.</div>
@@ -51,9 +51,10 @@ $_GET({
       <div><br></div>
       <div class="sc">
         <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>parātus ad scrībend<b>um</b> : parātus ad epistul<b>am</b> scrībend<b>am</b></span></div>
+        </div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>cupidus scrībend<b>ī</b> : cupidus epistul<b>ae</b> scrībend<b>ae</b> (= cupidus epistulam scrībendī)</span></div>
+        <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>fessus scrībend<b>ō</b> : fessus epistul<b>ā</b> scrībend<b>ā</b> (= fessus epistulam scrībendō)</span></div>
       </div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>cupidus scrībend<b>ī</b> : cupidus epistul<b>ae</b> scrībend<b>ae</b> (= cupidus epistulam scrībendī)</span></div>
-      <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>fessus scrībend<b>ō</b> : fessus epistul<b>ā</b> scrībend<b>ā</b> (= fessus epistulam scrībendō)</span></div>
       <div><br></div>
       <div>1. Quīntus Syram hortātur ad nārrand<div class="area" data-key="um"></div>: Quīntus Syram hortātur ad fābul<div class="area" data-key="am"></div> nārrand<div class="area" data-key="am"></div>.</div>
       <div>2. Syra fīnem nārrand<div class="area" data-key="ī"></div> facit quia fessa est nārrand<div class="area" data-key="ō"></div>: Syra fīnem facit fābul<div class="area" data-key="ae"></div> nārrand<div class="area" data-key="ae"></div> (= fābulam nārrand<div class="area" data-key="ī"></div>) quia fessa est fābul<div class="area" data-key="ā"></div> nārrand<div class="area" data-key="ā"></div> (= fābulam nārrand<div class="area" data-key="ō"></div>).</div>
@@ -91,7 +92,7 @@ $_GET({
       <div><br></div>
       <div><b>Exercitium 7</b></div>
       <div><br></div>
-      <div><span class="ff">plūsquamperfectum coniūnctīvī</span></div>
+      <div><span class="ff"><i>plūsquamperfectum coniūnctīvī</i></span></div>
       <div><br></div>
       <div>1. Herī magister epistulam ad Iūlium scrīpsit, cum fīlius eius in lūdō dormīv<div class="area" data-key="isset"></div>, prāvē scrīps<div class="area" data-key="isset"></div> nec magistrō pāru<div class="area" data-key="isset"></div>.</div>
       <div>2. Iūlius, cum epistulam magistrī accēp<div class="area" data-key="isset"></div> et lēg<div class="area" data-key="isset"></div>, ā fīliō quaesīvit cūr malus discipulus fu<div class="area" data-key="isset"></div>.</div>
@@ -112,7 +113,7 @@ $_GET({
       <div><span class="ff"><i>coniūnctīvus irreālis</i></span></div>
       <div><br></div>
       <div class="sc">
-        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">	</span>[nunc]</span></div>
+        <div><span class="ff"><i>Exempla</i>:<span style="white-space: pre;">		</span>[nunc]</span></div>
         <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Aquam bibō quia vīnum nōn habeō. Utinam vīnum habē<b>rem</b>!</span></div>
         <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>Sī vīnum habē<b>rem</b>, aquam nōn bibe<b>rem</b>.</span></div>
         <div><span class="ff"><span style="white-space: pre;">		</span><span style="white-space: pre;">	</span>[tunc]</span></div>
