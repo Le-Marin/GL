@@ -11,7 +11,7 @@ $_GET({
       <div>5. Post mediam noctem ad coemētērium īmus ut duo cadāvera <div class="area" data-key="effodiāmus">effodere</div>.</div>
       <div>6. Dux assentītur, sed eā condiciōne ut omnēs captīvī <div class="area" data-key="reddantur">reddī</div>.</div>
       <div>7. Spartacus timet nē <div class="area" data-key="abeant">abīre</div> sociī nēve exercitus suus sine eōrum auxiliō <div class="area" data-key="relinquātur">relinquī</div>.</div>
-      <div>8. Lupus in fābulā: “Accēde proprius, ut melius tē <div class="area" data-key="audiam">audīre</div>”.</div>
+      <div>8. Lupus in fābulā: “Accēde propius, ut melius tē <div class="area" data-key="audiam">audīre</div>”.</div>
       <div>9. Iōsēphus frātribus: “Persuādēte patrī ut in Aegyptum cum omnī familiā <div class="area" data-key="commigret">commigrāre</div>”.</div>
       <div>10. Lēgātus “Rogō vōs” ait, “ut opem nōbīs <div class="area" data-key="ferātis">ferre</div>”.</div>
     </div>
