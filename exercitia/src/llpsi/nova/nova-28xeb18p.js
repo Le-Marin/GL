@@ -109,12 +109,12 @@ $_GET({
       <div>2a. Mēdus Albīnī tabernam petit, quia ānulum emere vult. = Mēdus Albīnī tabernam petit <div class="area" data-key="ut"></div> ānulum <div class="area" data-key="emat"></div>.</div>
       <div>2b. Mēdus Albīnī tabernam petīverat, quia ānulum emere volēbat. = Mēdus Albīnī tabernam petīverat <div class="area" data-key="ut"></div> ānulum <div class="area" data-key="emeret"></div>.</div>
       <div>3a. Syra fābulam dē Daedalō et Īcarō nārrat, quia Quīntum monēre vult. = Syra fābulam dē Daedalō et Īcarō nārrat <div class="area" data-key="ut"></div> Quīntum <div class="area" data-key="moneat"></div>.</div>
-      <div>3b. Syra fābulam dē Daedalō et Īcarō nārrāvit, quia Quīntum monēre volēbat. = Syra fābulam dē Daedalō et Īcarō nārrat <div class="area" data-key="ut"></div> Quīntum <div class="area" data-key="monēret"></div>.</div>
+      <div>3b. Syra fābulam dē Daedalō et Īcarō nārrāvit, quia Quīntum monēre volēbat. = Syra fābulam dē Daedalō et Īcarō nārrāvit <div class="area" data-key="ut"></div> Quīntum <div class="area" data-key="monēret"></div>.</div>
       <div>4a. Quīntus in arborem nunc ascendit, quia nīdum capere vult. = Quīntus in arborem nunc ascendit <div class="area" data-key="ut"></div> nīdum <div class="area" data-key="capiat"></div>.</div>
       <div>4b. Quīntus in arborem ascenderat, quia nīdum capere volēbat. = Quīntus in arborem ascenderat <div class="area" data-key="ut"></div> nīdum <div class="area" data-key="caperet"></div>.</div>
       <div>5a. Dāvus tacet, quia servum absentem accūsāre nōn vult. = Dāvus tacet, <div class="area" data-key="nē"></div> servum absentem <div class="area" data-key="accūset"></div>.</div>
       <div>5b. Dāvus tacēbat, quia servum absentem accūsāre nōlēbat. = Dāvus tacēbat, <div class="area" data-key="nē"></div> servum absentem <div class="area" data-key="accūsāret"></div>.</div>
-      <div>бa. Mēdus in Graeciam proficīscitur, quia dominō sevērō servīre nōn vult. = Mēdus in Graeciam proficīscitur, <div class="area" data-key="nē"></div> dominō sevērō <div class="area" data-key="serviat"></div>.</div>
+      <div>6a. Mēdus in Graeciam proficīscitur, quia dominō sevērō servīre nōn vult. = Mēdus in Graeciam proficīscitur, <div class="area" data-key="nē"></div> dominō sevērō <div class="area" data-key="serviat"></div>.</div>
       <div>6b. Mēdus in Graeciam profectus est, quia dominō sevērō servīre nōlēbat. = Mēdus in Graeciam profectus est, <div class="area" data-key="nē"></div> dominō sevērō <div class="area" data-key="servīret"></div>.</div>
       <div>7a. Pāstor ovem in silvā quaerit, quia pūnīrī nōn vult. = Pāstor ovem in silvā quaerit, <div class="area" data-key="nē"></div> <div class="area" data-key="pūniātur"></div>.</div>
       <div>7b. Pāstor ovem in silvā quaerēbat, quia pūnīrī nōlēbat. = Pāstor ovem in silvā quaerēbat, <div class="area" data-key="nē"></div> <div class="area" data-key="pūnīrētur"></div>.</div>
