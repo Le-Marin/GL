@@ -112,25 +112,47 @@
 
   btnCheck.addEventListener('click', checkInputs);
 
+  function redieresis(val) {
+    const values = {
+      'ϊ': 'ι',
+      'ΐ': 'ί',
+      'ά': 'ά',
+      'έ': 'έ',
+      'ή': 'ή',
+      'ί': 'ί',
+      'ό': 'ό',
+      'ύ': 'ύ',
+      'ώ': 'ώ',
+    };
+    return val.replace(/[ϊΐΐάέήίόύώ]/g, (x) => values[x]);
+  }
+
+  function resin(i, val) {
+    if (i !== 8) return val;
+    return val.replace(/(?<=[σψξ][ίι])ν$/, '');
+  }
+
   function checkInputs() {
     if (!currentWord) return;
 
     const { sensitivity, VOWELS } = keyboard;
-    const redieresis = (val) => val.replaceAll('ϊ', 'ι').replaceAll('ΐ', 'ί');
 
     inputs.forEach((elem, ind) => {
       if (elem._none || elem._off) return;
 
       const { dataset } = elem.parentNode;
-      const userValue = redieresis(elem.value.trim().toLowerCase());
+      const userValue = resin(ind, redieresis(elem.value.trim().toLowerCase()));
 
       if (!userValue) return dataset.valid = 0;
 
       const form = getInflection(ind);
-      const value = redieresis(form.value.toLowerCase());
+      const value = resin(ind, redieresis(form.value.toLowerCase()));
       let chunks = value.split('/-');
 
-      if (chunks.length === 2) chunks = form.forms2.map(redieresis);
+      if (chunks.length === 2) {
+        const cb = (x) => resin(ind, redieresis(x));
+        chunks = form.forms2.map(cb);
+      }
 
       dataset.valid = sensitivity
         ? +chunks.some(x => x === userValue)
@@ -170,11 +192,16 @@
     inputs2.forEach((elem, i) => {
       if (inputs[i]._none) return elem.replaceChildren();
       const f = getInflection(i);
-      elem.innerHTML = f ? composeForm(f, i) : '';
+      elem.innerHTML = f ? resin(i, composeForm(f, i)) : '';
     });
 
     if (IS_DEV_MODE && typeof __check__ === 'function') {
       __check__(inputs2, composedWord);
+    }
+
+    function resin(i, val) {
+      if (i !== 8) return val;
+      return val.replace(/(?<=[σψξ](?:<b>)?[ίι])ν(?=$|<)/, '(ν)');
     }
 
     function composeForm(f, i) {

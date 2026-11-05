@@ -392,7 +392,7 @@ const composeWord = (function() {
       }
 
       for (const [ind, val] of Object.entries(data)) {
-        forms[k][ind - 1] = new WordForm(val.replace('&', root));
+        forms[k][ind - 1] = val && new WordForm(val.replace('&', root));
       }
     }
   }
